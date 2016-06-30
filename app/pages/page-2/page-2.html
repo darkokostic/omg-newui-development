@@ -1,8 +1,24 @@
 <ion-navbar *navbar>
-  <ion-title>Page 2</ion-title>
+  <ion-title>$240.19</ion-title>
 </ion-navbar>
 
+
+<div class="row">
+  <div class="upper"></div>
+</div>
+
 <ion-content padding class="getting-started">
-    <p>Page 2</p>
-    <button primary (click)="itemTapped($event)">Go to page 4</button>
+    <div class="row">
+    	<div class="col col-25">.col.col-50</div>
+    	<div class="col col-25">.col.col-50</div>
+    	<div class="col col-25">.col.col-50</div>
+    	<div class="col col-25">.col.col-50</div>
+    </div>
+    <div class="row button-1">
+    	<button primary (click)="itemTapped($event)">RISE</button>
+    </div>
+    <div class="row button-2">
+    	<button primary (click)="itemTapped($event)">FALL</button>
+    </div>
 </ion-content>
+
