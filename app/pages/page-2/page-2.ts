@@ -1,6 +1,5 @@
 import {Page} from 'ionic-angular';
 import {NavController, NavParams} from 'ionic-angular';
-import {Page4} from '../page-4/page-4';
 
 
 @Page({
@@ -11,8 +10,4 @@ export class Page2 {
   	constructor(private navController: NavController, navParams: NavParams) {
   		
 	}
-
-  	itemTapped(event) {
-  		this.navController.push(Page4);
-  	}
 }
