@@ -30,7 +30,7 @@
     padding-right: 5vw;
 }
 .time-button-line ion-item {
-	min-height: 3.8rem;
+	height: 5vh;
 }
 .time-button-line .item-radio-checked {
 	background-color: #386fb6;
@@ -49,12 +49,12 @@
     padding: 0px !important;
 }
 .time-button ion-label {
-	font-size: 0.7em;
+	font-size: 1.5vh;
 	text-align: center;
 }
 .lower {
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-left: 5vh;
+    padding-right: 6vh;
 }
 
 .money-button .item-inner {
@@ -63,12 +63,12 @@
 	text-align: center;
 	font-weight: 600;
 }
-.money-button  {
+.money-button {
 	border: 2px solid;
 	border-radius: 15px 15px 15px 15px;
 	border-color: #d9d9d9;
 	color: #417fce;
-	font-size: 1.3em;
+	font-size: 3vh;
 	padding: 0px !important;
 	height: 7vh;
 }
