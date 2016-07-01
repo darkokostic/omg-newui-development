@@ -14,13 +14,19 @@
   }
 
 }
+
+/* HEADER */
 .information-button {
 	float: left;
 }
+
+/* TOP AREA */
 .upper {
 	background-color: #4487db;
 	height: 45vh;
 }
+
+/* TIME BUTTONS */
 .time-button-line ion-col {
 	padding: 0px !important;
 }
@@ -52,16 +58,19 @@
 	font-size: 2.2vh;
 	text-align: center;
 }
+
+/* WHITE AREA */
 .lower {
 	padding-left: 6vh;
     padding-right: 6vh;
 }
 
+/* MONEY BUTTONS */
 .money-button .item-inner {
 	border: none !important;
 	padding: 0px !important;
 	text-align: center;
-	font-weight: 600;
+	font-weight: 500;
 }
 .money-button {
 	border: 2px solid;
@@ -77,3 +86,74 @@
 	border-radius: 15px 15px 15px 15px;
 	border-color: #417fce;
 }
+
+
+/* FOOTER: RISE/FALL/GO BUTTONS */
+.footer ion-row {
+	padding: 0px !important;
+}
+
+.footer-left {
+	padding: 0px !important;
+}
+
+.footer-right {
+	padding: 0px !important;
+	text-align: right;
+}
+
+.go-button {
+	width: 18vh;
+    height: 18vh;
+    font-size: 3vh;
+    border-radius: 50%;
+}
+
+/* RISE BUTTON */
+.rise-button-item {
+	border: 2px solid;
+	border-radius: 10px;
+	border-color: #d9d9d9;
+	color: #417fce;
+	font-size: 3vh;
+	padding: 0px !important;
+	height: 7vh;
+}
+
+.rise-button-item .item-inner {
+	border: none !important;
+	padding: 0px !important;
+	text-align: center;
+	font-weight: 500;
+}
+
+.rise-button .item-radio-checked {
+    border: 2px solid;
+	border-radius: 10px;
+	border-color: #417fce;
+}
+
+/* FALL BUTTON */
+.fall-button-item {
+	border: 2px solid;
+	border-radius: 10px;
+	border-color: #d9d9d9;
+	color: #417fce;
+	font-size: 3vh;
+	padding: 0px !important;
+	height: 7vh;
+}
+
+.fall-button-item .item-inner {
+	border: none !important;
+	padding: 0px !important;
+	text-align: center;
+	font-weight: 500;
+}
+
+.fall-button .item-radio-checked {
+    border: 2px solid;
+	border-radius: 10px;
+	border-color: #417fce;
+}
+
