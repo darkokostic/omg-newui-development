@@ -3,9 +3,9 @@
 </ion-navbar>
 <ion-content class="getting-started">
 	<div class="upper"></div>
-    <ion-list radio-group>
+    <ion-list radio-group [(ngModel)]="time">
         <ion-row class="time-button-line">
-            <ion-col width-20><ion-item class="time-button"><ion-label>1min</ion-label><ion-radio value="1min"></ion-radio></ion-item></ion-col>
+            <ion-col width-20><ion-item class="time-button"><ion-label>1min</ion-label><ion-radio value="1min" checked></ion-radio></ion-item></ion-col>
             <ion-col width-20><ion-item class="time-button"><ion-label>5min</ion-label><ion-radio value="5min"></ion-radio></ion-item></ion-col>
             <ion-col width-20><ion-item class="time-button"><ion-label>30min</ion-label><ion-radio value="30min"></ion-radio></ion-item></ion-col>
             <ion-col width-20><ion-item class="time-button"><ion-label>1h</ion-label><ion-radio value="1h"></ion-radio></ion-item></ion-col>
@@ -13,7 +13,7 @@
         </ion-row>
     </ion-list>
     <div class="lower">
-        <ion-list radio-group>
+        <ion-list radio-group [(ngModel)]="money">
             <ion-row class="money-button-line">
                 <ion-col width-25><ion-item class="money-button"><ion-label>$10</ion-label><ion-radio value="10"></ion-radio></ion-item></ion-col>
                 <ion-col width-25><ion-item class="money-button"><ion-label>$25</ion-label><ion-radio value="25"></ion-radio></ion-item></ion-col>
@@ -24,7 +24,7 @@
         <div class="footer">
             <ion-row>
                 <ion-col width-50 class="footer-left">
-                    <ion-list radio-group>
+                    <ion-list radio-group [(ngModel)]="type">
                         <ion-row class="rise-button">
                             <ion-col width-100><ion-item class="rise-button-item"><ion-label><img src="img/Rise_1x.png" height="15" width="15" /> RISE</ion-label><ion-radio value="rise"></ion-radio></ion-item></ion-col>
                         </ion-row>
@@ -33,7 +33,7 @@
                         </ion-row>
                     </ion-list>
                 </ion-col>
-                <ion-col width-50 class="footer-right"><button class="go-button" primary>GO</button></ion-col>
+                <ion-col width-50 class="footer-right"><button class="go-button">GO</button></ion-col>
             </ion-row>
         </div>
     </div>

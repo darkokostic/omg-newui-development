@@ -8,6 +8,6 @@ import {NavController, NavParams} from 'ionic-angular';
 export class Page2 {
   	
   	constructor(private navController: NavController, navParams: NavParams) {
-  		
+
 	}
 }
