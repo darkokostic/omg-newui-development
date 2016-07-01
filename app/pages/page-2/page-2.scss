@@ -53,17 +53,27 @@
 	text-align: center;
 }
 .lower {
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
-.money-button ion-label {
-	font-size: 0.7em;
+
+.money-button .item-inner {
+	border: none !important;
+	padding: 0px !important;
 	text-align: center;
-	color: #4487db;
+	font-weight: 600;
 }
-.money-button ion-item  {
-	border-style: solid;
-    border-width: 2px;
-    border-radius: 20px 20px 20px 20px;
-    border-color: #4487db;
+.money-button  {
+	border: 2px solid;
+	border-radius: 15px 15px 15px 15px;
+	border-color: #d9d9d9;
+	color: #417fce;
+	font-size: 1.3em;
+	padding: 0px !important;
+	height: 7vh;
+}
+.money-button-line .item-radio-checked {
+    border: 2px solid;
+	border-radius: 15px 15px 15px 15px;
+	border-color: #417fce;
 }
