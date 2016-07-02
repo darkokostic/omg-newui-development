@@ -1,4 +1,32 @@
 .getting-started {
+
+	@font-face {font-family: "MuseoSansW01-Rounded700";
+	    src: url("fonts/7438bbf176f4cce037dbe179c0e5aece.eot");
+	    src: url("fonts/7438bbf176f4cce037dbe179c0e5aece.eot?#iefix") format("embedded-opentype"),
+	    url("fonts/7438bbf176f4cce037dbe179c0e5aece.woff2") format("woff2"),
+	    url("fonts/7438bbf176f4cce037dbe179c0e5aece.woff") format("woff"),
+	    url("fonts/7438bbf176f4cce037dbe179c0e5aece.ttf") format("truetype"),
+	    url("fonts/7438bbf176f4cce037dbe179c0e5aece.svg#MuseoSansW01-Rounded700") format("svg");
+	}
+
+	@font-face {font-family: "MuseoSansW01-Rounded900";
+	    src: url("fonts/c0df826ccaab9c4bfd6710508af4abf1.eot");
+	    src: url("fonts/c0df826ccaab9c4bfd6710508af4abf1.eot?#iefix") format("embedded-opentype"),
+	    url("fonts/c0df826ccaab9c4bfd6710508af4abf1.woff2") format("woff2"),
+	    url("fonts/c0df826ccaab9c4bfd6710508af4abf1.woff") format("woff"),
+	    url("fonts/c0df826ccaab9c4bfd6710508af4abf1.ttf") format("truetype"),
+	    url("fonts/c0df826ccaab9c4bfd6710508af4abf1.svg#MuseoSansW01-Rounded900") format("svg");
+	}
+
+	@font-face {font-family: "MuseoSansW01-Rounded300";
+	    src: url("fonts/1b4cd06b44538d529084b3599f708643.eot");
+	    src: url("fonts/1b4cd06b44538d529084b3599f708643.eot?#iefix") format("embedded-opentype"),
+	    url("fonts/1b4cd06b44538d529084b3599f708643.woff2") format("woff2"),
+	    url("fonts/1b4cd06b44538d529084b3599f708643.woff") format("woff"),
+	    url("fonts/1b4cd06b44538d529084b3599f708643.ttf") format("truetype"),
+	    url("fonts/1b4cd06b44538d529084b3599f708643.svg#MuseoSansW01-Rounded300") format("svg");
+	}
+
 	.radio-icon {
 		display: none;
 	}
@@ -12,6 +40,10 @@
     line-height: 22px;
     font-size: 16px;
   }
+
+  	button.go-button[disabled] {
+	  	background-color: #d9d9d9;
+	}
 
 }
 
@@ -36,6 +68,7 @@
 }
 .time-button-line {
 	background-color: #417fce;
+	font-family: "MuseoSansW01-Rounded300";
 	padding-left: 5vw;
     padding-right: 5vw;
 }
@@ -77,10 +110,10 @@
 	font-weight: 500;
 }
 .money-button {
-	border: 2px solid;
+	border: none;
+	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
 	border-radius: 15px 15px 15px 15px;
-	border-color: #d9d9d9;
-	color: #417fce;
+	color: #4487db;
 	font-size: 3vh;
 	padding: 0px !important;
 	height: 7vh;
@@ -88,7 +121,7 @@
 .money-button-line .item-radio-checked {
     border: 2px solid;
 	border-radius: 15px 15px 15px 15px;
-	border-color: #417fce;
+	border-color: #4487db;
 }
 
 
@@ -110,17 +143,19 @@
 	width: 18vh;
     height: 18vh;
     font-size: 3vh;
+    font-family: "MuseoSansW01-Rounded900";
     border-radius: 50%;
-    /*background: #d9d9d9;*/
+    background: #4487db !important;
 }
 
 /* RISE BUTTON */
 .rise-button-item {
-	border: 2px solid;
+	border: none;
 	border-radius: 10px;
-	border-color: #d9d9d9;
-	color: #417fce;
+	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+	color: #4487db;
 	font-size: 3vh;
+	font-family: "MuseoSansW01-Rounded700";
 	padding: 0px !important;
 	height: 8vh;
 }
@@ -135,16 +170,17 @@
 .rise-button .item-radio-checked {
     border: 2px solid;
 	border-radius: 10px;
-	border-color: #417fce;
+	border-color: #4487db;
 }
 
 /* FALL BUTTON */
 .fall-button-item {
-	border: 2px solid;
+	border: none;
 	border-radius: 10px;
-	border-color: #d9d9d9;
-	color: #417fce;
+	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+	color: #4487db;
 	font-size: 3vh;
+	font-family: "MuseoSansW01-Rounded700";
 	padding: 0px !important;
 	height: 8vh;
 }
@@ -159,6 +195,6 @@
 .fall-button .item-radio-checked {
     border: 2px solid;
 	border-radius: 10px;
-	border-color: #417fce;
+	border-color: #4487db;
 }
 

@@ -19,10 +19,10 @@ export class Page2 {
 			this.goButtonStatus = true;
 		}
 		/* Timer here */
+
 	}
 
 	changedMoney(value, type) {
-		console.log(value, type);
 		if(value != undefined && type != undefined)
 		{
 			this.goBtn = null;
@@ -30,7 +30,6 @@ export class Page2 {
 	}
 
 	changedType(value, money) {
-		console.log(value, money);
 		if(value != undefined && money != undefined)
 		{
 			this.goBtn = null;
