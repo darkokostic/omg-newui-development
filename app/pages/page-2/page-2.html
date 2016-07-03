@@ -24,7 +24,8 @@
         <div class="footer">
             <ion-row>
                 <ion-col width-50 class="footer-left">
-                    <ion-list radio-group [(ngModel)]="type" (ngModelChange)="changedType($event, money)">
+                    <ion-list radio-group [(ngModel)]="type" (ngModelChange)="changedType($event, money)" style="
+                    padding: 20px 15px 0px 0px;">
                         <ion-row class="rise-button">
                             <ion-col width-100><ion-item class="rise-button-item"><ion-label><img src="img/Rise_10x.png" height="15" width="15" /> RISE</ion-label><ion-radio value="rise" disabled="{{ goButtonStatus }}"></ion-radio></ion-item></ion-col>
                         </ion-row>
