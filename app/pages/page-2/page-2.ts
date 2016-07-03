@@ -6,6 +6,7 @@ import {NavController, NavParams} from 'ionic-angular';
   templateUrl: 'build/pages/page-2/page-2.html'
 })
 export class Page2 {
+
 	time: string;
 	money: string;
 	type: string;
@@ -37,7 +38,6 @@ export class Page2 {
 	}
 
   	constructor(private navController: NavController, navParams: NavParams) {
-
   		this.goButtonStatus = false;
   		this.goBtn = true;
 	}
