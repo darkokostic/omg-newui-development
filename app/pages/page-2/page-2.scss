@@ -76,7 +76,7 @@
 	height: 5vh;
 }
 .time-button-line .item-radio-checked {
-	background-color: #386fb6;
+	background-color: rgba(0, 0, 0, 0.16);
 }
 .time-button-line .item-radio-checked ion-label {
 	color: #fff;
@@ -201,4 +201,28 @@
 }
 .money-button-line .item {
 	    min-height: 3.4rem;
+}
+
+/* If user is winning */
+.winning-light {
+	background-color: #00cf98;
+}
+
+.winning-dark {
+	background-color: #01be8c;
+}
+
+.winning-selected {
+	background-color: #04a67b;
+}
+
+/* If user is losing */
+.losing-light {
+	background-color: #ff6363;
+}
+.losing-dark {
+	background-color: #ec5959;
+}
+.losing-selected {
+	background-color: #dc5454;
 }
