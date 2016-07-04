@@ -27,7 +27,9 @@
   </ion-buttons>
 </ion-toolbar>
 <ion-content class="getting-started">
-	<div class="upper" [ngClass]="upperClass"></div>
+	<div class="upper" [ngClass]="upperClass">
+        <div #graphDot class="graphDot"></div>   
+    </div>
     <ion-list radio-group [(ngModel)]="time">
         <ion-row class="time-button-line" [ngClass]="timeLineClass">
             <ion-col width-20><ion-item class="time-button" [ngClass]="timeLineClass"><ion-label>1min</ion-label><ion-radio value="1min"  checked></ion-radio></ion-item></ion-col>
@@ -58,7 +60,7 @@
                         </ion-row>
                     </ion-list>
                 </ion-col>
-                <ion-col width-50 class="footer-right"><button class="go-button" [ngClass]="goBtnClass" disabled={{goBtn}} (click)="startGame(money, type)">GO</button></ion-col>
+                <ion-col width-50 class="footer-right"><button class="go-button" [ngClass]="goBtnClass" disabled={{goBtn}} (click)="startGame(money, type, graphDot)">GO</button></ion-col>
             </ion-row>
         </div>
     </div>
