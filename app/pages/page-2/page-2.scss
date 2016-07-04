@@ -35,6 +35,10 @@
 		margin: 8px -15px 8px 8px;
 	}
 
+	ion-list {
+		margin: 0 !important;
+	}
+
   p {
     margin: 20px 0;
     line-height: 22px;
@@ -58,7 +62,7 @@
 /* TOP AREA */
 .upper {
 	background-color: #4487db;
-	height: 45vh;
+	height: 80vw;
 }
 
 /* TIME BUTTONS */
@@ -71,8 +75,9 @@
 	padding-left: 5vw;
     padding-right: 5vw;
 }
+
 .time-button-line ion-item {
-	height: 5vh;
+	height: 11vw;
 }
 .time-button-line .item-radio-checked {
 	background-color: rgba(0, 0, 0, 0.16);
@@ -91,14 +96,15 @@
     padding: 0px !important;
 }
 .time-button ion-label {
-	font-size: 2.2vh;
+	font-size: 4vw;
 	text-align: center;
 }
 
 /* WHITE AREA */
 .lower {
-	padding-left: 6vh;
-    padding-right: 6vh;
+	padding-left: 11vw;
+    padding-right: 8vw;
+    margin-top: 4vw;
 }
 
 /* MONEY BUTTONS */
@@ -108,12 +114,18 @@
 	text-align: center;
 	font-weight: 500;
 }
+
+.money-button-line .item {
+	min-height: 10vw;
+    width: 15vw;
+}
+
 .money-button {
 	border: none;
 	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
 	border-radius: 10px 10px 10px 10px;
 	color: #4487db;
-	font-size: 3vh;
+	font-size: 5.5vw;
 	padding: 0px !important;
 	height: 5vw;
 }
@@ -125,6 +137,9 @@
 
 
 /* FOOTER: RISE/FALL/GO BUTTONS */
+.footer {
+	margin-top: 1vw;
+}
 .footer ion-row {
 	padding: 0px !important;
 }
@@ -138,10 +153,14 @@
 	text-align: right;
 }
 
+.footer-left ion-list {
+	padding: 4vw 8vw 0vw 0vw;
+}
+
 .go-button {
-	width: 22vh;
-    height: 22vh;
-    font-size: 3vh;
+	width: 38vw;
+    height: 38vw;
+    font-size: 6vw;
     font-family: "MuseoSansW01-Rounded900";
     border-radius: 50%;
     background: #4487db;
@@ -153,10 +172,10 @@
 	border-radius: 10px;
 	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
 	color: #4487db;
-	font-size: 3vh;
+	font-size: 5vw;
 	font-family: "MuseoSansW01-Rounded700";
 	padding: 0px !important;
-	height: 6vw;
+	height: 12vw;
 
 }
 
@@ -179,10 +198,10 @@
 	border-radius: 10px;
 	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
 	color: #4487db;
-	font-size: 3vh;
+	font-size: 5vw;
 	font-family: "MuseoSansW01-Rounded700";
 	padding: 0px !important;
-	height: 6vw;
+	height: 12vw;
 
 }
 
@@ -197,9 +216,6 @@
     border: 2px solid;
 	border-radius: 10px;
 	border-color: #4487db;
-}
-.money-button-line .item {
-	    min-height: 3.4rem;
 }
 
 /* If user is winning */
