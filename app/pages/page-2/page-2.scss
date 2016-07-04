@@ -102,9 +102,9 @@
 
 /* WHITE AREA */
 .lower {
-	padding-left: 11vw;
-    padding-right: 8vw;
-    margin-top: 4vw;
+	padding-left: 11%;
+    padding-right: 8%;
+    margin-top: 4%;
 }
 
 /* MONEY BUTTONS */
@@ -240,4 +240,42 @@
 }
 .losing-selected {
 	background-color: #dc5454;
+}
+
+/* Ipad */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+.time-button-line {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.time-button-line .item {
+    min-height: 9vw !important;
+}
+.time-button ion-label {
+    font-size: 3.5vw;
+    text-align: center;
+}
+.upper {
+	height: 47.5%;
+}
+.lower {
+   padding-left: 20%;
+   padding-right: 20%;
+   margin-top: 4vw;
+}
+.money-button-line .item {
+   min-height: 7vw;
+   width: 12vw;
+}
+.money-button {
+   border: none;
+   box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+   border-radius: 10px 10px 10px 10px;
+   color: #4487db ;
+   font-size: 3.5vw;
+   padding: 0px !important;
+   height: 5vw;
+}
+
 }
