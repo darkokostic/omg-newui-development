@@ -62,7 +62,7 @@
 /* TOP AREA */
 .upper {
 	background-color: #4487db;
-	height: 80vw;
+	height: 48.5%;;
 }
 
 /* TIME BUTTONS */
@@ -72,12 +72,12 @@
 .time-button-line {
 	background-color: #417fce;
 	font-family: "MuseoSansW01-Rounded300";
-	padding-left: 5vw;
-    padding-right: 5vw;
+	padding-left: 5%;
+    padding-right: 5%;
 }
 
-.time-button-line ion-item {
-	height: 11vw;
+.time-button-line .item {
+	min-height: 11vw !important;
 }
 .time-button-line .item-radio-checked {
 	background-color: rgba(0, 0, 0, 0.16);
