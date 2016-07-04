@@ -1,5 +1,9 @@
 <ion-navbar *navbar>
-  	<button class="information-button" item-left clear><ion-icon name="ios-information-circle-outline"></ion-icon></button><ion-title padding text-center><img src="img/Wallet_10x.png" height="15" width="15"/> $240.19</ion-title>
+  	<!-- <button class="information-button" item-left clear><ion-icon name="ios-information-circle-outline"></ion-icon></button> -->
+    <ion-nav-buttons side="primary">
+      <button clear><ion-icon name="ios-information-circle-outline"></ion-icon></button>
+      <ion-title text-center><img src="img/Wallet_10x.png" height="15" width="15"/> $240.19</ion-title>
+    </ion-nav-buttons>
 </ion-navbar>
 <ion-content class="getting-started">
 	<div class="upper" [ngClass]="upperClass"></div>
