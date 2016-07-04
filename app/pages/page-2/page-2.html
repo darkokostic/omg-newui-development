@@ -2,21 +2,30 @@
     <button clear item-left><ion-icon name="ios-information-circle-outline"></ion-icon></button>
     <ion-title text-center><img src="img/Wallet_10x.png" height="15" width="15"/> $240.19</ion-title>
 </ion-navbar>  -->
+
+<!--
 <ion-header>
   <ion-navbar>
-    <ion-buttons start>
-      <button primary>
-        <ion-icon name='ios-information-circle-outline'></ion-icon>
-      </button>
-    </ion-buttons>
-    <ion-buttons end>
-    <button primary>
-      <ion-icon name='search'></ion-icon>
+    <button menuToggle>
+        <ion-icon name='ios-information-circle-outline' primary></ion-icon>
     </button>
-    </ion-buttons>
     <ion-title><img src="img/Wallet_10x.png" height="15" width="15"/> $240.19</ion-title>
   </ion-navbar>
 </ion-header>
+-->
+<ion-toolbar>
+  <ion-buttons left>
+    <button menuToggle>
+        <ion-icon name='ios-information-circle-outline' primary></ion-icon>
+    </button>
+  </ion-buttons>
+   <ion-title text-center><img src="img/Wallet_10x.png" height="15" width="15"/> $240.19</ion-title>
+  <ion-buttons right>
+  <button menuToggle>
+        
+    </button>
+  </ion-buttons>
+</ion-toolbar>
 <ion-content class="getting-started">
 	<div class="upper" [ngClass]="upperClass"></div>
     <ion-list radio-group [(ngModel)]="time">
