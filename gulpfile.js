@@ -37,13 +37,17 @@ var isRelease = argv.indexOf('--release') > -1;
 
 gulp.task('watch', ['clean'], function(done){
   runSequence(
-    ['sass', 'html', 'fonts', 'scripts'],
+    ['sass', 'html', 'fonts', 'scripts', 'copy'],
     function(){
       gulpWatch('app/**/*.scss', function(){ gulp.start('sass'); });
       gulpWatch('app/**/*.html', function(){ gulp.start('html'); });
       buildBrowserify({ watch: true }).on('end', done);
     }
   );
+});
+
+gulp.task('copy', function() {
+  return gulp.src('app/fonts/*').pipe(gulp.dest('www/build/fonts'))
 });
 
 gulp.task('build', ['clean'], function(done){

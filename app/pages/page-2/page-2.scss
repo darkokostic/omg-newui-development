@@ -1,32 +1,33 @@
+@font-face {font-family: "MuseoSansW01-Rounded700";
+    src: url("../fonts/7438bbf176f4cce037dbe179c0e5aece.eot");
+    src: url("../fonts/7438bbf176f4cce037dbe179c0e5aece.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/7438bbf176f4cce037dbe179c0e5aece.woff2") format("woff2"),
+    url("../fonts/7438bbf176f4cce037dbe179c0e5aece.woff") format("woff"),
+    url("../fonts/7438bbf176f4cce037dbe179c0e5aece.ttf") format("truetype"),
+    url("../fonts/7438bbf176f4cce037dbe179c0e5aece.svg#MuseoSansW01-Rounded700") format("svg");
+}
+
+
+@font-face {font-family: "MuseoSansW01-Rounded900";
+    src: url("../fonts/c0df826ccaab9c4bfd6710508af4abf1.eot");
+    src: url("../fonts/c0df826ccaab9c4bfd6710508af4abf1.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/c0df826ccaab9c4bfd6710508af4abf1.woff2") format("woff2"),
+    url("../fonts/c0df826ccaab9c4bfd6710508af4abf1.woff") format("woff"),
+    url("../fonts/c0df826ccaab9c4bfd6710508af4abf1.ttf") format("truetype"),
+    url("../fonts/c0df826ccaab9c4bfd6710508af4abf1.svg#MuseoSansW01-Rounded900") format("svg");
+}
+
+@font-face {font-family: "MuseoSansW01-Rounded300";
+    src: url("../fonts/1b4cd06b44538d529084b3599f708643.eot");
+    src: url("../fonts/1b4cd06b44538d529084b3599f708643.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/1b4cd06b44538d529084b3599f708643.woff2") format("woff2"),
+    url("../fonts/1b4cd06b44538d529084b3599f708643.woff") format("woff"),
+    url("../fonts/1b4cd06b44538d529084b3599f708643.ttf") format("truetype"),
+    url("../fonts/1b4cd06b44538d529084b3599f708643.svg#MuseoSansW01-Rounded300") format("svg");
+}
+
+
 .getting-started {
-
-	@font-face {font-family: "MuseoSansW01-Rounded700";
-	    src: url("fonts/7438bbf176f4cce037dbe179c0e5aece.eot");
-	    src: url("fonts/7438bbf176f4cce037dbe179c0e5aece.eot?#iefix") format("embedded-opentype"),
-	    url("fonts/7438bbf176f4cce037dbe179c0e5aece.woff2") format("woff2"),
-	    url("fonts/7438bbf176f4cce037dbe179c0e5aece.woff") format("woff"),
-	    url("fonts/7438bbf176f4cce037dbe179c0e5aece.ttf") format("truetype"),
-	    url("fonts/7438bbf176f4cce037dbe179c0e5aece.svg#MuseoSansW01-Rounded700") format("svg");
-	}
-
-	@font-face {font-family: "MuseoSansW01-Rounded900";
-	    src: url("fonts/c0df826ccaab9c4bfd6710508af4abf1.eot");
-	    src: url("fonts/c0df826ccaab9c4bfd6710508af4abf1.eot?#iefix") format("embedded-opentype"),
-	    url("fonts/c0df826ccaab9c4bfd6710508af4abf1.woff2") format("woff2"),
-	    url("fonts/c0df826ccaab9c4bfd6710508af4abf1.woff") format("woff"),
-	    url("fonts/c0df826ccaab9c4bfd6710508af4abf1.ttf") format("truetype"),
-	    url("fonts/c0df826ccaab9c4bfd6710508af4abf1.svg#MuseoSansW01-Rounded900") format("svg");
-	}
-
-	@font-face {font-family: "MuseoSansW01-Rounded300";
-	    src: url("fonts/1b4cd06b44538d529084b3599f708643.eot");
-	    src: url("fonts/1b4cd06b44538d529084b3599f708643.eot?#iefix") format("embedded-opentype"),
-	    url("fonts/1b4cd06b44538d529084b3599f708643.woff2") format("woff2"),
-	    url("fonts/1b4cd06b44538d529084b3599f708643.woff") format("woff"),
-	    url("fonts/1b4cd06b44538d529084b3599f708643.ttf") format("truetype"),
-	    url("fonts/1b4cd06b44538d529084b3599f708643.svg#MuseoSansW01-Rounded300") format("svg");
-	}
-
 	.radio-icon {
 		display: none;
 	}
@@ -61,6 +62,10 @@
 }
 .toolbar-title {
 	color: #5b6670 !important;
+	font-family: "MuseoSansW01-Rounded700";
+}
+.toolbar-title img {
+	margin-top: 2px;
 }
 
 /* TOP AREA */
@@ -100,7 +105,7 @@
     padding: 0px !important;
 }
 .time-button ion-label {
-	font-size: 4vw;
+	font-size: 3.7vw;
 	text-align: center;
 }
 
@@ -129,7 +134,8 @@
 	box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.50);
 	border-radius: 10px 10px 10px 10px;
 	color: #4487db;
-	font-size: 5.5vw;
+	font-family: "MuseoSansW01-Rounded300";
+	font-size: 4.5vw;
 	padding: 0px !important;
 	height: 5vw;
 }
@@ -176,7 +182,7 @@
 	border-radius: 10px;
 	box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.50);
 	color: #4487db;
-	font-size: 5vw;
+	font-size: 4.5vw;
 	font-family: "MuseoSansW01-Rounded700";
 	padding: 0px !important;
 	height: 12vw;
@@ -202,7 +208,7 @@
 	border-radius: 10px;
 	box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.50);
 	color: #4487db;
-	font-size: 5vw;
+	font-size: 4.5vw;
 	font-family: "MuseoSansW01-Rounded700";
 	padding: 0px !important;
 	height: 12vw;
@@ -294,7 +300,7 @@
    border-radius: 10px;
    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
    color: #4487db ;
-   font-size: 4vw;
+   font-size: 3.5vw;
    font-family: "MuseoSansW01-Rounded700";
    padding: 0px !important;
    height: 9vw;
@@ -304,7 +310,7 @@
    border-radius: 10px;
    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
    color: #4487db ;
-   font-size: 4vw;
+   font-size: 3.5vw;
    font-family: "MuseoSansW01-Rounded700";
    padding: 0px !important;
    height: 9vw;
