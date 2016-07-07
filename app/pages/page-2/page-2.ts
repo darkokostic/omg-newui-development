@@ -16,7 +16,7 @@ export class Page2 {
 	money: string;
 	type: string;
 	/* Dots position top */
-	dotPositionTop: number = 10 + Math.floor(Math.random() * 80);
+	dotPositionTop: number = 40;
 	dotPositionTop2: number = 10 + Math.floor(Math.random() * 80);
 	dotPositionTop3: number = 10 + Math.floor(Math.random() * 80);
 	dotPositionTop4: number = 10 + Math.floor(Math.random() * 80);
@@ -101,7 +101,7 @@ export class Page2 {
 	   		this.dotOpacity3 = this.dotOpacity3 - 0.1;
 	   		this.dotOpacity4 = this.dotOpacity4 - 0.1;
 	   		this.dotOpacity5 = this.dotOpacity5 - 0.1;
-	    }, 100);
+	    }, 200);
 	}
 
 	changedMoney(value, type) {

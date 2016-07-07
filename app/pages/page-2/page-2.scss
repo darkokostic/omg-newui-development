@@ -26,6 +26,10 @@
     url("../fonts/1b4cd06b44538d529084b3599f708643.svg#MuseoSansW01-Rounded300") format("svg");
 }
 
+.item-radio-disabled {
+   border-color: #d9d9d9 !important;
+}
+
 
 .getting-started {
 	.radio-icon {
@@ -48,10 +52,6 @@
 
   	button.go-button[disabled] {
 	  	background-color: #d9d9d9;
-	}
-
-	.item-radio-disabled {
-		border-color: #d9d9d9 !important;
 	}
 
 }
@@ -99,7 +99,7 @@
 	padding: 0px !important;
 }
 .time-button {
-	background-color: #417fce;
+	background-color: transparent;
 	color: #fff;
     text-align: center;
     padding: 0px !important;
@@ -334,7 +334,7 @@
 .graphDot {
     position: absolute;
     background: #fff;
-    margin-top: 50%;
+    margin-top: 40%;
     margin-left: 90%;
     width: 15px;
     height: 15px;
