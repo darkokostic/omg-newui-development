@@ -9,7 +9,6 @@ export class Page2 {
 	upperClass: string;
 	timeLineClass: string;
 	goBtnClass: string;
-
 	randomStatus: boolean;
 
 	gameStatus: boolean;
@@ -26,6 +25,7 @@ export class Page2 {
 	goBtn = true;
 
 	startGame(money, type, graphDot, graphDot2, graphDot3, graphDot4, graphDot5) {
+		
 		this.randomStatus = Math.random() >= 0.5;
 		if(money != undefined && type != undefined)
 		{
