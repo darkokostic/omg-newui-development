@@ -1,7 +1,51 @@
-<ion-navbar *navbar>
-  <ion-title>youWon</ion-title>
-</ion-navbar>
-
 <ion-content padding class="you-won">
-  <button (click)="navigate()">Go</button>
+  <div class="middle-you-won">
+		<ion-row>
+            <ion-col width-5></ion-col>
+            <ion-col width-90>
+            	<div>
+					<img src="img/George_winning_5x.png" height="130" width="131"/>
+				</div>
+				<div class="label-green">
+					<img src="img/Label_green_5x.png" height="77" width="230"/>
+				</div>
+				<div class="text-you-top">
+	    			<ion-label><b>+$46.78</b></ion-label>
+		    	</div>
+		    	<div class="text-you-bottom">
+		    		<ion-label><b>You won!</b></ion-label>
+		    	</div> 	
+        	</ion-col>
+            <ion-col width-5></ion-col>
+        </ion-row>
+  	</div>
+  	<div class="buttons">
+  		<div class="button-trade">
+			<ion-row>
+            	<ion-col width-5></ion-col>
+            	<ion-col width-90>
+            		<button (click)="navigate()"><img src="img/Update_5x.png" height="15" width="15"/>Trade Again</button>
+        		</ion-col>
+            	<ion-col width-5></ion-col>
+        	</ion-row>
+		</div>
+		<div class="button-share-facebook">
+			<ion-row>
+           	 <ion-col width-5></ion-col>
+            	<ion-col width-90>
+            		<button (click)="navigate()"><ion-icon name="logo-facebook"></ion-icon> Share on Facebook</button>
+        		</ion-col>
+           	<ion-col width-5></ion-col>
+        </ion-row>
+		</div>
+		<div class="button-share-anywhere">
+			<ion-row>
+	            <ion-col width-5></ion-col>
+	            <ion-col width-90>
+	            	<button (click)="navigate()"><img src="img/Share_5x.png" height="15" width="20"/>Share Anywhere</button>
+	        	</ion-col>
+	            <ion-col width-5></ion-col>
+        </ion-row>
+		</div>
+  	</div>
 </ion-content>
