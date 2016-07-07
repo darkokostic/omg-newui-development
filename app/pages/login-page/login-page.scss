@@ -1,0 +1,35 @@
+.login-page {
+    background-color: #00cf98 !important;
+}
+.middle {
+	margin-top: 13%;
+}
+.middle ion-col {
+	text-align: center;
+}
+.middle button {
+	width: 100%;
+	height: 13vw;
+	border-radius: 10px;
+	margin-top: -16px;
+	background-color: #4267b2;
+}
+.middle img {
+	position: relative;
+	z-index: 10;
+}
+/* TEXT */
+
+.text {
+	margin-top: 52%;
+}
+.text ion-label {
+	text-align: center;
+	color: #fff;
+}
+.text-top {
+	font-size: 1.6em;
+}
+.text-bottom {
+	font-size: 1.8em;
+}

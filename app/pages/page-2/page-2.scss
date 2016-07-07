@@ -121,7 +121,7 @@
 	border: none !important;
 	padding: 0px !important;
 	text-align: center;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .money-button-line .item {
@@ -140,9 +140,10 @@
 	height: 5vw;
 }
 .money-button-line .item-radio-checked {
-    border: 2px solid;
+  border: 2px solid;
 	border-radius: 10px 10px 10px 10px;
 	border-color: #4487db;
+  color: #539be2;
 }
 
 
@@ -164,12 +165,12 @@
 }
 
 .footer-left ion-list {
-	padding: 4vw 8vw 0vw 0vw;
+	padding: 2vw 8vw 0vw 0vw;
 }
 
 .go-button {
-	width: 38vw;
-    height: 38vw;
+	width: 37vw;
+    height: 37vw;
     font-size: 6vw;
     font-family: "MuseoSansW01-Rounded900";
     border-radius: 50%;
@@ -185,7 +186,7 @@
 	font-size: 4.5vw;
 	font-family: "MuseoSansW01-Rounded700";
 	padding: 0px !important;
-	height: 12vw;
+	height: 15vw;
 
 }
 
@@ -200,6 +201,7 @@
     border: 2px solid;
 	border-radius: 10px;
 	border-color: #4487db;
+  color: #539be2;
 }
 
 /* FALL BUTTON */
@@ -211,7 +213,7 @@
 	font-size: 4.5vw;
 	font-family: "MuseoSansW01-Rounded700";
 	padding: 0px !important;
-	height: 12vw;
+	height: 15vw;
 
 }
 
@@ -226,6 +228,7 @@
     border: 2px solid;
 	border-radius: 10px;
 	border-color: #4487db;
+  color: #539be2;
 }
 
 /* If user is winning */
