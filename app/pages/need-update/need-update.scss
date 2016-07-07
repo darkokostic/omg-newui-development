@@ -1,3 +1,45 @@
 .need-update {
+	background-color: #00cf98 !important;
+}
+.middle-update {
+	margin-top: 13%;
+}
+.middle-update ion-col {
+	text-align: center;
+}
+.middle-update button {
+	width: 100%;
+	height: 13vw;
+	border-radius: 10px;
+	margin-top: -17px;
+	background-color: #ff6363;
+	text-transform: none !important; 
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.50);
+}
+.middle-update .activated {
+	background-color: #f35d5d !important;
+}
+.middle-update img {
+	position: relative;
+	z-index: 10;
+}
+.middle-update button img {
+	position: relative;
+	z-index: 10;
+	margin-right: 10px;
+}
+/* TEXT */
 
+.text-update {
+	margin-top: 42%;
+}
+.text-update ion-label {
+	text-align: center;
+	color: #fff;
+}
+.text-update-top {
+	font-size: 1.6em;
+}
+.text-update-bottom {
+	font-size: 1.6em;
 }

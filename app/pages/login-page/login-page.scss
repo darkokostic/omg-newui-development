@@ -1,36 +1,40 @@
 .login-page {
     background-color: #00cf98 !important;
 }
-.middle {
+.middle-login {
 	margin-top: 13%;
 }
-.middle ion-col {
+.middle-login ion-col {
 	text-align: center;
 }
-.middle button {
+.middle-login button {
 	width: 100%;
 	height: 13vw;
 	border-radius: 10px;
 	margin-top: -17px;
 	background-color: #4267b2;
-	text-transform: none !important; 
+	text-transform: none !important;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.50); 
 }
-.middle img {
+.middle-login .activated {
+	background-color: #3a5da5 !important;
+}
+.middle-login img {
 	position: relative;
 	z-index: 10;
 }
 /* TEXT */
 
-.text {
+.text-login {
 	margin-top: 42%;
 }
-.text ion-label {
+.text-login ion-label {
 	text-align: center;
 	color: #fff;
 }
-.text-top {
+.text-login-top {
 	font-size: 1.6em;
 }
-.text-bottom {
-	font-size: 1.8em;
+.text-login-bottom {
+	font-size: 1.6em;
 }
