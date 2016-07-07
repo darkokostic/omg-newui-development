@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {ionicBootstrap, Platform, Nav} from 'ionic-angular';
-import {StatusBar} from 'ionic-native';
-import {NeedUpdatePage} from './pages/need-update/need-update';
+import {StatusBar, Splashscreen} from 'ionic-native';
+import {YouWonPage} from './pages/you-won/you-won';
 
 
 @Component({
@@ -9,7 +9,7 @@ import {NeedUpdatePage} from './pages/need-update/need-update';
 })
 class MyApp {
 
-  rootPage: any = NeedUpdatePage;
+  rootPage: any = YouWonPage;
 
   constructor(private platform: Platform) {
     this.initializeApp();
@@ -20,6 +20,7 @@ class MyApp {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
       StatusBar.styleDefault();
+      Splashscreen.hide();
     });
   }
 }
