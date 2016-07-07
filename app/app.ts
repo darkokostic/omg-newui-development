@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {ionicBootstrap, Platform, Nav} from 'ionic-angular';
 import {StatusBar} from 'ionic-native';
-import {LoginPagePage} from './pages/login-page/login-page';
+import {NeedUpdatePage} from './pages/need-update/need-update';
 
 
 @Component({
@@ -9,7 +9,7 @@ import {LoginPagePage} from './pages/login-page/login-page';
 })
 class MyApp {
 
-  rootPage: any = LoginPagePage;
+  rootPage: any = NeedUpdatePage;
 
   constructor(private platform: Platform) {
     this.initializeApp();
