@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import {LoginPagePage} from '../../pages/login-page/login-page';
+import {YouWonPage} from '../../pages/you-won/you-won';
 
 @Component({
   templateUrl: 'build/pages/need-update/need-update.html',
@@ -9,6 +9,6 @@ export class NeedUpdatePage {
   constructor(private nav: NavController) {}
   
   navigate() {
-        this.nav.push(LoginPagePage, {});
+        this.nav.push(YouWonPage, {});
   }
 }
