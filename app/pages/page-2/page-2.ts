@@ -7,6 +7,7 @@ import {NavController, NavParams} from 'ionic-angular';
 export class Page2 {
 
 	upperClass: string;
+	infoBtnClass: string;
 	timeLineClass: string;
 	goBtnClass: string;
 	randomStatus: boolean;
@@ -69,6 +70,7 @@ export class Page2 {
 	    	if(this.gameStatus == this.randomStatus) {
 	    		/* If user is winning here */
 	    		this.upperClass = 'winning-light';
+	    		this.infoBtnClass = 'winning-light-color';
 	    		this.timeLineClass = 'winning-dark';
 	    		this.goBtnClass = 'winning-light';
 	    		this.dotPositionTop  = this.dotPositionTop - 1;
@@ -86,6 +88,7 @@ export class Page2 {
 	    		this.gameStatus = true;
 	    		/* If user is losing here */
 	    		this.upperClass = 'losing-light';
+	    		this.infoBtnClass = 'losing-light-color';
 	    		this.timeLineClass = 'losing-dark';
 	    		this.goBtnClass = 'losing-light';
 	    	}
@@ -119,6 +122,7 @@ export class Page2 {
 	}
 
   	constructor(private navController: NavController, navParams: NavParams) {
+  		this.infoBtnClass = 'infoBtnBlue';
   		this.goButtonStatus = false;
   		this.goBtn = true;
 	}

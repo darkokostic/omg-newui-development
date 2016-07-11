@@ -27,10 +27,9 @@
 }
 
 .item-radio-disabled {
-    box-shadow: 0 0 0pt 2.5px #d9d9d9 !important;
+    color: #d9d9d9 !important;
     border-color: #d9d9d9 !important;
 }
-
 
 .getting-started {
 	.radio-icon {
@@ -73,6 +72,10 @@
 .upper {
 	background-color: #4487db;
 	height: 48.5%;;
+}
+
+.infoBtnBlue {
+  color: #4487db !important;
 }
 
 /* TIME BUTTONS */
@@ -141,7 +144,8 @@
 	height: 5vw;
 }
 .money-button-line .item-radio-checked {
-  box-shadow: 0 0 0pt 2.5px #4487db;
+  box-shadow: 0 0 0pt 2.5px;
+  color: #4487db;
 }
 
 
@@ -232,6 +236,10 @@
 	background-color: #00cf98;
 }
 
+.winning-light-color {
+  color: #00cf98 !important;
+}
+
 .winning-dark {
 	background-color: #01be8c;
 }
@@ -243,6 +251,9 @@
 /* If user is losing */
 .losing-light {
 	background-color: #ff6363;
+}
+.losing-light-color {
+  color: #ff6363 !important;
 }
 .losing-dark {
 	background-color: #ec5959;
