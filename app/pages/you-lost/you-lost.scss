@@ -1,31 +1,6 @@
 .you-lost {
 	background-color: #FF6363 !important;
 }
-.middle-you-won {
-	padding-top: 20%;
-}
-.middle-you-won ion-col {
-	text-align: center;
-}
-.middle-you-won .activated {
-	background-color: #f35d5d !important;
-}
-.middle-you-won img {
-	position: relative;
-	z-index: 10;
-	margin-top: 5px;
-}
-.middle-you-won button img {
-	position: relative;
-	z-index: 10;
-	margin-right: 10px;
-}
-.label-green img {
-	margin-top: -15px;
-}
-.buttons {
-	margin-top: 20%;
-}
 .button-trade-lost button {
 	width: 100%;
 	height: 13vw;
@@ -41,50 +16,18 @@
 .button-trade-lost button img {
 	margin-right: 10px;
 }
-.button-share-facebook button {
-	width: 100%;
-	height: 13vw;
-	border-radius: 10px;
-	margin-top: -17px;
-	background-color: #4267b2;
-	text-transform: none !important;
-	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.50);
-	margin-top: 5%
-}
-.button-share-facebook .activated {
-	background-color: #3a5da5 !important;
-}
-.button-share-facebook button img {
-	margin-right: 10px;
-}
-.button-share-anywhere button {
-	width: 100%;
-	height: 13vw;
-	border-radius: 10px;
-	margin-top: -17px;
-	background-color: #4a535d;
-	text-transform: none !important;
-	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.50);
-	margin-top: 5%
-}
-.button-share-anywhere .activated {
-	background-color: #404850 !important;
-}
-.button-share-anywhere button img {
-	margin-right: 10px;
-}
-.text-you-top {
-	position: relative;
-	z-index: 20;
-	color: #fff;
-    margin-top: -78px;
-    font-size: 1.7em;
-}
-.text-you-bottom {
-    position: relative;
-	z-index: 20;
-	color: #fff;
-	margin-top: 25px;
-	font-size: 1.4em;
-    margin-left: 7px;
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	.george-lost img {
+		width: 230px;
+		height: 180px;
+	}
+	.button-trade-lost button {
+		font-size: 1.6em;
+	}
+	.button-trade-lost img {
+		width: 25px;
+		height: 25px;
+	}
 }

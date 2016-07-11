@@ -2,7 +2,7 @@
 	background-color: #00cf98 !important;
 }
 .middle-you-won {
-	padding-top: 20%;
+	padding-top: 11%;
 }
 .middle-you-won ion-col {
 	text-align: center;
@@ -24,7 +24,7 @@
 	margin-top: -15px;
 }
 .buttons {
-	margin-top: 20%;
+	margin-top: 15%;
 }
 .button-trade button {
 	width: 100%;
@@ -87,4 +87,40 @@
 	margin-top: 25px;
 	font-size: 1.4em;
     margin-left: 7px;
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	.george-won img {
+		width: 181px;
+		height: 180px;
+	}
+	.label-green img {
+		height: 117px;
+		width: 280px;
+	}
+	.text-you-top {
+	    margin-top: -102px;
+	    font-size: 2.2em;
+	}
+	.text-you-bottom {
+	    font-size: 1.9em;
+	}
+	.button-trade button {
+		font-size: 1.6em;
+	}
+	.button-share-anywhere button {
+		font-size: 1.6em;
+	}
+	.button-share-facebook button {
+		font-size: 1.6em;
+	}
+	.button-trade img {
+		width: 25px;
+		height: 25px;
+	}
+	.button-share-anywhere img {
+		width: 30px;
+		height: 25px;
+	}
 }

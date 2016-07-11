@@ -38,3 +38,25 @@
 .text-login-bottom {
 	font-size: 1.6em;
 }
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	
+	.text-login {
+		margin-top: 30%;
+	}
+	.text-login-top {
+		font-size: 2.2em;
+	}
+	.text-login-bottom {
+		font-size: 2.2em;
+	}
+	.middle-login img {
+		width: 220px;
+		height: 250px;
+	}
+	.middle-login button {
+		font-size: 1.6em; 
+		margin-top: -23px;
+	}
+}

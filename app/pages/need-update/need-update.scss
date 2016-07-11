@@ -44,3 +44,30 @@
 	margin-top: -10px;
 	font-size: 1.6em;
 }
+
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	
+	.text-update {
+		margin-top: 30%;
+	}
+	.text-update-top {
+		font-size: 2.2em;
+	}
+	.text-update-bottom {
+		font-size: 2.2em;
+	}
+	.george-img img {
+		width: 220px;
+		height: 250px;
+	}
+	.middle-update button {
+		font-size: 1.6em;
+		margin-top: -24px;
+	}
+	.button-icon img {
+		width: 25px;
+		height: 25px;
+	}
+}
