@@ -92,19 +92,20 @@
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
 	.george-won img {
-		width: 181px;
-		height: 180px;
+		width: 232px;
+		height: 230px;
 	}
 	.label-green img {
-		height: 117px;
-		width: 280px;
+		height: 135px;
+		width: 400px;
 	}
 	.text-you-top {
-	    margin-top: -102px;
+	    margin-top: -118px;
 	    font-size: 2.2em;
 	}
 	.text-you-bottom {
 	    font-size: 1.9em;
+	    padding-top: 10px;
 	}
 	.button-trade button {
 		font-size: 1.6em;
@@ -123,4 +124,7 @@
 		width: 30px;
 		height: 25px;
 	}
+	.buttons {
+        margin-top: 10%;
+    }
 }
