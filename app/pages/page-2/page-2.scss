@@ -126,7 +126,7 @@
 
 .money-button-line .item {
 	min-height: 10vw;
-    width: 15vw;
+  width: 16vw;
 }
 
 .money-button {
@@ -140,14 +140,13 @@
 	height: 5vw;
 }
 .money-button-line .item-radio-checked {
-  color: #539be2;
   box-shadow: 0 0 0pt 2.5px #4487db;
 }
 
 
 /* FOOTER: RISE/FALL/GO BUTTONS */
 .footer {
-	margin-top: 1%;
+	margin-top: 6%;
 }
 .footer ion-row {
 	padding: 0px !important;
@@ -199,7 +198,6 @@
     border: 2px solid;
 	border-radius: 10px;
 	border-color: #4487db;
-  color: #539be2;
 }
 
 /* FALL BUTTON */
@@ -226,7 +224,6 @@
     border: 2px solid;
 	border-radius: 10px;
 	border-color: #4487db;
-  color: #539be2;
 }
 
 /* If user is winning */
@@ -325,7 +322,7 @@
 	height: 20px;
 }
 .footer {
-    margin-top: 4%;
+    margin-top: 6%;
 }
 
 }
@@ -377,4 +374,11 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
+}
+
+
+@media only screen and (max-device-width : 360px) and (max-device-width : 640px) and (orientation : portrait) {
+    .footer {
+        margin-top: 2%;
+    }
 }
