@@ -32,7 +32,7 @@
 
 .item-radio-disabled {
     color: #d9d9d9 !important;
-    border-color: #d9d9d9 !important;
+    box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
 }
 
 .getting-started {
@@ -56,6 +56,7 @@
 
   	button.go-button[disabled] {
 	  	background-color: #d9d9d9;
+      box-shadow: 0px 0px 4px 0px rgba(117,117,117,0.56);
 	}
 
 }
@@ -179,6 +180,7 @@
     font-size: 5vw;
     font-family: "MuseoSansW01-Rounded900";
     border-radius: 50%;
+    box-shadow: 0px 0px 4px 0px #4F4F4F;
     background: #4487db;
     margin-right: 6%;
 }
@@ -204,7 +206,7 @@
 }
 
 .rise-button .item-radio-checked {
-  box-shadow: 0 0 0pt 2.5px;
+  box-shadow: 0px 0px 4px 0px rgba(68,135,219,0.40);
 }
 
 /* FALL BUTTON */
@@ -228,7 +230,7 @@
 }
 
 .fall-button .item-radio-checked {
-  box-shadow: 0 0 0pt 2.5px;
+  box-shadow: 0px 0px 4px 0px rgba(68,135,219,0.40);
 }
 
 /* If user is winning */
@@ -313,7 +315,7 @@
    font-size: 4vw;
    font-family: "MuseoSansW01-Rounded900";
    border-radius: 50%;
-   background: #4487db ;
+   background: #4487db;
 }
 .rise-button-item {
    border: none;
