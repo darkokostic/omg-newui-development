@@ -11,7 +11,6 @@ export class Page2 {
 	timeLineClass: string;
 	goBtnClass: string;
 	randomStatus: boolean;
-	itemCheckedDisabled: string;
 
 	gameStatus: boolean;
 	time: string;
