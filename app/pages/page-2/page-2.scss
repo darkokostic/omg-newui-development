@@ -26,6 +26,10 @@
     url("../fonts/1b4cd06b44538d529084b3599f708643.svg#MuseoSansW01-Rounded300") format("svg");
 }
 
+@font-face {font-family: "MuseoSans500";
+    src: url("../fonts/museosans-500.otf");
+}
+
 .item-radio-disabled {
     color: #d9d9d9 !important;
     border-color: #d9d9d9 !important;
@@ -56,12 +60,19 @@
 
 }
 
+.item {
+  min-height: 0px !important;
+}
+
 /* HEADER */
+.toolbar {
+  min-height: 18.67vw !important;
+}
 .information-button {
 	float: left;
 }
 .toolbar-title {
-	color: #5b6670 !important;
+	color: #4A535D !important;
 	font-family: "MuseoSansW01-Rounded700";
 }
 .toolbar-title img {
@@ -71,7 +82,7 @@
 /* TOP AREA */
 .upper {
 	background-color: #4487db;
-	height: 48.5%;;
+	height: 50%;;
 }
 
 .infoBtnBlue {
@@ -89,11 +100,9 @@
   padding-right: 5%;
 }
 
-.time-button-line .item {
-	min-height: 11vw !important;
-}
 .time-button-line .item-radio-checked {
-	background-color: rgba(0, 0, 0, 0.16);
+	background-color: #386FB6;
+  font-family: "MuseoSansW01-Rounded700";
 }
 .time-button-line .item-radio-checked ion-label {
 	color: #fff;
@@ -103,21 +112,22 @@
 	padding: 0px !important;
 }
 .time-button {
-	background-color: transparent;
-	color: #fff;
+	  background-color: transparent;
+	  color: #fff;
     text-align: center;
     padding: 0px !important;
+    height: 9.34vw;
 }
 .time-button ion-label {
-	font-size: 3.7vw;
+	font-size: 3.2vw;
 	text-align: center;
 }
 
 /* WHITE AREA */
 .lower {
 	padding-left: 11%;
-    padding-right: 8%;
-    margin-top: 4%;
+  padding-right: 8%;
+  margin-top: 5%;
 }
 
 /* MONEY BUTTONS */
@@ -125,12 +135,6 @@
 	border: none !important;
 	padding: 0px !important;
 	text-align: center;
-	font-weight: 600;
-}
-
-.money-button-line .item {
-	min-height: 10vw;
-  width: 16vw;
 }
 
 .money-button {
@@ -138,14 +142,14 @@
 	box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
 	border-radius: 10px;
 	color: #4487db;
-	font-family: "MuseoSansW01-Rounded300";
-	font-size: 4.5vw;
+	font-family: "MuseoSans500";
+	font-size: 4.8vw;
 	padding: 0px !important;
-	height: 5vw;
+	height: 9.34vw;
+  width: 15.2vw;
 }
 .money-button-line .item-radio-checked {
   box-shadow: 0 0 0pt 2.5px;
-  color: #4487db;
 }
 
 
@@ -156,27 +160,27 @@
 .footer ion-row {
 	padding: 0px !important;
 }
-
 .footer-left {
 	padding: 0px !important;
+  margin-top: 1%;
 }
-
 .footer-right {
 	padding: 0px !important;
 	text-align: right;
 }
 
 .footer-left ion-list {
-	padding: 2vw 8vw 0vw 0vw;
+  width: 30.6vw;
 }
 
 .go-button {
-	width: 37vw;
-    height: 37vw;
-    font-size: 6vw;
+	  width: 33.33vw;
+    height: 33.33vw;
+    font-size: 5vw;
     font-family: "MuseoSansW01-Rounded900";
     border-radius: 50%;
     background: #4487db;
+    margin-right: 6%;
 }
 
 /* RISE BUTTON */
@@ -185,10 +189,10 @@
 	border-radius: 10px;
 	box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
 	color: #4487db;
-	font-size: 4.5vw;
+	font-size: 3.7vw;
 	font-family: "MuseoSansW01-Rounded700";
 	padding: 0px !important;
-	height: 15vw;
+	height: 13.8vw;
 
 }
 
@@ -209,10 +213,10 @@
 	border-radius: 10px;
 	box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
 	color: #4487db;
-	font-size: 4.5vw;
+	font-size: 3.7vw;
 	font-family: "MuseoSansW01-Rounded700";
 	padding: 0px !important;
-	height: 15vw;
+	height: 13.8vw;
 
 }
 
@@ -261,15 +265,28 @@
 /* Ipad */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
 
+.toolbar {
+    min-height: 13.67vw !important;
+}
+.toolbar-title {
+  font-size: 2.8rem;
+}
+.toolbar-title img {
+  width: 25px;
+  height: 25px;
+}
+.bar-button-menutoggle ion-icon {
+    font-size: 3.8rem;
+}
 .time-button-line {
     padding-left: 15%;
     padding-right: 15%;
 }
-.time-button-line .item {
-    min-height: 9vw !important;
+.time-button {
+    height: 8vw;
 }
 .time-button ion-label {
-    font-size: 3.5vw;
+    font-size: 2.7vw;
     text-align: center;
 }
 .upper {
@@ -280,23 +297,20 @@
    padding-right: 20%;
    margin-top: 4vw;
 }
-.money-button-line .item {
-   min-height: 7vw;
-   width: 12vw;
-}
 .money-button {
    border: none;
-   box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
-   border-radius: 10px 10px 10px 10px;
+   box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
+   border-radius: 10px;
    color: #4487db ;
    font-size: 3.5vw;
    padding: 0px !important;
-   height: 5vw;
+   height: 8vw;
+   width: 12vw;
 }
 .go-button {
-   width: 30vw;
-   height: 30vw;
-   font-size: 6vw;
+   width: 24vw;
+   height: 24vw;
+   font-size: 4vw;
    font-family: "MuseoSansW01-Rounded900";
    border-radius: 50%;
    background: #4487db ;
@@ -304,22 +318,22 @@
 .rise-button-item {
    border: none;
    border-radius: 10px;
-   box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+   box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
    color: #4487db ;
-   font-size: 3.5vw;
+   font-size: 2.7vw;
    font-family: "MuseoSansW01-Rounded700";
    padding: 0px !important;
-   height: 9vw;
+   height: 10vw;
 }
 .fall-button-item {
    border: none;
    border-radius: 10px;
-   box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+   box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
    color: #4487db ;
-   font-size: 3.5vw;
+   font-size: 2.7vw;
    font-family: "MuseoSansW01-Rounded700";
    padding: 0px !important;
-   height: 9vw;
+   height: 10vw;
 }
 .rise-button-item img {
 	width: 20px;
@@ -331,6 +345,9 @@
 }
 .footer {
     margin-top: 6%;
+}
+.footer-left ion-list {
+    width: 22.6vw;
 }
 
 }
