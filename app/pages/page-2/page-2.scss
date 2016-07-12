@@ -135,8 +135,8 @@
 
 .money-button {
 	border: none;
-	box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.50);
-	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
+	border-radius: 10px;
 	color: #4487db;
 	font-family: "MuseoSansW01-Rounded300";
 	font-size: 4.5vw;
@@ -183,7 +183,7 @@
 .rise-button-item {
 	border: none;
 	border-radius: 10px;
-	box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.50);
+	box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
 	color: #4487db;
 	font-size: 4.5vw;
 	font-family: "MuseoSansW01-Rounded700";
@@ -200,16 +200,14 @@
 }
 
 .rise-button .item-radio-checked {
-    border: 2px solid;
-	border-radius: 10px;
-	border-color: #4487db;
+  box-shadow: 0 0 0pt 2.5px;
 }
 
 /* FALL BUTTON */
 .fall-button-item {
 	border: none;
 	border-radius: 10px;
-	box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.50);
+	box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
 	color: #4487db;
 	font-size: 4.5vw;
 	font-family: "MuseoSansW01-Rounded700";
@@ -226,9 +224,7 @@
 }
 
 .fall-button .item-radio-checked {
-    border: 2px solid;
-	border-radius: 10px;
-	border-color: #4487db;
+  box-shadow: 0 0 0pt 2.5px;
 }
 
 /* If user is winning */
