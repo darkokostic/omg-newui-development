@@ -1,6 +1,6 @@
 <ion-toolbar>
   <ion-buttons left>
-    <button menuToggle>
+    <button (click)="doAlert()" menuToggle>
         <ion-icon name='ios-information-circle-outline' [ngClass]="infoBtnClass"></ion-icon>
     </button>
   </ion-buttons>
@@ -53,5 +53,4 @@
             </ion-row>
         </div>
     </div>
-    <button (click)="doAlert()">Click</button>
 </ion-content>

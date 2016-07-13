@@ -125,7 +125,7 @@ export class Page2 {
 	let alert = Alert.create({
 		title: 'Sorry,',
 		subTitle: 'The market is closed.',
-		message: '<img src="img/George_losing_5x.png"/><div class="message-footer-text1"><ion-label>it reopens Monday</ion-label></div><div class="message-footer-text2"><ion-label><b>04:</b>19:18</ion-label></div>'
+		message: '<div class="message-footer-img"><img src="img/George_losing_5x.png"/></div><div class="message-footer-text1"><ion-label>it reopens Monday</ion-label></div><div class="message-footer-text2"><ion-label><b>04:</b>19:18</ion-label></div>'
 		});
 		alert.setCssClass('customMarketAlert');
 		this.navController.present(alert);

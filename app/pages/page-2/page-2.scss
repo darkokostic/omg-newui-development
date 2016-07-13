@@ -438,10 +438,10 @@
 .alert-message, .alert-input-group {
     padding: 0 !important;
 }
-.alert-message img {
+.message-footer-img img {
     position: absolute;
     margin-top: -101px;
-    margin-left: -28%;
+    margin-left: 23%;
     height: 102px;
     width: 150px;
 }
@@ -454,17 +454,18 @@
 .message-footer-text1 ion-label {
   color: #fff;
   font-size: 1.2em;
+  text-align: center;
 }
 .message-footer-text2 ion-label {
   color: #fff;
   font-size: 2.2em;
+  text-align: center;
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-  .alert-message img {
+  .message-footer-img img {
     position: absolute;
-    margin-top: -202px;
-    margin-left: -26%;
+    margin-top: -202px;  
     height: 204px;
     width: 300px;
   }
@@ -479,9 +480,11 @@
   .message-footer-text1 ion-label {
     color: #fff;
     font-size: 2.2em;
+    text-align: center;
   }
   .message-footer-text2 ion-label {
     color: #fff;
     font-size: 4.2em;
+    text-align: center;
   }
 }
