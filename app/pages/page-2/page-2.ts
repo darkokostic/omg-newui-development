@@ -1,5 +1,5 @@
 import {Page} from 'ionic-angular';
-import {NavController, NavParams} from 'ionic-angular';
+import {NavController, NavParams, Alert} from 'ionic-angular';
 
 @Page({
   templateUrl: 'build/pages/page-2/page-2.html',
@@ -119,6 +119,16 @@ export class Page2 {
 		{
 			this.goBtn = null;
 		}
+	}
+
+	doAlert() {
+	let alert = Alert.create({
+		title: 'Sorry,',
+		subTitle: 'The market is closed.',
+		message: 'it reopens Monday<br>04:19:18'
+		});
+		alert.setCssClass('customMarketAlert');
+		this.navController.present(alert);
 	}
 
   	constructor(private navController: NavController, navParams: NavParams) {
