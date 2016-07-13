@@ -432,8 +432,10 @@
     text-align: center;
 }
 .alert-message {
-    height: 35%;
+    height: 36%;
     background-color: #dc5454;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .alert-message, .alert-input-group {
     padding: 0 !important;
@@ -451,10 +453,19 @@
 .alert-wrapper {
   max-width: none;
 }
+.alert-button-group {
+  display: none;
+}
+.margin-footer-text1 {
+  margin-top: 8%;
+}
 .message-footer-text1 ion-label {
   color: #fff;
   font-size: 1.2em;
   text-align: center;
+}
+.margin-footer-text2 {
+  margin-top: -4%;
 }
 .message-footer-text2 ion-label {
   color: #fff;
@@ -486,5 +497,11 @@
     color: #fff;
     font-size: 4.2em;
     text-align: center;
+  }
+  .margin-footer-text1 {
+    margin-top: 6%;
+  }
+  .margin-footer-text2 {
+    margin-top: -2%;
   }
 }
