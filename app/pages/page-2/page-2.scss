@@ -428,7 +428,7 @@
     box-shadow: 3px 9px 39px 0px rgba(0,0,0,0.75);
     background-color: #efefef;
     border-radius: 10px 10px 10px 10px;
-    height: 50%;
+    height: 51%;
     width: 75%;
 }
 .alert-title {
@@ -444,6 +444,7 @@
     background-color: #dc5454;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    border: 1px solid #dc5454;
 }
 .alert-message, .alert-input-group {
     padding: 0 !important;
@@ -457,21 +458,17 @@
 .alert-button-group {
   display: none;
 }
-.margin-footer-text1 {
-  margin-top: 8%;
-}
 .message-footer-text1 ion-label {
   color: #fff;
   font-size: 1.2em;
   text-align: center;
-}
-.margin-footer-text2 {
-  margin-top: -4%;
+  margin-top: 6%;
 }
 .message-footer-text2 ion-label {
   color: #fff;
   font-size: 2.2em;
   text-align: center;
+  margin-top: -2%;
 }
 .row-img {
     position: absolute;
@@ -482,6 +479,7 @@
     height: 102px;
     width: 150px;
 }
+
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
   .row-img {
@@ -510,11 +508,5 @@
     color: #fff;
     font-size: 4.2em;
     text-align: center;
-  }
-  .margin-footer-text1 {
-    margin-top: 6%;
-  }
-  .margin-footer-text2 {
-    margin-top: -2%;
   }
 }
