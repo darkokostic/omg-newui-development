@@ -83,7 +83,7 @@
 /* TOP AREA */
 .upper {
 	background-color: #4487db;
-	height: 50%;;
+	height: 53.4%;
 }
 
 .infoBtnBlue {
@@ -183,7 +183,7 @@
     border-radius: 50%;
     box-shadow: 0px 0px 4px 0px #4F4F4F;
     background: #4487db;
-    margin-right: 6%;
+    margin-right: 9%;
 }
 
 /* RISE BUTTON */
@@ -295,7 +295,7 @@
     text-align: center;
 }
 .upper {
-	height: 47.5%;
+	height: 49.5%;
 }
 .lower {
    padding-left: 20%;
@@ -418,4 +418,70 @@
     -webkit-box-shadow: 3px 9px 39px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px 9px 39px 0px rgba(0,0,0,0.75);
     box-shadow: 3px 9px 39px 0px rgba(0,0,0,0.75);
+    background-color: #efefef;
+    border-radius: 10px 10px 10px 10px;
+    height: 50%;
+    width: 75%;
+}
+.alert-title {
+    font-size: 1.5em;
+    text-align: center;
+}
+.alert-sub-title {
+    font-size: 1.2em;
+    text-align: center;
+}
+.alert-message {
+    height: 35%;
+    background-color: #dc5454;
+}
+.alert-message, .alert-input-group {
+    padding: 0 !important;
+}
+.alert-message img {
+    position: absolute;
+    margin-top: -101px;
+    margin-left: -28%;
+    height: 102px;
+    width: 150px;
+}
+.alert-head {
+  height: 65%;
+}
+.alert-wrapper {
+  max-width: none;
+}
+.message-footer-text1 ion-label {
+  color: #fff;
+  font-size: 1.2em;
+}
+.message-footer-text2 ion-label {
+  color: #fff;
+  font-size: 2.2em;
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  .alert-message img {
+    position: absolute;
+    margin-top: -202px;
+    margin-left: -26%;
+    height: 204px;
+    width: 300px;
+  }
+  .alert-title {
+    font-size: 2.5em;
+    text-align: center;
+  }
+  .alert-sub-title {
+    font-size: 2.2em;
+    text-align: center;
+  }
+  .message-footer-text1 ion-label {
+    color: #fff;
+    font-size: 2.2em;
+  }
+  .message-footer-text2 ion-label {
+    color: #fff;
+    font-size: 4.2em;
+  }
 }
