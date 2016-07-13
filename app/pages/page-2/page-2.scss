@@ -440,13 +440,6 @@
 .alert-message, .alert-input-group {
     padding: 0 !important;
 }
-.message-footer-img img {
-    position: absolute;
-    margin-top: -101px;
-    margin-left: 23%;
-    height: 102px;
-    width: 150px;
-}
 .alert-head {
   height: 65%;
 }
@@ -472,11 +465,21 @@
   font-size: 2.2em;
   text-align: center;
 }
+.row-img {
+    position: absolute;
+    margin-top: -106px;
+}
+.row-img img{
+    height: 102px;
+    width: 150px;
+}
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-  .message-footer-img img {
+  .row-img {
     position: absolute;
-    margin-top: -202px;  
+    margin-top: -207px;
+  }
+  .row-img img{
     height: 204px;
     width: 300px;
   }
