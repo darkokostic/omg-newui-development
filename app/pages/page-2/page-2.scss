@@ -83,6 +83,7 @@
 .toolbar-title {
 	color: #4A535D !important;
 	font-family: "MuseoSansW01-Rounded700";
+  font-size: 2.2rem;
 }
 .toolbar-title img {
 	margin-top: 2px;
@@ -277,8 +278,8 @@
 
 
 ion-backdrop[disable-activated] {
-    opacity: 0.7;
-    background: #969899;
+    opacity: 0.45 !important;
+    background: #404851;
 }
 
 /* Ipad */
@@ -469,6 +470,7 @@ ion-backdrop[disable-activated] {
   font-size: 1.2em;
   text-align: center;
   margin-top: 6%;
+  font-family: MuseoSansW01-Rounded700;
 }
 .message-footer-text2 ion-label {
   color: #fff;
