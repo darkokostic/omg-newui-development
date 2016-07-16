@@ -47,8 +47,11 @@ gulp.task('watch', ['clean'], function(done){
 });
 
 gulp.task('copy', function() {
+  gulp.src('app/extras-css/*').pipe(gulp.dest('www/build/css'));
+  gulp.src('app/extras-js/*').pipe(gulp.dest('www/build/js'));
   return gulp.src('app/fonts/*').pipe(gulp.dest('www/build/fonts'))
 });
+
 
 gulp.task('build', ['clean'], function(done){
   runSequence(
