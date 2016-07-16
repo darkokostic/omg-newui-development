@@ -1,6 +1,6 @@
 <ion-toolbar>
-  <ion-buttons left>
-    <button onclick="introJs().start();" menuToggle>
+  <ion-buttons left data-step="4" data-intro="Click here if you want to replay the tutorial!" data-position='right'>
+    <button onclick="var intro = introJs(); intro.setOptions({exitOnOverlayClick: false}); intro.start();" menuToggle>
         <ion-icon name='ios-information-circle-outline' [ngClass]="infoBtnClass"></ion-icon>
     </button>
   </ion-buttons>
@@ -31,7 +31,7 @@
     <div class="lower">
         <ion-list radio-group [(ngModel)]="money" (ngModelChange)="changedMoney($event, type)">
             <ion-row class="money-button-line">
-                <ion-col width-25><ion-item class="money-button" data-step="1" data-intro="Ok, wasn't that fun?" data-position='right'><ion-label>$10</ion-label><ion-radio value="10" [disabled]="goButtonStatus"></ion-radio></ion-item></ion-col>
+                <ion-col width-25><ion-item class="money-button" data-step="1" data-intro="Select an amount to invest." data-position='right'><ion-label>$10</ion-label><ion-radio value="10" [disabled]="goButtonStatus"></ion-radio></ion-item></ion-col>
                 <ion-col width-25><ion-item class="money-button"><ion-label>$25</ion-label><ion-radio value="25" [disabled]="goButtonStatus" ></ion-radio></ion-item></ion-col>
                 <ion-col width-25><ion-item class="money-button"><ion-label>$50</ion-label><ion-radio value="50" [disabled]="goButtonStatus"></ion-radio></ion-item></ion-col>
                 <ion-col width-25><ion-item class="money-button"><ion-label>$100</ion-label><ion-radio value="100" [disabled]="goButtonStatus"></ion-radio></ion-item></ion-col>
@@ -40,7 +40,7 @@
         <div class="footer">
             <ion-row>
                 <ion-col width-50 class="footer-left">
-                    <ion-list radio-group [(ngModel)]="type" (ngModelChange)="changedType($event, money)">
+                    <ion-list radio-group [(ngModel)]="type" (ngModelChange)="changedType($event, money)" data-step="2" data-intro="Analyse the chart and pick a RISE or FALL prediction." data-position='right'>
                         <ion-row class="rise-button">
                             <ion-col width-100><ion-item class="rise-button-item"><ion-label><img src="img/Rise_10x.png" height="12" width="12" /> RISE</ion-label><ion-radio value="rise" [disabled]="goButtonStatus"></ion-radio></ion-item></ion-col>
                         </ion-row>
@@ -49,7 +49,7 @@
                         </ion-row>
                     </ion-list>
                 </ion-col>
-                <ion-col width-50 class="footer-right"><button class="go-button" [ngClass]="goBtnClass" [disabled]="goBtn" (click)="startGame(money, type, graphDot, graphDot2, graphDot3, graphDot4, graphDot5)">GO</button></ion-col>
+                <ion-col width-50 class="footer-right"><button class="go-button" data-step="3" data-intro="When you think the timing is good, go for it !" data-position='top' [ngClass]="goBtnClass" [disabled]="goBtn" (click)="startGame(money, type, graphDot, graphDot2, graphDot3, graphDot4, graphDot5)">GO</button></ion-col>
             </ion-row>
         </div>
     </div>
