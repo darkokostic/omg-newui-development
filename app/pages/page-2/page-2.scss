@@ -492,12 +492,78 @@ ion-backdrop[disable-activated] {
     width: 150px;
 }
 
+
+/* TUTORIALS */
+.introjs-tooltip {
+    position: absolute;
+    visibility: visible;
+    padding: 10px;
+    background-color: white;
+    width: 51vw;
+    height: 38vw;
+    border-radius: 7px;
+    left: 34vw !important;
+    top: 18vw;
+    border: 2px solid #4487db;
+}
+.introjs-tooltiptext {
+    color: #4487db;
+    font-size: 4.5vw;
+    padding-right: 7vw;
+    padding-left: 7vw;
+    margin-top: 8.5vw;
+    text-align: center;
+    font-family: MuseoSansW01-Rounded700;
+}
+.introjs-arrow.left {
+    display: none !important;
+}
+.introjs-button {
+    display: none;
+}
+.introjs-bullets {
+    display: none;
+}
+.introjs-helperNumberLayer {
+    position: absolute;
+    visibility: visible;
+    top: 13vw;
+    left: 54vw;
+    z-index: 9999999999!important;
+    padding: 2px;
+    font-family: MuseoSansW01-Rounded700;
+    font-size: 5vw;
+    color: #4487db;
+    text-align: center;
+    background: #fff;
+    width: 10vw;
+    height: 10vw;
+    line-height: 8.5vw;
+    border: 2px solid #4487db;
+    border-radius: 50%;
+    font-weight: normal;
+    text-shadow: none;
+}
+
 @media only screen and (max-device-width : 360px) and (max-device-width : 640px) and (orientation : portrait) {
     .footer {
         margin-top: 2%;
     }
     .upper {
         height: 51.4%;
+    }
+
+    .introjs-tooltip {
+        top: 14vw;
+        width: 47vw;
+        height: 34vw;
+    }
+    .introjs-helperNumberLayer {
+        top: 9.5vw;
+        left: 52.5vw;
+    }
+    .introjs-tooltiptext {
+        margin-top: 6.5vw;
     }
 }
 
@@ -529,6 +595,88 @@ ion-backdrop[disable-activated] {
     font-size: 4.2em;
     text-align: center;
   }
+
+  .introjs-tooltip {
+    position: absolute;
+    visibility: visible;
+    padding: 10px;
+    background-color: white;
+    width: 38vw;
+    height: 27vw;
+    border-radius: 7px;
+    left: 26vw !important;
+    top: 13vw;
+    border: 2px solid #4487db;
+  }
+  .introjs-tooltiptext {
+    color: #4487db;
+    font-size: 3.7vw;
+    padding-right: 7vw;
+    padding-left: 7vw;
+    margin-top: 6.5vw;
+    text-align: center;
+    font-family: MuseoSansW01-Rounded700;
+  }
+  .introjs-helperNumberLayer {
+    position: absolute;
+    visibility: visible;
+    top: 9.2vw;
+    left: 41vw;
+    z-index: 9999999999 !important;
+    padding: 2px;
+    font-family: MuseoSansW01-Rounded700;
+    font-size: 4vw;
+    color: #4487db;
+    text-align: center;
+    background: #fff;
+    width: 8vw;
+    height: 8vw;
+    line-height: 7vw;
+    border: 2px solid #4487db;
+    border-radius: 50%;
+    font-weight: normal;
+    text-shadow: none;
+  }
+}
+
+/*iPhone 5*/ 
+@media only screen and (min-device-width : 411px) and (max-device-width : 411px) and (orientation : portrait) {
+    .introjs-tooltip {
+        top: 16vw;
+        width: 47vw;
+        height: 33vw;
+    }
+    .introjs-helperNumberLayer {
+        top: 11.3vw;
+        left: 53vw;
+    }
+    .introjs-tooltiptext {
+        margin-top: 7.8vw;
+    }
+}
+
+/*Nexus 5X*/ 
+@media only screen and (min-device-width : 320px) and (max-device-width : 320px) and (orientation : portrait) {
+    .introjs-tooltip {
+        top: 14vw;
+    }
+    .introjs-helperNumberLayer {
+        top: 10vw;
+        line-height: 8vw;
+    }
+}
+
+/*Nexus 6*/ 
+@media only screen and (min-device-width : 412px) and (max-device-width : 412px) and (orientation : portrait) {
+    .introjs-tooltip {
+        top: 15vw;
+        width: 50vw;
+        height: 37vw;
+    }
+    .introjs-helperNumberLayer {
+        top: 11vw;
+        line-height: 8.3vw;
+    }
 }
 
 /* NEXUS 10 */
@@ -625,5 +773,20 @@ ion-backdrop[disable-activated] {
 
     .item-radio-disabled .item-inner .input-wrapper ion-label {
         color: #d9d9d9 !important;
+    }
+
+
+    .introjs-tooltip {
+        width: 41vw;
+        height: 30vw;
+        left: 28vw !important;
+        top: 15vw;
+    }
+    .introjs-helperNumberLayer {
+        top: 11.2vw;
+        left: 44vw;
+    }
+    .introjs-tooltiptext {
+        margin-top: 7.5vw;
     }
 }
