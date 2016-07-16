@@ -6,6 +6,7 @@ import {NavController, NavParams, Alert} from 'ionic-angular';
 })
 export class Page2 {
 
+	hidePage: any;
 	upperClass: string;
 	infoBtnClass: string;
 	timeLineClass: string;
@@ -132,6 +133,10 @@ export class Page2 {
 	}
 
   	constructor(private navController: NavController, navParams: NavParams) {
+  		this.hidePage = document.querySelector('#hideLostCash');
+  		setInterval(() => {
+	    	this.hidePage.style.display = 'none';
+	    }, 1000);
   		this.infoBtnClass = 'infoBtnBlue';
   		this.goButtonStatus = false;
   		this.goBtn = true;
