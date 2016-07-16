@@ -30,6 +30,16 @@
     src: url("../fonts/museosans-500.otf");
 }
 
+scroll-content {
+    overflow-y: hidden;
+}
+.scroll-bar-indicator {
+    display: none;
+}
+::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none;
+}
 .item-radio-disabled {
     color: #d9d9d9 !important;
     box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
@@ -310,7 +320,7 @@ ion-backdrop[disable-activated] {
     text-align: center;
 }
 .upper {
-	height: 49.5%;
+	height: 53.5%;
 }
 .lower {
    padding-left: 20%;
@@ -422,12 +432,6 @@ ion-backdrop[disable-activated] {
 }
 
 
-@media only screen and (max-device-width : 360px) and (max-device-width : 640px) and (orientation : portrait) {
-    .footer {
-        margin-top: 2%;
-    }
-}
-
 /* Custom Alert Market Closed */
 .customMarketAlert .alert-wrapper {
     -webkit-box-shadow: 3px 9px 39px 0px rgba(0,0,0,0.75);
@@ -488,6 +492,14 @@ ion-backdrop[disable-activated] {
     width: 150px;
 }
 
+@media only screen and (max-device-width : 360px) and (max-device-width : 640px) and (orientation : portrait) {
+    .footer {
+        margin-top: 2%;
+    }
+    .upper {
+        height: 51.4%;
+    }
+}
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
   .row-img {
@@ -517,4 +529,101 @@ ion-backdrop[disable-activated] {
     font-size: 4.2em;
     text-align: center;
   }
+}
+
+/* NEXUS 10 */
+@media only screen and (min-device-width : 800px) and (max-device-width : 1280px) and (orientation : portrait) {
+    .toolbar {
+        min-height: 15.67vw !important;
+    }
+    .toolbar-title {
+        font-size: 3.5rem;
+    }
+    .bar-button-menutoggle ion-icon {
+        font-size: 4.5rem;
+    }
+    .toolbar-title img {
+        width: 33px;
+        height: 30px;
+    }
+    .upper {
+        height: 53%;
+    }
+    .time-button-line {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .time-button {
+        height: 9vw;
+    }
+    .time-button ion-label {
+        font-size: 3vw;
+    }
+    .lower {
+        padding-left: 15%;
+        padding-right: 15%;
+        margin-top: 5vw;
+    }
+    .money-button {
+        font-size: 3.8vw;
+        height: 9vw;
+        width: 13vw;
+    }
+    .go-button {
+        width: 28vw;
+        height: 28vw;
+        font-size: 5vw;
+    }
+    .rise-button-item {
+        font-size: 3vw;
+        height: 12vw;
+    }
+    .fall-button-item {
+        font-size: 3vw;
+        height: 12vw;
+    }
+    .footer-left ion-list {
+        width: 24.6vw;
+    }
+    /* If user is winning */
+    .winning-light {
+      background-color: #00cf98;
+    }
+
+    .winning-light-color {
+      color: #00cf98 !important;
+    }
+
+    .winning-dark {
+      background-color: #01be8c;
+    }
+
+    .winning-selected {
+      background-color: #04a67b;
+    }
+
+    /* If user is losing */
+    .losing-light {
+      background-color: #ff6363;
+    }
+    .losing-light-color {
+      color: #ff6363 !important;
+    }
+    .losing-dark {
+      background-color: #ec5959;
+    }
+    .losing-selected {
+      background-color: #dc5454;
+    }
+    .item-radio-disabled {
+        color: #d9d9d9 !important;
+        box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
+    }
+    .item-radio-checked.item-radio-disabled {
+        border-color: #d9d9d9 !important;
+    }
+
+    .item-radio-disabled .item-inner .input-wrapper ion-label {
+        color: #d9d9d9 !important;
+    }
 }

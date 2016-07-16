@@ -1,3 +1,13 @@
+scroll-content {
+    overflow-y: hidden;
+}
+.scroll-bar-indicator {
+    display: none;
+}
+::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none;
+}
 .login-page {
     background-color: #00cf98 !important;
 }
@@ -59,5 +69,11 @@
 	.middle-login button {
 		font-size: 1.6em; 
 		margin-top: -23px;
+	}
+}
+
+@media only screen and (min-device-width : 800px) and (max-device-width : 1280px) and (orientation : portrait) {
+	.text-login {
+	    margin-top: 38%;
 	}
 }

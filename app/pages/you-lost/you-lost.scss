@@ -1,3 +1,13 @@
+scroll-content {
+    overflow-y: hidden;
+}
+.scroll-bar-indicator {
+    display: none;
+}
+::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none;
+}
 .you-lost {
 	background-color: #FF6363 !important;
 }
@@ -29,5 +39,11 @@
 	.button-trade-lost img {
 		width: 34px;
 		height: 25px;
+	}
+}
+
+@media only screen and (min-device-width : 800px) and (max-device-width : 1280px) and (orientation : portrait) {
+	.text-cash {
+	    margin-top: 38%;
 	}
 }

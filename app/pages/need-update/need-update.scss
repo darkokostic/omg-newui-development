@@ -1,5 +1,15 @@
+scroll-content {
+    overflow-y: hidden;
+}
 .need-update {
 	background-color: #00cf98 !important;
+}
+.scroll-bar-indicator {
+    display: none;
+}
+::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none;
 }
 .middle-update {
 	margin-top: 13%;
@@ -70,5 +80,11 @@
 	.button-icon img {
 		width: 34px;
 		height: 25px;
+	}
+}
+
+@media only screen and (min-device-width : 800px) and (max-device-width : 1280px) and (orientation : portrait) {
+	.text-update {
+	    margin-top: 38%;
 	}
 }

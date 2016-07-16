@@ -1,3 +1,13 @@
+scroll-content {
+    overflow-y: hidden;
+}
+.scroll-bar-indicator {
+    display: none;
+}
+::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none;
+}
 .lost-cash {
 	background-color: #FF6363 !important;
 }
@@ -62,5 +72,11 @@
 	.middle-cash button {
 		font-size: 1.6em; 
 		margin-top: -24px;
+	}
+}
+
+@media only screen and (min-device-width : 800px) and (max-device-width : 1280px) and (orientation : portrait) {
+	.text-cash {
+	    margin-top: 38%;
 	}
 }

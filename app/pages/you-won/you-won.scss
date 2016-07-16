@@ -1,3 +1,13 @@
+scroll-content {
+    overflow-y: hidden;
+}
+.scroll-bar-indicator {
+    display: none;
+}
+::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none;
+}
 .you-won {
 	background-color: #00cf98 !important;
 }
@@ -130,4 +140,10 @@
 	.buttons {
         margin-top: 10%;
     }
+}
+
+@media only screen and (min-device-width : 800px) and (max-device-width : 1280px) and (orientation : portrait) {
+	.middle-you-won {
+	    padding-top: 19%;
+	}
 }
