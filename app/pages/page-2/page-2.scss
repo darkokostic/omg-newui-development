@@ -257,7 +257,7 @@ scroll-content {
 
 /* If user is winning */
 .winning-light {
-	background-color: #00cf98;
+	background-color: #00cf98 !important;
 }
 
 .winning-light-color {
@@ -274,7 +274,7 @@ scroll-content {
 
 /* If user is losing */
 .losing-light {
-	background-color: #ff6363;
+	background-color: #ff6363 !important;
 }
 .losing-light-color {
   color: #ff6363 !important;
