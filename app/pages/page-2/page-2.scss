@@ -544,6 +544,18 @@ ion-backdrop[disable-activated] {
     font-weight: normal;
     text-shadow: none;
 }
+.tooltip-step2 {
+    position: absolute;
+    visibility: visible;
+    padding: 10px;
+    background-color: white;
+    width: 51vw;
+    height: 38vw;
+    border-radius: 7px;
+    left: 36vw !important;
+    top: 2vw;
+    border: 2px solid #4487db;
+}
 
 @media only screen and (max-device-width : 360px) and (max-device-width : 640px) and (orientation : portrait) {
     .footer {
@@ -564,6 +576,12 @@ ion-backdrop[disable-activated] {
     }
     .introjs-tooltiptext {
         margin-top: 6.5vw;
+    }
+    .tooltip-step2 {
+        top: 2vw;
+        width: 49vw;
+        height: 36vw;
+        left: 37vw !important;
     }
 }
 
@@ -637,9 +655,12 @@ ion-backdrop[disable-activated] {
     font-weight: normal;
     text-shadow: none;
   }
+  .tooltip-step2 {
+        top: 1vw;
+  }
 }
 
-/*iPhone 5*/ 
+/*Nexus 5X*/ 
 @media only screen and (min-device-width : 411px) and (max-device-width : 411px) and (orientation : portrait) {
     .introjs-tooltip {
         top: 16vw;
@@ -653,29 +674,41 @@ ion-backdrop[disable-activated] {
     .introjs-tooltiptext {
         margin-top: 7.8vw;
     }
+    .tooltip-step2 {
+        top: 1vw;
+        width: 47vw;
+        height: 33vw;
+        left: 38vw !important;
+    }
+    .highlight-step2 {
+        height: 34.5vw;
+    }
 }
 
-/*Nexus 5X*/ 
+/*iPhone 5*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 320px) and (orientation : portrait) {
-    .introjs-tooltip {
-        top: 14vw;
-    }
     .introjs-helperNumberLayer {
         top: 10vw;
         line-height: 8vw;
+    }
+    .tooltip-step2 {
+        top: 2vw;
+        height: 40vw;
     }
 }
 
 /*Nexus 6*/ 
 @media only screen and (min-device-width : 412px) and (max-device-width : 412px) and (orientation : portrait) {
     .introjs-tooltip {
-        top: 15vw;
         width: 50vw;
         height: 37vw;
     }
     .introjs-helperNumberLayer {
         top: 11vw;
         line-height: 8.3vw;
+    }
+    .tooltip-step2 {
+        top: 2vw;
     }
 }
 
@@ -788,5 +821,8 @@ ion-backdrop[disable-activated] {
     }
     .introjs-tooltiptext {
         margin-top: 7.5vw;
+    }
+    .tooltip-step2 {
+        top: 1vw;
     }
 }
