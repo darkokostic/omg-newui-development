@@ -581,6 +581,18 @@ ion-backdrop[disable-activated] {
     border: 2px solid #4487db;
     padding-top: 15vw;
 }
+.tooltip-step4 {
+    top: 12vw;
+    left: 20vw !important;
+    width: 61vw;
+    height: 34vw;
+    padding-top: 10.5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+
+
 /* Nexus 5 */
 @media only screen and (max-device-width : 360px) and (max-device-width : 640px) and (orientation : portrait) {
     .footer {
@@ -614,6 +626,15 @@ ion-backdrop[disable-activated] {
         left: -35vw !important;
         top: -87vw;
         padding-top: 15vw;
+    }
+    .tooltip-step4 {
+        top: 13vw;
+        left: 20vw !important;
+        width: 61vw;
+        height: 34vw;
+        padding-top: 10.5vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
     }
 }
 
@@ -701,6 +722,15 @@ ion-backdrop[disable-activated] {
       top: -77vw;
       padding-top: 15vw;
   }
+  .tooltip-step4 {
+      top: 9vw;
+      left: 24vw !important;
+      width: 52vw;
+      height: 31vw;
+      padding-top: 10.5vw;
+      padding-left: 2vw;
+      padding-right: 2vw;
+  }
 }
 
 /*Nexus 5X*/ 
@@ -732,6 +762,15 @@ ion-backdrop[disable-activated] {
         top: -92vw;
         padding-top: 15vw;
     }
+    .tooltip-step4 {
+        top: 12vw;
+        left: 20vw !important;
+        width: 61vw;
+        height: 34vw;
+        padding-top: 10.5vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
 }
 
 /*iPhone 5*/
@@ -752,6 +791,15 @@ ion-backdrop[disable-activated] {
         left: -35vw !important;
         top: -92vw;
         padding-top: 15vw;
+    }
+    .tooltip-step4 {
+        top: 13vw;
+        left: 20vw !important;
+        width: 61vw;
+        height: 34vw;
+        padding-top: 10.5vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
     }
 }
 
@@ -775,6 +823,15 @@ ion-backdrop[disable-activated] {
         left: -35vw !important;
         top: -92vw;
         padding-top: 15vw;
+    }
+    .tooltip-step4 {
+        top: 12vw;
+        left: 20vw !important;
+        width: 61vw;
+        height: 34vw;
+        padding-top: 10.5vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
     }
 }
 
@@ -896,5 +953,14 @@ ion-backdrop[disable-activated] {
         left: -35vw !important;
         top: -84vw;
         padding-top: 15vw;
+    }
+    .tooltip-step4 {
+        top: 9vw;
+        left: 24vw !important;
+        width: 54vw;
+        height: 32vw;
+        padding-top: 10.5vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
     }
 }
