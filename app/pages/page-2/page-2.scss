@@ -518,6 +518,15 @@ ion-backdrop[disable-activated] {
 .introjs-arrow.left {
     display: none !important;
 }
+.introjs-arrow.right {
+    display: none !important;
+}
+.introjs-arrow.top {
+    display: none !important;
+}
+.introjs-arrow.bottom {
+    display: none !important;
+}
 .introjs-button {
     display: none;
 }
@@ -562,14 +571,15 @@ ion-backdrop[disable-activated] {
 .tooltip-step3 {
     position: absolute;
     visibility: visible;
-    padding: 10px;
+    padding: 3vw;
     background-color: white;
     width: 64vw;
-    height: 47vw;
+    height: 44vw;
     border-radius: 7px;
     left: -35vw !important;
-    top: -84vw;
+    top: -94vw;
     border: 2px solid #4487db;
+    padding-top: 15vw;
 }
 /* Nexus 5 */
 @media only screen and (max-device-width : 360px) and (max-device-width : 640px) and (orientation : portrait) {
@@ -597,8 +607,17 @@ ion-backdrop[disable-activated] {
         left: 37vw !important;
         padding-top: 10vw;
     }
+    .tooltip-step3 {
+        padding: 3vw;
+        width: 64vw;
+        height: 44vw;
+        left: -35vw !important;
+        top: -87vw;
+        padding-top: 15vw;
+    }
 }
 
+/*iPad*/
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
   .row-img {
     position: absolute;
@@ -670,9 +689,17 @@ ion-backdrop[disable-activated] {
     text-shadow: none;
   }
   .tooltip-step2 {
-        top: 1vw;
-        padding-right: 3vw;
-        padding-left: 3vw;
+      top: 1vw;
+      padding-right: 3vw;
+      padding-left: 3vw;
+  }
+  .tooltip-step3 {
+      padding: 3vw;
+      width: 64vw;
+      height: 40vw;
+      left: -35vw !important;
+      top: -77vw;
+      padding-top: 15vw;
   }
 }
 
@@ -697,6 +724,14 @@ ion-backdrop[disable-activated] {
     .highlight-step2 {
         height: 34.5vw;
     }
+    .tooltip-step3 {
+        padding: 3vw;
+        width: 64vw;
+        height: 44vw;
+        left: -35vw !important;
+        top: -92vw;
+        padding-top: 15vw;
+    }
 }
 
 /*iPhone 5*/
@@ -709,6 +744,14 @@ ion-backdrop[disable-activated] {
         top: 2vw;
         height: 40vw;
         padding-top: 11vw;
+    }
+    .tooltip-step3 {
+        padding: 3vw;
+        width: 64vw;
+        height: 44vw;
+        left: -35vw !important;
+        top: -92vw;
+        padding-top: 15vw;
     }
 }
 
@@ -724,6 +767,14 @@ ion-backdrop[disable-activated] {
     }
     .tooltip-step2 {
         top: 2vw;
+    }
+    .tooltip-step3 {
+        padding: 3vw;
+        width: 64vw;
+        height: 44vw;
+        left: -35vw !important;
+        top: -92vw;
+        padding-top: 15vw;
     }
 }
 
@@ -837,5 +888,13 @@ ion-backdrop[disable-activated] {
     }
     .tooltip-step2 {
         top: 1vw;
+    }
+    .tooltip-step3 {
+        padding: 3vw;
+        width: 64vw;
+        height: 40vw;
+        left: -35vw !important;
+        top: -84vw;
+        padding-top: 15vw;
     }
 }
