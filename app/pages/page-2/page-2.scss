@@ -505,13 +505,13 @@ ion-backdrop[disable-activated] {
     left: 34vw !important;
     top: 18vw;
     border: 2px solid #4487db;
-}
-.introjs-tooltiptext {
-    color: #4487db;
-    font-size: 4.5vw;
     padding-right: 7vw;
     padding-left: 7vw;
-    margin-top: 8.5vw;
+    padding-top: 10.5vw;
+    color: #4487db;
+}
+.introjs-tooltiptext {
+    font-size: 4.5vw;
     text-align: center;
     font-family: MuseoSansW01-Rounded700;
 }
@@ -555,8 +555,23 @@ ion-backdrop[disable-activated] {
     left: 36vw !important;
     top: 2vw;
     border: 2px solid #4487db;
+    padding-right: 3vw;
+    padding-left: 3vw; 
+    padding-top: 11vw;   
 }
-
+.tooltip-step3 {
+    position: absolute;
+    visibility: visible;
+    padding: 10px;
+    background-color: white;
+    width: 64vw;
+    height: 47vw;
+    border-radius: 7px;
+    left: -35vw !important;
+    top: -84vw;
+    border: 2px solid #4487db;
+}
+/* Nexus 5 */
 @media only screen and (max-device-width : 360px) and (max-device-width : 640px) and (orientation : portrait) {
     .footer {
         margin-top: 2%;
@@ -569,19 +584,18 @@ ion-backdrop[disable-activated] {
         top: 14vw;
         width: 47vw;
         height: 34vw;
+        padding-top: 8.5vw;
     }
     .introjs-helperNumberLayer {
         top: 9.5vw;
         left: 52.5vw;
-    }
-    .introjs-tooltiptext {
-        margin-top: 6.5vw;
     }
     .tooltip-step2 {
         top: 2vw;
         width: 49vw;
         height: 36vw;
         left: 37vw !important;
+        padding-top: 10vw;
     }
 }
 
@@ -625,13 +639,13 @@ ion-backdrop[disable-activated] {
     left: 26vw !important;
     top: 13vw;
     border: 2px solid #4487db;
-  }
-  .introjs-tooltiptext {
-    color: #4487db;
-    font-size: 3.7vw;
     padding-right: 7vw;
     padding-left: 7vw;
-    margin-top: 6.5vw;
+    padding-top: 7vw;
+    color: #4487db;
+  }
+  .introjs-tooltiptext {
+    font-size: 3.7vw;
     text-align: center;
     font-family: MuseoSansW01-Rounded700;
   }
@@ -657,6 +671,8 @@ ion-backdrop[disable-activated] {
   }
   .tooltip-step2 {
         top: 1vw;
+        padding-right: 3vw;
+        padding-left: 3vw;
   }
 }
 
@@ -666,13 +682,11 @@ ion-backdrop[disable-activated] {
         top: 16vw;
         width: 47vw;
         height: 33vw;
+        padding-top: 8vw;
     }
     .introjs-helperNumberLayer {
         top: 11.3vw;
-        left: 53vw;
-    }
-    .introjs-tooltiptext {
-        margin-top: 7.8vw;
+        left: 52vw;
     }
     .tooltip-step2 {
         top: 1vw;
@@ -694,6 +708,7 @@ ion-backdrop[disable-activated] {
     .tooltip-step2 {
         top: 2vw;
         height: 40vw;
+        padding-top: 11vw;
     }
 }
 
@@ -704,7 +719,7 @@ ion-backdrop[disable-activated] {
         height: 37vw;
     }
     .introjs-helperNumberLayer {
-        top: 11vw;
+        top: 13vw;
         line-height: 8.3vw;
     }
     .tooltip-step2 {
@@ -814,13 +829,11 @@ ion-backdrop[disable-activated] {
         height: 30vw;
         left: 28vw !important;
         top: 15vw;
+        padding-top: 8vw;
     }
     .introjs-helperNumberLayer {
         top: 11.2vw;
         left: 44vw;
-    }
-    .introjs-tooltiptext {
-        margin-top: 7.5vw;
     }
     .tooltip-step2 {
         top: 1vw;
