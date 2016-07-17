@@ -590,7 +590,19 @@ ion-backdrop[disable-activated] {
     padding-left: 2vw;
     padding-right: 2vw;
 }
+.tutorialNum2 {
+    top: -2vw;
+    left: 56vw;
+}
+.tutorialNum3 {
+    top: -98.5vw;
+    left: -8vw;
+}
 
+.tutorialNum4 {
+    top: 8vw;
+    left: 46vw;
+}
 
 
 /* Nexus 5 */
@@ -635,6 +647,19 @@ ion-backdrop[disable-activated] {
         padding-top: 10.5vw;
         padding-left: 2vw;
         padding-right: 2vw;
+    }
+    .tutorialNum2 {
+      top: -2.5vw;
+      left: 56.0vw;
+    }
+    .tutorialNum3 {
+        top: -91.5vw;
+        left: -7.8vw;
+
+    }
+    .tutorialNum4 {
+        top: 9.5vw;
+        left: 45.5vw;
     }
 }
 
@@ -731,6 +756,18 @@ ion-backdrop[disable-activated] {
       padding-left: 2vw;
       padding-right: 2vw;
   }
+    .tutorialNum4 {
+        top: 5.2vw;
+        left: 46vw;
+    }
+    .tutorialNum2 {
+        top: -2.5vw;
+        left: 41vw;
+    }
+    .tutorialNum3 {
+        top: -80.5vw;
+        left: -6vw;
+    }
 }
 
 /*Nexus 5X*/ 
@@ -771,6 +808,19 @@ ion-backdrop[disable-activated] {
         padding-left: 2vw;
         padding-right: 2vw;
     }
+
+    .tutorialNum2 {
+        top: -3.7vw;
+        left: 56vw;
+    }
+    .tutorialNum3 {
+        top: -96.7vw;
+        left: -7vw;
+    }
+    .tutorialNum4 {
+        top: 7.5vw;
+        left: 46vw;
+    }
 }
 
 /*iPhone 5*/
@@ -801,7 +851,48 @@ ion-backdrop[disable-activated] {
         padding-left: 2vw;
         padding-right: 2vw;
     }
+    .tutorialNum2 {
+        top: -2.3vw;
+        left: 56vw;
+    }
+    .tutorialNum3 {
+        top: -96vw;
+        left: -7vw;
+    }
 }
+
+/* Iphone 6 */
+@media only screen and (width : 375px) and (height : 667px) and (orientation : portrait) { 
+    .tutorialNum2 {
+        top: -2vw;
+        left: 56vw;
+    }
+    .tutorialNum4 {
+        top: 7.7vw;
+        left: 46vw;
+    }
+    .tutorialNum3 {
+        top: -98vw;
+        left: -7vw;
+    }
+}
+
+/* Iphone 6 plus */
+@media only screen and (width : 414px) and (height : 736px) and (orientation : portrait) { 
+    .tutorialNum2 {
+        top: -2.5vw;
+        left: 56vw;
+    }
+    .tutorialNum4 {
+        top: 8vw;
+        left: 46vw;
+    }
+    .tutorialNum3 {
+        top: -98vw;
+        left: -7vw;
+    }
+}
+    
 
 /*Nexus 6*/ 
 @media only screen and (min-device-width : 412px) and (max-device-width : 412px) and (orientation : portrait) {
@@ -832,6 +923,14 @@ ion-backdrop[disable-activated] {
         padding-top: 10.5vw;
         padding-left: 2vw;
         padding-right: 2vw;
+    }
+    .tutorialNum2 {
+        top: -2vw;
+        left: 56vw;
+    }
+    .tutorialNum3 {
+        top: -96vw;
+        left: -8vw;
     }
 }
 
@@ -962,5 +1061,18 @@ ion-backdrop[disable-activated] {
         padding-top: 10.5vw;
         padding-left: 2vw;
         padding-right: 2vw;
+    }
+
+    .tutorialNum2 {
+        top: -2.8vw;
+        left: 44vw;
+    }
+    .tutorialNum4 {
+        top: 5.2vw;
+        left: 47vw;
+    }
+    .tutorialNum3 {
+        top: -87.5vw;
+        left: -6vw;
     }
 }
