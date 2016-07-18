@@ -1,10 +1,10 @@
 <ion-toolbar>
-  <ion-buttons left data-step="4" data-intro="Recover the initial broker's commission to break even." data-tooltipClass="tooltip-step4" data-position='right'>
+  <ion-buttons left data-step="6" data-intro="Click here if you want to replay the tutorial!" data-tooltipClass="tooltip-step6">
     <button onclick="intro.exit(); intro.start();" menuToggle>
         <ion-icon name='ios-information-circle-outline' [ngClass]="infoBtnClass"></ion-icon>
     </button>
   </ion-buttons>
-   <ion-title text-center><img src="img/Wallet_10x.png" height="15" width="15"/> $240.19</ion-title>
+   <ion-title text-center><div data-step="5" data-intro="Congrats! You just won $5.25! Keep trading!" onclick="intro.nextStep();" data-tooltipClass="tooltip-step5" data-highlightClass="highlight-step5"><img src="img/Wallet_10x.png" height="15" width="15"/> $240.19</div></ion-title>
   <ion-buttons right>
   <button menuToggle>
         
@@ -13,11 +13,12 @@
 </ion-toolbar>
 <ion-content scroll="false" scrollbar-y="false" overflow-scroll="false" class="getting-started">
 	<div class="upper" [ngClass]="upperClass">
+        <div class="graph" data-step="4" data-intro="Recover the initial broker's commission to break even." onclick="intro.nextStep();" data-tooltipClass="tooltip-step4" data-highlightClass="highlight-step4" data-position='right'></div>
         <div #graphDot class="graphDot" id="graphDot"></div>
         <div #graphDot2 class="graphDot2"></div> 
         <div #graphDot3 class="graphDot3"></div> 
         <div #graphDot4 class="graphDot4"></div> 
-        <div #graphDot5 class="graphDot5"></div>   
+        <div #graphDot5 class="graphDot5"></div>
     </div>
     <ion-list radio-group [(ngModel)]="time">
         <ion-row class="time-button-line" [ngClass]="timeLineClass">
