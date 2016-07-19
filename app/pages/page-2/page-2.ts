@@ -117,7 +117,7 @@ export class Page2 {
 		console.log(this.upperClass);
 		if(this.upperClass != '' && this.upperClass != undefined) {
 			this.upperClass = '';
-			this.infoBtnClass = '';
+			this.infoBtnClass = 'infoBtnBlue';
 			this.timeLineClass = '';
 			this.goBtnClass = '';
 		} else {
