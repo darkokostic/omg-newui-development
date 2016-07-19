@@ -18,6 +18,51 @@
   <script type="text/javascript">
     var intro = introJs();
     intro.setOptions({exitOnOverlayClick: false}); 
+    intro.setOptions({
+            steps: [
+              {
+                element: ".step1",
+                intro: "Select an amount to invest.",
+                position: "right"
+              },
+              {
+                element: ".step2",
+                intro: "Analyse the chart and pick a RISE or FALL prediction.",
+                tooltipClass: "tooltip-step2",
+                hightlightClass: "highlight-step2",
+                position: "right"
+              },
+              {
+                element: ".step3",
+                intro: "When you think the timing is good, go for it !",
+                tooltipClass: "tooltip-step3",
+                position: "top"
+              },
+              {
+                element: ".step4",
+                intro: "Recover the initial broker's commission to break even.",
+                tooltipClass: "tooltip-step4",
+                highlightClass: "highlight-step4",
+                position: "right"
+              },
+              {
+                element: ".step3",
+                intro: "You’re winning! Now can be time to stop the trade!",
+                tooltipClass: "tooltip-step4"
+              },
+              {
+                element: ".step5",
+                intro: "Congrats! You just won $5.25! Keep trading!",
+                tooltipClass: "tooltip-step5",
+                highlightClass: "highlight-step5"
+              },
+              {
+                element: ".step6",
+                intro: "Click here if you want to replay the tutorial!",
+                tooltipClass: "tooltip-step6"
+              }
+            ]
+          });
   </script>
   <script src="cordova.js"></script>
   <!-- Polyfill needed for platforms without Promise and Collection support -->
