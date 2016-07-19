@@ -489,6 +489,10 @@ ion-backdrop[disable-activated] {
     padding-left: 3vw; 
     padding-top: 11vw;   
 }
+.tutorialNum2 {
+    top: -2vw;
+    left: 56vw;
+}
 .tooltip-step3 {
     position: absolute;
     visibility: visible;
@@ -502,6 +506,10 @@ ion-backdrop[disable-activated] {
     border: 2px solid #4487db;
     padding-top: 15vw;
 }
+.tutorialNum3 {
+    top: -98.5vw;
+    left: -8vw;
+}
 .tooltip-step4 {
     top: 80vw;
     left: 20vw !important;
@@ -513,35 +521,43 @@ ion-backdrop[disable-activated] {
     color: #FF6363;
     border: 2px solid #FF6363;
 }
-.tooltip-step6 {
-    top: 34vw !important;
-    left: 21vw !important;
-    width: 61vw;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    padding-top: 13vw;
-}
-.tutorialNum2 {
-    top: -2vw;
-    left: 56vw;
-}
-.tutorialNum3 {
-    top: -98.5vw;
-    left: -8vw;
-}
 .tutorialNum4 {
     top: 76vw;
     left: 46vw;
     color: #FF6363;
     border: 2px solid #FF6363;
 }
-.tutorialNum6 {
-    top: 29vw;
-    left: 46vw;
-}
 .highlight-step4 {
     background-color: #FF6363;
     border-radius: 0px !important;
+}
+.tooltip-step5 {
+    top: -87vw !important;
+    left: -33vw !important;
+    width: 61vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 13vw;
+    color: #00cf98;
+    border: 2px solid #00cf98;
+}
+.tutorialNum5 {
+    top: -91vw;
+    left: -8vw;
+    color: #00cf98;
+    border: 2px solid #00cf98;
+}
+.tooltip-step6 {
+    top: 34vw !important;
+    left: 7vw !important;
+    width: 61vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 13vw;
+}
+.tutorialNum6 {
+    top: 29vw;
+    left: 33vw;
 }
 .highlight-step6 {
     background-color: #fff;
@@ -565,9 +581,9 @@ ion-backdrop[disable-activated] {
 }
 .highlight-step7 {
     width: 12vw !important;
-    left: 2vw !important;
+    left: 1.5vw !important;
     top: 3vw !important;
-    height: 12vw !important;
+    height: 12.5vw !important;
 }
 
 
@@ -633,9 +649,18 @@ ion-backdrop[disable-activated] {
         color: #FF6363;
         border: 2px solid #FF6363;
     }
+    .tooltip-step5 {
+        top: -75vw !important;
+        left: -33vw !important;
+        width: 61vw;
+    }
+    .tutorialNum5 {
+        top: -80vw;
+        left: -8vw;
+    }
     .tooltip-step6 {
         top: 34vw !important;
-        left: 21vw !important;
+        left: 7vw !important;
         width: 61vw;
         padding-left: 2vw;
         padding-right: 2vw;
@@ -643,7 +668,7 @@ ion-backdrop[disable-activated] {
     }
     .tutorialNum6 {
         top: 29vw;
-        left: 46vw;
+        left: 33vw;
     }
 
     .tooltip-step7 {
@@ -655,6 +680,12 @@ ion-backdrop[disable-activated] {
     .tutorialNum7 {
         top: 9vw;
         left: 46vw;
+    }
+    .highlight-step7 {
+        width: 12vw !important;
+        left: 1.8vw !important;
+        top: 3vw !important;
+        height: 12.5vw !important;
     }
 }
 
@@ -861,16 +892,30 @@ ion-backdrop[disable-activated] {
       top: -80.5vw;
       left: -6vw;
   }
+  .tooltip-step5 {
+      top: -70vw !important;
+      left: -32vw !important;
+      width: 57vw;
+      padding-top: 8vw;
+      color: #00cf98;
+      border: 2px solid #00cf98;
+  }
+  .tutorialNum5 {
+      top: -74vw;
+      left: -8vw;
+      color: #00cf98;
+      border: 2px solid #00cf98;
+  }
   .tooltip-step6 {
       top: 25vw !important;
-      left: 23vw !important;
+      left: 15vw !important;
       width: 56vw;
       height: 31vw;
       padding-top: 11vw;
   }
   .tutorialNum6 {
       top: 21vw;
-      left: 47vw;
+      left: 39vw;
   }
   .highlight-step6 {
       width: 25vw !important;
@@ -891,7 +936,7 @@ ion-backdrop[disable-activated] {
       left: 45vw;
   }
   .highlight-step7 {
-      width: 8.5vw !important;
+      width: 7.5vw !important;
       left: 0.3vw !important;
       top: 2.5vw !important;
       height: 8.5vw !important;
@@ -956,16 +1001,25 @@ ion-backdrop[disable-activated] {
         color: #FF6363;
         border: 2px solid #FF6363;
     }
+    .tooltip-step5 {
+        top: -87vw !important;
+        left: -33vw !important;
+        width: 61vw;
+    }
+    .tutorialNum5 {
+        top: -91vw;
+        left: -8vw;
+    }
     .tooltip-step6 {
         top: 34vw !important;
-        left: 21vw !important;
+        left: 7vw !important;
         width: 61vw;
         height: 34vw;
         padding-top: 11vw;
     }
     .tutorialNum6 {
         top: 29vw;
-        left: 46vw;
+        left: 33vw;
     }
     .tooltip-step7 {
         top: 14vw !important;
@@ -976,6 +1030,12 @@ ion-backdrop[disable-activated] {
     .tutorialNum7 {
         top: 9vw;
         left: 46vw;
+    }
+    .highlight-step7 {
+        width: 12vw !important;
+        left: 1vw !important;
+        top: 3vw !important;
+        height: 12.5vw !important;
     }
 }
 
@@ -1026,14 +1086,23 @@ ion-backdrop[disable-activated] {
         color: #FF6363;
         border: 2px solid #FF6363;
     }
+    .tooltip-step5 {
+        top: -87vw !important;
+        left: -33vw !important;
+        width: 61vw;
+    }
+    .tutorialNum5 {
+        top: -91vw;
+        left: -8vw;
+    }
     .tooltip-step6 {
         top: 34vw !important;
-        left: 21vw !important;
+        left: 7vw !important;
         padding-top: 11vw;
     }
     .tutorialNum6 {
         top: 29vw;
-        left: 46vw;
+        left: 33vw;
     }
     .tooltip-step7 {
         top: 14vw !important;
@@ -1047,14 +1116,14 @@ ion-backdrop[disable-activated] {
     }
     .highlight-step7 {
         width: 13vw !important;
-        left: 3vw !important;
+        left: 2.5vw !important;
         top: 2.7vw !important;
         height: 13vw !important;
     }
 }
 
 /* Iphone 6 */
-@media only screen and (width : 375px) and (height : 667px) and (orientation : portrait) { 
+@media only screen and (min-device-width : 375px) and (max-device-width : 375px) and (orientation : portrait) { 
     .tutorialNum2 {
         top: -2vw;
         left: 56vw;
@@ -1068,6 +1137,12 @@ ion-backdrop[disable-activated] {
     .tutorialNum3 {
         top: -98vw;
         left: -7vw;
+    }
+    .highlight-step7 {
+        width: 12vw !important;
+        left: 1.5vw !important;
+        top: 3vw !important;
+        height: 12.5vw !important;
     }
 }
 
@@ -1089,10 +1164,10 @@ ion-backdrop[disable-activated] {
     }
     .tooltip-step6 {
         top: 34vw !important;
-        left: 21vw !important;
+        left: 7vw !important;
     }
     .tutorialNum6 {
-        left: 46vw;
+        left: 33vw;
     }
     .tooltip-step7 {
         top: 14vw !important;
@@ -1104,10 +1179,10 @@ ion-backdrop[disable-activated] {
         left: 46vw;
     }
     .highlight-step7 {
-        width: 12vw !important;
+        width: 11vw !important;
         left: 1.5vw !important;
-        top: 3.5vw !important;
-        height: 12vw !important;
+        top: 3.7vw !important;
+        height: 11vw !important;
     }
 }
     
@@ -1144,6 +1219,15 @@ ion-backdrop[disable-activated] {
         color: #FF6363;
         border: 2px solid #FF6363;
     }
+    .tooltip-step5 {
+        top: -87vw !important;
+        left: -33vw !important;
+        width: 61vw;
+    }
+    .tutorialNum5 {
+        top: -92vw;
+        left: -8vw;
+    }
     .tutorialNum2 {
         top: -2vw;
         left: 56vw;
@@ -1160,7 +1244,7 @@ ion-backdrop[disable-activated] {
     }
     .tooltip-step6 {
         top: 34vw !important;
-        left: 21vw !important;
+        left: 7vw !important;
         width: 61vw;
         padding-left: 2vw;
         padding-right: 2vw;
@@ -1168,7 +1252,7 @@ ion-backdrop[disable-activated] {
     }
     .tutorialNum6 {
         top: 29vw;
-        left: 47vw;
+        left: 34vw;
     }
     .tooltip-step7 {
         top: 14vw !important;
@@ -1179,15 +1263,21 @@ ion-backdrop[disable-activated] {
         top: 9vw;
         left: 46vw;
     }
+    .highlight-step7 {
+        width: 12vw !important;
+        left: 1.1vw !important;
+        top: 3vw !important;
+        height: 12.5vw !important;
+    }
 }
 
 /* Nexus 6P */
-@media only screen and (min-device-width : 435px) and (max-device-width : 435) and (orientation : portrait) {
+@media only screen and (min-device-width : 435px) and (max-device-width : 435px) and (orientation : portrait) {
     .tooltip-step6 {
-        left: 1.5vw !important;
+        left: 7vw !important;
     }
     .tutorialNum6 {
-        left: 27vw;
+        left: 33vw;
     }
     .tooltip-step7 {
         top: 14vw !important;
@@ -1200,7 +1290,7 @@ ion-backdrop[disable-activated] {
     }
     .highlight-step7 {
         width: 11vw !important;
-        left: 1.5vw !important;
+        left: 1.1vw !important;
         top: 3.8vw !important;
         height: 11vw !important;
     }
@@ -1354,19 +1444,30 @@ ion-backdrop[disable-activated] {
         top: -87.5vw;
         left: -6vw;
     }
+    .tooltip-step5 {
+        top: -80vw !important;
+        left: -32vw !important;
+        width: 57vw;
+        padding-top: 8vw;
+    }
+    .tutorialNum5 {
+        top: -84vw;
+        left: -8vw;
+        color: #00cf98;
+    }
     .highlight-step6 {
         top: 2.5vw !important;
     }
     .tooltip-step6 {
         top: 25vw !important;
-        left: 23vw !important;
+        left: 15vw !important;
         width: 56vw;
         height: 31vw;
         padding-top: 11vw;
     }
     .tutorialNum6 {
         top: 21vw !important;
-        left: 46vw;
+        left: 39vw;
     }
     .tooltip-step7 {
         top: 10vw !important;
@@ -1377,5 +1478,11 @@ ion-backdrop[disable-activated] {
     .tutorialNum7 {
         top: 7vw;
         left: 46vw;
+    }
+    .highlight-step7 {
+        width: 8vw !important;
+        left: 0.3vw !important;
+        top: 3.5vw !important;
+        height: 8.5vw !important;
     }
 }
