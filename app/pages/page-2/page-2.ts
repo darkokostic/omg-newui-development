@@ -12,6 +12,7 @@ export class Page2 {
 	timeLineClass: string;
 	goBtnClass: string;
 	randomStatus: boolean;
+	isTutorial: boolean;
 
 	gameStatus: boolean;
 	time: string;
@@ -39,73 +40,106 @@ export class Page2 {
 	goBtn = true;
 
 	startGame(money, type, graphDot, graphDot2, graphDot3, graphDot4, graphDot5) {
-		this.randomStatus = Math.random() >= 0.5;
-		if(money != undefined && type != undefined)
-		{
-			this.goButtonStatus = true;
+		if(this.isTutorial === true) {
+
+		} else {
+			this.randomStatus = Math.random() >= 0.5;
+			if(money != undefined && type != undefined)
+			{
+				this.goButtonStatus = true;
+			}
+			/* Fake Losing/winning */
+		    setInterval(() => {
+
+		    	if( this.dotOpacity2 <= 0) {
+		    		this.dotOpacity2 = 0.7;
+		    		graphDot2.style.marginLeft = (10 + Math.floor(Math.random() * 20)) + "%";
+		    	}
+		    	if( this.dotOpacity3 <= 0) {
+		    		this.dotOpacity3 = 0.6;
+		    		graphDot3.style.marginLeft = (35 + Math.floor(Math.random() * 20)) + "%";
+		    	}
+		    	if( this.dotOpacity4 <= 0) {
+		    		this.dotOpacity4 = 0.5;
+		    		graphDot4.style.marginLeft = (55 + Math.floor(Math.random() * 20)) + "%";
+		    	}
+		    	if( this.dotOpacity5 <= 0) {
+		    		this.dotOpacity5 = 0.7;
+		    		graphDot5.style.marginLeft = (75 + Math.floor(Math.random() * 5)) + "%";
+		    	}
+				graphDot2.style.opacity = this.dotOpacity2;
+			   	graphDot3.style.opacity = this.dotOpacity3;
+			   	graphDot4.style.opacity = this.dotOpacity4;
+			   	graphDot5.style.opacity = this.dotOpacity5;
+
+		    	if(this.gameStatus == this.randomStatus) {
+		    		/* If user is winning here */
+		    		this.upperClass = 'winning-light';
+		    		this.infoBtnClass = 'winning-light-color';
+		    		this.timeLineClass = 'winning-dark';
+		    		this.goBtnClass = 'winning-light';
+		    		this.dotPositionTop  = this.dotPositionTop - 1;
+		    		this.dotPositionTop2  = this.dotPositionTop2 - 1;
+		    		this.dotPositionTop3 = this.dotPositionTop3 - 1;
+		    		this.dotPositionTop4  = this.dotPositionTop4 - 1;
+		    		this.dotPositionTop5  = this.dotPositionTop5 - 1;
+		    		this.gameStatus = false;
+		    	} else {
+		    		this.dotPositionTop  = this.dotPositionTop + 1;
+		    		this.dotPositionTop2  = this.dotPositionTop2 + 1;
+		    		this.dotPositionTop3 = this.dotPositionTop3 + 1;
+		    		this.dotPositionTop4  = this.dotPositionTop4 + 1;
+		    		this.dotPositionTop5  = this.dotPositionTop5 + 1;
+		    		this.gameStatus = true;
+		    		/* If user is losing here */
+		    		this.upperClass = 'losing-light';
+		    		this.infoBtnClass = 'losing-light-color';
+		    		this.timeLineClass = 'losing-dark';
+		    		this.goBtnClass = 'losing-light';
+		    	}
+		    	this.randomStatus = Math.random() >= 0.5;
+		    	graphDot.style.marginTop = this.dotPositionTop + "%";
+		    	graphDot2.style.marginTop = this.dotPositionTop2 + "%";
+		    	graphDot3.style.marginTop = this.dotPositionTop3 + "%";
+		    	graphDot4.style.marginTop = this.dotPositionTop4 + "%";
+		    	graphDot5.style.marginTop = this.dotPositionTop5 + "%";
+
+
+		    	this.dotOpacity2 = this.dotOpacity2 - 0.1;
+		   		this.dotOpacity3 = this.dotOpacity3 - 0.1;
+		   		this.dotOpacity4 = this.dotOpacity4 - 0.1;
+		   		this.dotOpacity5 = this.dotOpacity5 - 0.1;
+		    }, 200);
 		}
-		/* Fake Losing/winning */
-	    setInterval(() => {
+	}
 
-	    	if( this.dotOpacity2 <= 0) {
-	    		this.dotOpacity2 = 0.7;
-	    		graphDot2.style.marginLeft = (10 + Math.floor(Math.random() * 20)) + "%";
-	    	}
-	    	if( this.dotOpacity3 <= 0) {
-	    		this.dotOpacity3 = 0.6;
-	    		graphDot3.style.marginLeft = (35 + Math.floor(Math.random() * 20)) + "%";
-	    	}
-	    	if( this.dotOpacity4 <= 0) {
-	    		this.dotOpacity4 = 0.5;
-	    		graphDot4.style.marginLeft = (55 + Math.floor(Math.random() * 20)) + "%";
-	    	}
-	    	if( this.dotOpacity5 <= 0) {
-	    		this.dotOpacity5 = 0.7;
-	    		graphDot5.style.marginLeft = (75 + Math.floor(Math.random() * 5)) + "%";
-	    	}
-			graphDot2.style.opacity = this.dotOpacity2;
-		   	graphDot3.style.opacity = this.dotOpacity3;
-		   	graphDot4.style.opacity = this.dotOpacity4;
-		   	graphDot5.style.opacity = this.dotOpacity5;
+	fakeLosing() {
+		console.log(this.upperClass);
+		if(this.upperClass != '' && this.upperClass != undefined) {
+			this.upperClass = '';
+			this.infoBtnClass = 'infoBtnBlue';
+			this.timeLineClass = '';
+			this.goBtnClass = '';
+		} else {
+			this.upperClass = 'losing-light';
+			this.infoBtnClass = 'losing-light-color';
+			this.timeLineClass = 'losing-dark';
+			this.goBtnClass = 'losing-light';
+		}
+	}
 
-	    	if(this.gameStatus == this.randomStatus) {
-	    		/* If user is winning here */
-	    		this.upperClass = 'winning-light';
-	    		this.infoBtnClass = 'winning-light-color';
-	    		this.timeLineClass = 'winning-dark';
-	    		this.goBtnClass = 'winning-light';
-	    		this.dotPositionTop  = this.dotPositionTop - 1;
-	    		this.dotPositionTop2  = this.dotPositionTop2 - 1;
-	    		this.dotPositionTop3 = this.dotPositionTop3 - 1;
-	    		this.dotPositionTop4  = this.dotPositionTop4 - 1;
-	    		this.dotPositionTop5  = this.dotPositionTop5 - 1;
-	    		this.gameStatus = false;
-	    	} else {
-	    		this.dotPositionTop  = this.dotPositionTop + 1;
-	    		this.dotPositionTop2  = this.dotPositionTop2 + 1;
-	    		this.dotPositionTop3 = this.dotPositionTop3 + 1;
-	    		this.dotPositionTop4  = this.dotPositionTop4 + 1;
-	    		this.dotPositionTop5  = this.dotPositionTop5 + 1;
-	    		this.gameStatus = true;
-	    		/* If user is losing here */
-	    		this.upperClass = 'losing-light';
-	    		this.infoBtnClass = 'losing-light-color';
-	    		this.timeLineClass = 'losing-dark';
-	    		this.goBtnClass = 'losing-light';
-	    	}
-	    	this.randomStatus = Math.random() >= 0.5;
-	    	graphDot.style.marginTop = this.dotPositionTop + "%";
-	    	graphDot2.style.marginTop = this.dotPositionTop2 + "%";
-	    	graphDot3.style.marginTop = this.dotPositionTop3 + "%";
-	    	graphDot4.style.marginTop = this.dotPositionTop4 + "%";
-	    	graphDot5.style.marginTop = this.dotPositionTop5 + "%";
+	fakeWinning() {
+		this.upperClass = 'winning-light';
+		this.infoBtnClass = 'winning-light-color';
+		this.timeLineClass = 'winning-dark';
+		this.goBtnClass = 'winning-light';
+	}
 
-
-	    	this.dotOpacity2 = this.dotOpacity2 - 0.1;
-	   		this.dotOpacity3 = this.dotOpacity3 - 0.1;
-	   		this.dotOpacity4 = this.dotOpacity4 - 0.1;
-	   		this.dotOpacity5 = this.dotOpacity5 - 0.1;
-	    }, 200);
+	naturalStatus() {
+		this.upperClass = '';
+		this.infoBtnClass = '';
+		this.timeLineClass = '';
+		this.goBtnClass = '';
 	}
 
 	changedMoney(value, type) {
@@ -133,6 +167,7 @@ export class Page2 {
 	}
 
   	constructor(private navController: NavController, navParams: NavParams) {
+  		this.isTutorial = false;
   		this.hidePage = document.querySelector('#hideLostCash');
   		setInterval(() => {
 	    	this.hidePage.style.display = 'none';

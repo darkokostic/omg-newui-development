@@ -6,10 +6,137 @@
 // These are the imports which make up the design of this app.
 // By default each design mode includes these shared imports.
 // App Shared Sass variables belong in app.variables.scss.
+/*=========================================================*/
+
+/* Login Page, Need Update Page, Losing Cash Page */
+
+/* TEXT */
+.info-text {
+    margin-top: 42%;
+}
+.info-text ion-label {
+    text-align: center;
+    color: #fff;
+}
+.info-text-top {
+    font-size: 1.6em;
+}
+.info-text-bottom {
+    font-size: 1.6em;
+}
+
+/* George img and Button */
+.george-and-button {
+    margin-top: 13%;
+}
+.george-and-button ion-col {
+    text-align: center;
+}
+.george-and-button button {
+    width: 100%;
+    height: 13.3vw;
+    border-radius: 10px;
+    margin-top: -17px;
+    text-transform: none !important;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.50);
+    font-family: "MuseoSansW01-Rounded700";
+}
+.george-and-button img {
+    position: relative;
+    z-index: 10;
+}
+.button-icon img {
+    margin-right: 10px;
+}
+/* Login button color */
+.login-button button {
+    background-color: #4267b2;
+}
+.login-button .activated {
+    background-color: #3a5da5 !important;
+}
+/* Update button color */
+.update-button button {
+    background-color: #ff6363;
+}
+.update-button .activated {
+    background-color: #f35d5d !important;
+}
+/* Lose cash button color */
+.cash-button button {
+    background-color: #00cf98;
+}
+.cash-button .activated {
+    background-color: #03af81 !important;
+}
+
+/* Login Page background */
+.login-page {
+    background-color: #00cf98 !important;
+}
+/* Update Page background */
+.need-update {
+    background-color: #00cf98 !important;
+}
+/* Lose Cash Page background */
+.lost-cash {
+    background-color: #FF6363 !important;
+}
+/*=========================================================*/
 
 @import "../pages/page-2/page-2";
 @import  "../pages/login-page/login-page";
-@import "../pages/need-update/need-update";
 @import "../pages/you-won/you-won";
 @import "../pages/you-lost/you-lost";
-@import "../pages/lost-cash/lost-cash";
+
+@font-face {
+  font-family: "MuseoSansW01-Rounded700";
+  src: url("../fonts/museosans-rounded700.eot");
+  src: url("../fonts/.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/museosans-rounded700.woff2") format("woff2"),
+  url("../fonts/museosans-rounded700.woff") format("woff"),
+  url("../fonts/museosans-rounded700.ttf") format("truetype"),
+  url("../fonts/museosans-rounded700.svg#MuseoSansW01-Rounded700") format("svg");
+}
+
+
+@font-face {
+  font-family: "MuseoSansW01-Rounded900";
+  src: url("../fonts/museosans-rounded900.eot");
+  src: url("../fonts/museosans-rounded900.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/museosans-rounded900.woff2") format("woff2"),
+  url("../fonts/museosans-rounded900.woff") format("woff"),
+  url("../fonts/museosans-rounded900.ttf") format("truetype"),
+  url("../fonts/museosans-rounded900.svg#MuseoSansW01-Rounded900") format("svg");
+}
+
+@font-face {
+  font-family: "MuseoSansW01-Rounded300";
+  src: url("../fonts/museosans-rounded300.eot");
+  src: url("../fonts/museosans-rounded300.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/museosans-rounded300.woff2") format("woff2"),
+  url("../fonts/museosans-rounded300.woff") format("woff"),
+  url("../fonts/museosans-rounded300.ttf") format("truetype"),
+  url("../fonts/museosans-rounded300.svg#MuseoSansW01-Rounded300") format("svg");
+}
+
+@font-face {
+  font-family: "MuseoSans500";
+  src: url("../fonts/museosans-500.eot");
+  src: url("../fonts/museosans-500.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/museosans-500.woff") format("woff"),
+  url("../fonts/museosans-500.ttf") format("truetype"),
+  url("../fonts/museosans-500.svg#MuseoSans500") format("svg");
+}
+
+/* Scroll Disabled */
+scroll-content {
+    overflow-y: hidden;
+}
+.scroll-bar-indicator {
+    display: none;
+}
+::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none;
+}

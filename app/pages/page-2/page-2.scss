@@ -1,35 +1,4 @@
-@font-face {font-family: "MuseoSansW01-Rounded700";
-    src: url("../fonts/7438bbf176f4cce037dbe179c0e5aece.eot");
-    src: url("../fonts/7438bbf176f4cce037dbe179c0e5aece.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/7438bbf176f4cce037dbe179c0e5aece.woff2") format("woff2"),
-    url("../fonts/7438bbf176f4cce037dbe179c0e5aece.woff") format("woff"),
-    url("../fonts/7438bbf176f4cce037dbe179c0e5aece.ttf") format("truetype"),
-    url("../fonts/7438bbf176f4cce037dbe179c0e5aece.svg#MuseoSansW01-Rounded700") format("svg");
-}
-
-
-@font-face {font-family: "MuseoSansW01-Rounded900";
-    src: url("../fonts/c0df826ccaab9c4bfd6710508af4abf1.eot");
-    src: url("../fonts/c0df826ccaab9c4bfd6710508af4abf1.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/c0df826ccaab9c4bfd6710508af4abf1.woff2") format("woff2"),
-    url("../fonts/c0df826ccaab9c4bfd6710508af4abf1.woff") format("woff"),
-    url("../fonts/c0df826ccaab9c4bfd6710508af4abf1.ttf") format("truetype"),
-    url("../fonts/c0df826ccaab9c4bfd6710508af4abf1.svg#MuseoSansW01-Rounded900") format("svg");
-}
-
-@font-face {font-family: "MuseoSansW01-Rounded300";
-    src: url("../fonts/1b4cd06b44538d529084b3599f708643.eot");
-    src: url("../fonts/1b4cd06b44538d529084b3599f708643.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/1b4cd06b44538d529084b3599f708643.woff2") format("woff2"),
-    url("../fonts/1b4cd06b44538d529084b3599f708643.woff") format("woff"),
-    url("../fonts/1b4cd06b44538d529084b3599f708643.ttf") format("truetype"),
-    url("../fonts/1b4cd06b44538d529084b3599f708643.svg#MuseoSansW01-Rounded300") format("svg");
-}
-
-@font-face {font-family: "MuseoSans500";
-    src: url("../fonts/museosans-500.otf");
-}
-
+/* Scroll settings */
 scroll-content {
     overflow-y: hidden;
 }
@@ -38,17 +7,16 @@ scroll-content {
 }
 ::-webkit-scrollbar,
 *::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
+/* Disabled radio button */
 .item-radio-disabled {
     color: #d9d9d9 !important;
     box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
 }
-
 .item-radio-checked.item-radio-disabled {
     border-color: #d9d9d9 !important;
 }
-
 .item-radio-disabled .item-inner .input-wrapper ion-label {
     color: #d9d9d9 !important;
 }
@@ -66,26 +34,25 @@ scroll-content {
 		margin: 0 !important;
 	}
 
-  p {
-    margin: 20px 0;
-    line-height: 22px;
-    font-size: 16px;
-  }
+    p {
+        margin: 20px 0;
+        line-height: 22px;
+        font-size: 16px;
+    }
 
   	button.go-button[disabled] {
 	  	background-color: #d9d9d9;
-      box-shadow: 0px 0px 4px 0px rgba(117,117,117,0.56);
+        box-shadow: 0px 0px 4px 0px rgba(117,117,117,0.56);
 	}
-
 }
 
 .item {
-  min-height: 0px !important;
+    min-height: 0px !important;
 }
 
 /* HEADER */
 .toolbar {
-  min-height: 18.67vw !important;
+    min-height: 18.67vw !important;
 }
 .information-button {
 	float: left;
@@ -93,7 +60,7 @@ scroll-content {
 .toolbar-title {
 	color: #4A535D !important;
 	font-family: "MuseoSansW01-Rounded700";
-  font-size: 2.2rem;
+    font-size: 2.2rem;
 }
 .toolbar-title img {
 	margin-top: 2px;
@@ -105,16 +72,58 @@ scroll-content {
 	height: 53.4%;
 }
 .graph {
-    border-top: 1px dotted #fff;
-    border-bottom: 1px dotted #fff;
     height: 37vw;
     position: absolute;
     width: 100%;
     top: 26vw;
 }
-
 .infoBtnBlue {
-  color: #4487db !important;
+    color: #4487db !important;
+}
+.graphDot {
+    position: absolute;
+    background: #fff;
+    margin-top: 40%;
+    margin-left: 90%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.graphDot2 {
+    opacity: 0;
+    position: absolute;
+    background: #fff;
+    margin-left: 70%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.graphDot3 {
+    opacity: 0;
+    position: absolute;
+    background: #fff;
+    margin-left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.graphDot4 {
+    opacity: 0;
+    position: absolute;
+    background: #fff;
+    margin-left: 46%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.graphDot5 {
+    opacity: 0;
+    position: absolute;
+    background: #fff;
+    margin-left: 15%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
 }
 
 /* TIME BUTTONS */
@@ -125,12 +134,11 @@ scroll-content {
 	background-color: #417fce;
 	font-family: "MuseoSansW01-Rounded300";
 	padding-left: 5%;
-  padding-right: 5%;
+    padding-right: 5%;
 }
-
 .time-button-line .item-radio-checked {
-  background-color: rgba(0, 0, 0, 0.2);
-  font-family: "MuseoSansW01-Rounded700";
+    background-color: rgba(0, 0, 0, 0.2);
+    font-family: "MuseoSansW01-Rounded700";
 }
 .time-button-line .item-radio-checked ion-label {
 	color: #fff;
@@ -140,8 +148,8 @@ scroll-content {
 	padding: 0px !important;
 }
 .time-button {
-	  background-color: transparent;
-	  color: #fff;
+	background-color: transparent;
+	color: #fff;
     text-align: center;
     padding: 0px !important;
     height: 9.34vw;
@@ -154,8 +162,8 @@ scroll-content {
 /* WHITE AREA */
 .lower {
 	padding-left: 11%;
-  padding-right: 8%;
-  margin-top: 5%;
+    padding-right: 8%;
+    margin-top: 5%;
 }
 
 /* MONEY BUTTONS */
@@ -164,7 +172,6 @@ scroll-content {
 	padding: 0px !important;
 	text-align: center;
 }
-
 .money-button {
 	border: 2px solid #fff;
 	box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
@@ -174,13 +181,12 @@ scroll-content {
 	font-size: 4.8vw;
 	padding: 0px !important;
 	height: 9.34vw;
-  width: 15.2vw;
+    width: 15.2vw;
 }
 .money-button-line .item-radio-checked {
-  border: 2px solid #4487db;
-  box-shadow: 0px 0px 4px 0px rgba(68,134,219,0.40);
+    border: 2px solid #4487db;
+    box-shadow: 0px 0px 4px 0px rgba(68,134,219,0.40);
 }
-
 
 /* FOOTER: RISE/FALL/GO BUTTONS */
 .footer {
@@ -191,19 +197,17 @@ scroll-content {
 }
 .footer-left {
 	padding: 0px !important;
-  margin-top: 1%;
+    margin-top: 1%;
 }
 .footer-right {
 	padding: 0px !important;
 	text-align: right;
 }
-
 .footer-left ion-list {
-  width: 30.6vw;
+    width: 30.6vw;
 }
-
 .go-button {
-	  width: 33.33vw;
+	width: 33.33vw;
     height: 33.33vw;
     font-size: 5vw;
     font-family: "MuseoSansW01-Rounded900";
@@ -223,19 +227,16 @@ scroll-content {
 	font-family: "MuseoSansW01-Rounded700";
 	padding: 0px !important;
 	height: 13.8vw;
-
 }
-
 .rise-button-item .item-inner {
 	border: none !important;
 	padding: 0px !important;
 	text-align: center;
 	font-weight: 500;
 }
-
 .rise-button .item-radio-checked {
-  box-shadow: 0px 0px 4px 0px rgba(68,135,219,0.40);
-  border: 2px solid #4487db;
+    box-shadow: 0px 0px 4px 0px rgba(68,135,219,0.40);
+    border: 2px solid #4487db;
 }
 
 /* FALL BUTTON */
@@ -248,34 +249,28 @@ scroll-content {
 	font-family: "MuseoSansW01-Rounded700";
 	padding: 0px !important;
 	height: 13.8vw;
-
 }
-
 .fall-button-item .item-inner {
 	border: none !important;
 	padding: 0px !important;
 	text-align: center;
 	font-weight: 500;
 }
-
 .fall-button .item-radio-checked {
-  box-shadow: 0px 0px 4px 0px rgba(68,135,219,0.40);
-  border: 2px solid #4487db;
+    box-shadow: 0px 0px 4px 0px rgba(68,135,219,0.40);
+    border: 2px solid #4487db;
 }
 
 /* If user is winning */
 .winning-light {
 	background-color: #00cf98 !important;
 }
-
 .winning-light-color {
-  color: #00cf98 !important;
+    color: #00cf98 !important;
 }
-
 .winning-dark {
 	background-color: #01be8c;
 }
-
 .winning-selected {
 	background-color: #04a67b;
 }
@@ -285,7 +280,7 @@ scroll-content {
 	background-color: #ff6363 !important;
 }
 .losing-light-color {
-  color: #ff6363 !important;
+    color: #ff6363 !important;
 }
 .losing-dark {
 	background-color: #ec5959;
@@ -294,71 +289,17 @@ scroll-content {
 	background-color: #dc5454;
 }
 
-
+/* Custom Alert Market Closed */
 ion-backdrop[disable-activated] {
     opacity: 0.45 !important;
     background: #404851;
 }
-
-
-.graphDot {
-    position: absolute;
-    background: #fff;
-    margin-top: 40%;
-    margin-left: 90%;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-}
-
-.graphDot2 {
-	opacity: 0;
-    position: absolute;
-    background: #fff;
-    margin-left: 70%;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-}
-
-.graphDot3 {
-	opacity: 0;
-    position: absolute;
-    background: #fff;
-    margin-left: 50%;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-}
-
-.graphDot4 {
-	opacity: 0;
-    position: absolute;
-    background: #fff;
-    margin-left: 46%;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-}
-
-.graphDot5 {
-	opacity: 0;
-    position: absolute;
-    background: #fff;
-    margin-left: 15%;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-}
-
-
-/* Custom Alert Market Closed */
 .customMarketAlert .alert-wrapper {
     -webkit-box-shadow: 3px 9px 39px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px 9px 39px 0px rgba(0,0,0,0.75);
     box-shadow: 3px 9px 39px 0px rgba(0,0,0,0.75);
     background-color: #efefef;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px;
     height: 51%;
     width: 75%;
 }
@@ -381,26 +322,26 @@ ion-backdrop[disable-activated] {
     padding: 0 !important;
 }
 .alert-head {
-  height: 65%;
+    height: 65%;
 }
 .alert-wrapper {
-  max-width: none;
+    max-width: none;
 }
 .alert-button-group {
-  display: none;
+    display: none;
 }
 .message-footer-text1 ion-label {
-  color: #fff;
-  font-size: 1.2em;
-  text-align: center;
-  margin-top: 6%;
-  font-family: MuseoSansW01-Rounded700;
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 6%;
+    font-family: MuseoSansW01-Rounded700;
 }
 .message-footer-text2 ion-label {
-  color: #fff;
-  font-size: 2.2em;
-  text-align: center;
-  margin-top: -2%;
+    color: #fff;
+    font-size: 2.2em;
+    text-align: center;
+    margin-top: -2%;
 }
 .row-img {
     position: absolute;
@@ -411,7 +352,6 @@ ion-backdrop[disable-activated] {
     height: 102px;
     width: 150px;
 }
-
 
 /* TUTORIALS */
 .introjs-tooltip {
@@ -473,11 +413,10 @@ ion-backdrop[disable-activated] {
     font-weight: normal;
     text-shadow: none;
 }
+.introjs-helperLayer {
+    border-radius: 10px !important;
+}
 .tooltip-step2 {
-    position: absolute;
-    visibility: visible;
-    padding: 10px;
-    background-color: white;
     width: 51vw;
     height: 38vw;
     border-radius: 7px;
@@ -488,11 +427,12 @@ ion-backdrop[disable-activated] {
     padding-left: 3vw; 
     padding-top: 11vw;   
 }
+.tutorialNum2 {
+    top: -2vw;
+    left: 56vw;
+}
 .tooltip-step3 {
-    position: absolute;
-    visibility: visible;
     padding: 3vw;
-    background-color: white;
     width: 64vw;
     height: 44vw;
     border-radius: 7px;
@@ -500,6 +440,10 @@ ion-backdrop[disable-activated] {
     top: -94vw;
     border: 2px solid #4487db;
     padding-top: 15vw;
+}
+.tutorialNum3 {
+    top: -98.5vw;
+    left: -8vw;
 }
 .tooltip-step4 {
     top: 80vw;
@@ -512,36 +456,45 @@ ion-backdrop[disable-activated] {
     color: #FF6363;
     border: 2px solid #FF6363;
 }
-.tooltip-step5 {
-    top: 34vw !important;
-    left: -2.5vw !important;
-    width: 61vw;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    padding-top: 13vw;
-}
-.tutorialNum2 {
-    top: -2vw;
-    left: 56vw;
-}
-.tutorialNum3 {
-    top: -98.5vw;
-    left: -8vw;
-}
 .tutorialNum4 {
     top: 76vw;
     left: 46vw;
     color: #FF6363;
     border: 2px solid #FF6363;
 }
-.tutorialNum5 {
-    top: 29vw;
-    left: 24vw;
-}
 .highlight-step4 {
     background-color: #FF6363;
+    border-radius: 0px !important;
 }
-.highlight-step5 {
+.tooltip-step5 {
+    top: -87vw !important;
+    left: -33vw !important;
+    width: 61vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 13vw;
+    color: #00cf98;
+    border: 2px solid #00cf98;
+}
+.tutorialNum5 {
+    top: -91vw;
+    left: -8vw;
+    color: #00cf98;
+    border: 2px solid #00cf98;
+}
+.tooltip-step6 {
+    top: 34vw !important;
+    left: 7vw !important;
+    width: 61vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 13vw;
+}
+.tutorialNum6 {
+    top: 29vw;
+    left: 33vw;
+}
+.highlight-step6 {
     background-color: #fff;
     width: 35vw !important;
     left: 33vw !important;
@@ -549,19 +502,26 @@ ion-backdrop[disable-activated] {
     top: 3vw !important;
     border-radius: 10px;
 }
-.tooltip-step6 {
+.tooltip-step7 {
     top: 14vw !important;
-    left: 22vw !important;
-    width: 57vw;
+    left: 19vw !important;
+    width: 61vw;
     padding-left: 2vw;
     padding-right: 2vw;
     padding-top: 13vw;
 }
-.tutorialNum6 {
+.tutorialNum7 {
     top: 9vw;
-    left: 46vw;
+    left: 45vw;
+}
+.highlight-step7 {
+    width: 12vw !important;
+    left: 1.5vw !important;
+    top: 3vw !important;
+    height: 12.5vw !important;
 }
 
+/* OTHER DEVICES */
 
 /* Nexus 5 */
 @media only screen and (max-device-width : 360px) and (max-device-width : 640px) and (orientation : portrait) {
@@ -592,6 +552,10 @@ ion-backdrop[disable-activated] {
         left: 37vw !important;
         padding-top: 10vw;
     }
+    .tutorialNum2 {
+        top: -2.5vw;
+        left: 56.0vw;
+    }
     .tooltip-step3 {
         padding: 3vw;
         width: 64vw;
@@ -599,6 +563,10 @@ ion-backdrop[disable-activated] {
         left: -35vw !important;
         top: -87vw;
         padding-top: 15vw;
+    }
+    .tutorialNum3 {
+        top: -91.5vw;
+        left: -7.8vw;
     }
     .tooltip-step4 {
         top: 74vw;
@@ -611,14 +579,6 @@ ion-backdrop[disable-activated] {
         color: #FF6363;
         border: 2px solid #FF6363;
     }
-    .tutorialNum2 {
-      top: -2.5vw;
-      left: 56.0vw;
-    }
-    .tutorialNum3 {
-        top: -91.5vw;
-        left: -7.8vw;
-    }
     .tutorialNum4 {
         top: 69.5vw;
         left: 45.5vw;
@@ -626,262 +586,42 @@ ion-backdrop[disable-activated] {
         border: 2px solid #FF6363;
     }
     .tooltip-step5 {
+        top: -75vw !important;
+        left: -33vw !important;
+        width: 61vw;
+    }
+    .tutorialNum5 {
+        top: -80vw;
+        left: -8vw;
+    }
+    .tooltip-step6 {
         top: 34vw !important;
-        left: -2.5vw !important;
+        left: 7vw !important;
         width: 61vw;
         padding-left: 2vw;
         padding-right: 2vw;
         padding-top: 13vw;
     }
-    .tutorialNum5 {
+    .tutorialNum6 {
         top: 29vw;
-        left: 24vw;
+        left: 33vw;
     }
-
-    .tooltip-step6 {
+    .tooltip-step7 {
         top: 14vw !important;
         left: 22vw !important;
         width: 57vw;
         padding-top: 11vw;
     }
-    .tutorialNum6 {
+    .tutorialNum7 {
         top: 9vw;
         left: 46vw;
     }
-}
-
-/* Ipad */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-
-    .toolbar {
-        min-height: 13.67vw !important;
+    .highlight-step7 {
+        width: 12vw !important;
+        left: 1.8vw !important;
+        top: 3vw !important;
+        height: 12.5vw !important;
     }
-    .toolbar-title {
-      font-size: 2.8rem;
-    }
-    .toolbar-title img {
-      width: 25px;
-      height: 25px;
-    }
-    .bar-button-menutoggle ion-icon {
-        font-size: 3.8rem;
-    }
-    .time-button-line {
-        padding-left: 15%;
-        padding-right: 15%;
-    }
-    .time-button {
-        height: 8vw;
-    }
-    .time-button ion-label {
-        font-size: 2.7vw;
-        text-align: center;
-    }
-    .upper {
-      height: 53.5%;
-    }
-    .graph {
-        height: 30vw;
-        top: 17vw;
-    }
-    .lower {
-       padding-left: 20%;
-       padding-right: 20%;
-       margin-top: 4vw;
-    }
-    .money-button {
-       border: 2px solid #fff;
-       box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
-       border-radius: 10px;
-       color: #4487db;
-       font-size: 3.5vw;
-       padding: 0px !important;
-       height: 8vw;
-       width: 12vw;
-    }
-    .go-button {
-       width: 24vw;
-       height: 24vw;
-       font-size: 4vw;
-       font-family: "MuseoSansW01-Rounded900";
-       border-radius: 50%;
-       background: #4487db;
-    }
-    .rise-button-item {
-       border: none;
-       border-radius: 10px;
-       box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
-       color: #4487db ;
-       font-size: 2.7vw;
-       font-family: "MuseoSansW01-Rounded700";
-       padding: 0px !important;
-       height: 10vw;
-    }
-    .fall-button-item {
-       border: none;
-       border-radius: 10px;
-       box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
-       color: #4487db ;
-       font-size: 2.7vw;
-       font-family: "MuseoSansW01-Rounded700";
-       padding: 0px !important;
-       height: 10vw;
-    }
-    .rise-button-item img {
-      width: 20px;
-      height: 20px;
-    }
-    .fall-button-item img {
-      width: 20px;
-      height: 20px;
-    }
-    .footer {
-        margin-top: 6%;
-    }
-    .footer-left ion-list {
-        width: 22.6vw;
-    }
-
-}
-
-/*iPad*/
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-  .row-img {
-    position: absolute;
-    margin-top: -207px;
-    text-align: center;
-  }
-  .row-img img{
-    height: 204px;
-    width: 300px;
-  }
-  .alert-title {
-    font-size: 2.5em;
-    text-align: center;
-  }
-  .alert-sub-title {
-    font-size: 2.2em;
-    text-align: center;
-  }
-  .message-footer-text1 ion-label {
-    color: #fff;
-    font-size: 2.2em;
-    text-align: center;
-  }
-  .message-footer-text2 ion-label {
-    color: #fff;
-    font-size: 4.2em;
-    text-align: center;
-  }
-
-  .introjs-tooltip {
-    position: absolute;
-    visibility: visible;
-    padding: 10px;
-    background-color: white;
-    width: 38vw;
-    height: 27vw;
-    border-radius: 7px;
-    left: 26vw !important;
-    top: 13vw;
-    border: 2px solid #4487db;
-    padding-right: 7vw;
-    padding-left: 7vw;
-    padding-top: 7vw;
-    color: #4487db;
-  }
-  .introjs-tooltiptext {
-    font-size: 3.7vw;
-    text-align: center;
-    font-family: MuseoSansW01-Rounded700;
-  }
-  .introjs-helperNumberLayer {
-    position: absolute;
-    visibility: visible;
-    top: 9.2vw;
-    left: 41vw;
-    z-index: 9999999999 !important;
-    padding: 2px;
-    font-family: MuseoSansW01-Rounded700;
-    font-size: 4vw;
-    color: #4487db;
-    text-align: center;
-    background: #fff;
-    width: 8vw;
-    height: 8vw;
-    line-height: 7vw;
-    border: 2px solid #4487db;
-    border-radius: 50%;
-    font-weight: normal;
-    text-shadow: none;
-  }
-  .tooltip-step2 {
-      top: 1vw;
-      padding-right: 3vw;
-      padding-left: 3vw;
-  }
-  .tooltip-step3 {
-      padding: 3vw;
-      width: 64vw;
-      height: 40vw;
-      left: -35vw !important;
-      top: -77vw;
-      padding-top: 15vw;
-  }
-  .tooltip-step4 {
-      top: 64vw;
-      left: 26vw !important;
-      width: 47vw;
-      height: 27vw;
-      padding-top: 6.5vw;
-      padding-left: 2vw;
-      padding-right: 2vw;
-      color: #FF6363;
-      border: 2px solid #FF6363;
-  }
-  .tutorialNum4 {
-      top: 60.2vw;
-      left: 46vw;
-      color: #FF6363;
-      border: 2px solid #FF6363;
-  }
-  .tutorialNum2 {
-      top: -2.5vw;
-      left: 41vw;
-  }
-  .tutorialNum3 {
-      top: -80.5vw;
-      left: -6vw;
-  }
-  .tooltip-step5 {
-      top: 25vw !important;
-      left: 11vw !important;
-      width: 56vw;
-      height: 31vw;
-      padding-top: 11vw;
-  }
-  .tutorialNum5 {
-      top: 21vw;
-      left: 35vw;
-  }
-  .highlight-step5 {
-      width: 25vw !important;
-      left: 38vw !important;
-      height: 10vw !important;
-      top: 2vw !important;
-  }
-  .tooltip-step6 {
-      top: 9vw !important;
-      left: 24vw !important;
-      width: 51vw;
-      padding-left: 2vw;
-      padding-right: 2vw;
-      padding-top: 9vw;
-  }
-  .tutorialNum6 {
-      top: 5vw;
-      left: 45vw;
-  }
 }
 
 /*Nexus 5X*/ 
@@ -905,6 +645,10 @@ ion-backdrop[disable-activated] {
         height: 33vw;
         left: 38vw !important;
     }
+    .tutorialNum2 {
+        top: -3.7vw;
+        left: 56vw;
+    }
     .highlight-step2 {
         height: 34.5vw;
     }
@@ -916,6 +660,10 @@ ion-backdrop[disable-activated] {
         top: -92vw;
         padding-top: 15vw;
     }
+    .tutorialNum3 {
+        top: -96.7vw;
+        left: -7vw;
+    }
     .tooltip-step4 {
         top: 77vw;
         left: 20vw !important;
@@ -926,16 +674,7 @@ ion-backdrop[disable-activated] {
         padding-right: 4vw;
         color: #FF6363;
         border: 2px solid #FF6363;
-    }
-
-    .tutorialNum2 {
-        top: -3.7vw;
-        left: 56vw;
-    }
-    .tutorialNum3 {
-        top: -96.7vw;
-        left: -7vw;
-    }
+    }    
     .tutorialNum4 {
         top: 72.5vw;
         left: 46vw;
@@ -943,149 +682,42 @@ ion-backdrop[disable-activated] {
         border: 2px solid #FF6363;
     }
     .tooltip-step5 {
+        top: -87vw !important;
+        left: -33vw !important;
+        width: 61vw;
+    }
+    .tutorialNum5 {
+        top: -91vw;
+        left: -8vw;
+    }
+    .tooltip-step6 {
         top: 34vw !important;
-        left: 0vw !important;
+        left: 7vw !important;
         width: 61vw;
         height: 34vw;
         padding-top: 11vw;
     }
-    .tutorialNum5 {
+    .tutorialNum6 {
         top: 29vw;
-        left: 24vw;
+        left: 33vw;
     }
-    .tooltip-step6 {
+    .tooltip-step7 {
         top: 14vw !important;
         left: 22vw !important;
         width: 57vw;
         padding-top: 11vw;
     }
-    .tutorialNum6 {
+    .tutorialNum7 {
         top: 9vw;
         left: 46vw;
     }
-}
-
-/*iPhone 5*/
-@media only screen and (min-device-width : 320px) and (max-device-width : 320px) and (orientation : portrait) {
-    .upper {
-        height: 81vw;
-    }
-    .introjs-helperNumberLayer {
-        top: 10vw;
-        line-height: 8vw;
-    }
-    .tooltip-step2 {
-        top: 2vw;
-        height: 40vw;
-        padding-top: 11vw;
-    }
-    .tooltip-step3 {
-        padding: 3vw;
-        width: 64vw;
-        height: 44vw;
-        left: -35vw !important;
-        top: -92vw;
-        padding-top: 15vw;
-    }
-    .tooltip-step4 {
-        top: 83vw;
-        left: 20vw !important;
-        width: 61vw;
-        height: 34vw;
-        padding-top: 9.5vw;
-        padding-left: 4vw;
-        padding-right: 4vw;
-        color: #FF6363;
-        border: 2px solid #FF6363;
-    }
-    .tutorialNum2 {
-        top: -2.3vw;
-        left: 56vw;
-    }
-    .tutorialNum3 {
-        top: -96vw;
-        left: -7vw;
-    }
-    .tutorialNum4 {
-        top: 79vw;
-        line-height: 8vw;
-        color: #FF6363;
-        border: 2px solid #FF6363;
-    }
-    .tooltip-step5 {
-        top: 34vw !important;
-        left: -6.5vw !important;
-        padding-top: 11vw;
-    }
-    .tutorialNum5 {
-        top: 29vw;
-        left: 20vw;
-    }
-    .tooltip-step6 {
-        top: 14vw !important;
-        left: 22vw !important;
-        width: 57vw;
-        padding-top: 11vw;
-    }
-    .tutorialNum6 {
-        top: 9vw;
-        left: 46vw;
+    .highlight-step7 {
+        width: 12vw !important;
+        left: 1vw !important;
+        top: 3vw !important;
+        height: 12.5vw !important;
     }
 }
-
-/* Iphone 6 */
-@media only screen and (width : 375px) and (height : 667px) and (orientation : portrait) { 
-    .tutorialNum2 {
-        top: -2vw;
-        left: 56vw;
-    }
-    .tutorialNum4 {
-        top: 75.7vw;
-        left: 46vw;
-        color: #FF6363;
-        border: 2px solid #FF6363;
-    }
-    .tutorialNum3 {
-        top: -98vw;
-        left: -7vw;
-    }
-}
-
-/* Iphone 6 plus */
-@media only screen and (min-device-width : 414px) and (max-device-width : 414px) and (orientation : portrait) { 
-    .tutorialNum2 {
-        top: -2.5vw;
-        left: 56vw;
-    }
-    .tutorialNum4 {
-        top: 106.4vw;
-        left: 46vw;
-        color: #FF6363;
-        border: 2px solid #FF6363;
-    }
-    .tutorialNum3 {
-        top: -98vw;
-        left: -7vw;
-    }
-    .tooltip-step5 {
-        top: 34vw !important;
-        left: -0.6vw !important;
-    }
-    .tutorialNum5 {
-        left: 25vw;
-    }
-    .tooltip-step6 {
-        top: 14vw !important;
-        left: 22vw !important;
-        width: 57vw;
-    }
-    .tutorialNum6 {
-        top: 9vw;
-        left: 46vw;
-    }
-}
-    
-
 /*Nexus 6*/ 
 @media only screen and (min-device-width : 412px) and (max-device-width : 412px) and (orientation : portrait) {
     .introjs-tooltip {
@@ -1099,6 +731,10 @@ ion-backdrop[disable-activated] {
     .tooltip-step2 {
         top: 2vw;
     }
+    .tutorialNum2 {
+        top: -2vw;
+        left: 56vw;
+    }
     .tooltip-step3 {
         padding: 3vw;
         width: 64vw;
@@ -1106,6 +742,10 @@ ion-backdrop[disable-activated] {
         left: -35vw !important;
         top: -92vw;
         padding-top: 15vw;
+    }
+    .tutorialNum3 {
+        top: -96vw;
+        left: -8vw;
     }
     .tooltip-step4 {
         top: 82vw;
@@ -1118,14 +758,6 @@ ion-backdrop[disable-activated] {
         color: #FF6363;
         border: 2px solid #FF6363;
     }
-    .tutorialNum2 {
-        top: -2vw;
-        left: 56vw;
-    }
-    .tutorialNum3 {
-        top: -96vw;
-        left: -8vw;
-    }
     .tutorialNum4 {
         top: 78vw;
         line-height: 8.3vw;
@@ -1133,44 +765,65 @@ ion-backdrop[disable-activated] {
         border: 2px solid #FF6363;
     }
     .tooltip-step5 {
+        top: -87vw !important;
+        left: -33vw !important;
+        width: 61vw;
+    }
+    .tutorialNum5 {
+        top: -92vw;
+        left: -8vw;
+    }
+    .tooltip-step6 {
         top: 34vw !important;
-        left: -0.5vw !important;
+        left: 7vw !important;
         width: 61vw;
         padding-left: 2vw;
         padding-right: 2vw;
         padding-top: 13vw;
     }
-    .tutorialNum5 {
+    .tutorialNum6 {
         top: 29vw;
-        left: 25vw;
+        left: 34vw;
     }
-    .tooltip-step6 {
+    .tooltip-step7 {
         top: 14vw !important;
         left: 22vw !important;
         width: 57vw;
     }
-    .tutorialNum6 {
+    .tutorialNum7 {
         top: 9vw;
         left: 46vw;
+    }
+    .highlight-step7 {
+        width: 12vw !important;
+        left: 1.1vw !important;
+        top: 3vw !important;
+        height: 12.5vw !important;
     }
 }
 
 /* Nexus 6P */
-@media only screen and (min-device-width : 435px) and (max-device-width : 435) and (orientation : portrait) {
-    .tooltip-step5 {
-        left: 1.5vw !important;
-    }
-    .tutorialNum5 {
-        left: 27vw;
-    }
+@media only screen and (min-device-width : 435px) and (max-device-width : 435px) and (orientation : portrait) {
     .tooltip-step6 {
+        left: 7vw !important;
+    }
+    .tutorialNum6 {
+        left: 33vw;
+    }
+    .tooltip-step7 {
         top: 14vw !important;
         left: 22vw !important;
         width: 57vw;
     }
-    .tutorialNum6 {
+    .tutorialNum7 {
         top: 9vw;
         left: 46vw;
+    }
+    .highlight-step7 {
+        width: 11vw !important;
+        left: 1.1vw !important;
+        top: 3.8vw !important;
+        height: 11vw !important;
     }
 }
 
@@ -1232,35 +885,33 @@ ion-backdrop[disable-activated] {
     .footer-left ion-list {
         width: 24.6vw;
     }
+
     /* If user is winning */
     .winning-light {
-      background-color: #00cf98;
+        background-color: #00cf98;
     }
-
     .winning-light-color {
-      color: #00cf98 !important;
+        color: #00cf98 !important;
     }
-
     .winning-dark {
-      background-color: #01be8c;
+        background-color: #01be8c;
     }
-
     .winning-selected {
-      background-color: #04a67b;
+        background-color: #04a67b;
     }
 
     /* If user is losing */
     .losing-light {
-      background-color: #ff6363;
+        background-color: #ff6363;
     }
     .losing-light-color {
-      color: #ff6363 !important;
+        color: #ff6363 !important;
     }
     .losing-dark {
-      background-color: #ec5959;
+        background-color: #ec5959;
     }
     .losing-selected {
-      background-color: #dc5454;
+        background-color: #dc5454;
     }
     .item-radio-disabled {
         color: #d9d9d9 !important;
@@ -1269,12 +920,11 @@ ion-backdrop[disable-activated] {
     .item-radio-checked.item-radio-disabled {
         border-color: #d9d9d9 !important;
     }
-
     .item-radio-disabled .item-inner .input-wrapper ion-label {
         color: #d9d9d9 !important;
     }
 
-
+    /* NEXUS 10 TUT */
     .introjs-tooltip {
         width: 41vw;
         height: 30vw;
@@ -1289,6 +939,10 @@ ion-backdrop[disable-activated] {
     .tooltip-step2 {
         top: 1vw;
     }
+    .tutorialNum2 {
+        top: -2.8vw;
+        left: 44vw;
+    }
     .tooltip-step3 {
         padding: 3vw;
         width: 64vw;
@@ -1296,6 +950,10 @@ ion-backdrop[disable-activated] {
         left: -35vw !important;
         top: -84vw;
         padding-top: 15vw;
+    }
+    .tutorialNum3 {
+        top: -87.5vw;
+        left: -6vw;
     }
     .tooltip-step4 {
         top: 77vw;
@@ -1308,48 +966,452 @@ ion-backdrop[disable-activated] {
         color: #FF6363;
         border: 2px solid #FF6363;
     }
-    .tutorialNum2 {
-        top: -2.8vw;
-        left: 44vw;
-    }
     .tutorialNum4 {
         top: 73.2vw;
         left: 46vw;
         color: #FF6363;
         border: 2px solid #FF6363;
     }
-    .tutorialNum3 {
-        top: -87.5vw;
-        left: -6vw;
-    }
     .tooltip-step5 {
-        top: 26vw !important;
+        top: -80vw !important;
+        left: -32vw !important;
+        width: 57vw;
+        padding-top: 8vw;
     }
     .tutorialNum5 {
-        top: 22vw !important;
+        top: -84vw;
+        left: -8vw;
+        color: #00cf98;
     }
-    .highlight-step5 {
-        top: 2.5vw !important;
-    }
-    .tooltip-step5 {
+    .tooltip-step6 {
         top: 25vw !important;
-        left: 11vw !important;
+        left: 15vw !important;
         width: 56vw;
         height: 31vw;
         padding-top: 11vw;
     }
-    .tutorialNum5 {
-        top: 21vw;
-        left: 35vw;
+    .tutorialNum6 {
+        top: 21vw !important;
+        left: 39vw;
     }
-    .tooltip-step6 {
+    .highlight-step6 {
+        top: 2.5vw !important;
+    }
+    .tooltip-step7 {
         top: 10vw !important;
         left: 22vw !important;
         width: 57vw;
         padding-top: 10vw;
     }
-    .tutorialNum6 {
+    .tutorialNum7 {
         top: 7vw;
         left: 46vw;
+    }
+    .highlight-step7 {
+        width: 8vw !important;
+        left: 0.3vw !important;
+        top: 3.5vw !important;
+        height: 8.5vw !important;
+    }
+}
+
+
+/*iPhone 5*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 320px) and (orientation : portrait) {
+    .upper {
+        height: 81vw;
+    }
+    .introjs-helperNumberLayer {
+        top: 10vw;
+        line-height: 8vw;
+    }
+    .tooltip-step2 {
+        top: 2vw;
+        height: 40vw;
+        padding-top: 11vw;
+    }
+    .tutorialNum2 {
+        top: -2.3vw;
+        left: 56vw;
+    }
+    .tooltip-step3 {
+        padding: 3vw;
+        width: 64vw;
+        height: 44vw;
+        left: -35vw !important;
+        top: -92vw;
+        padding-top: 15vw;
+    }
+    .tutorialNum3 {
+        top: -96vw;
+        left: -7vw;
+    }
+    .tooltip-step4 {
+        top: 83vw;
+        left: 20vw !important;
+        width: 61vw;
+        height: 34vw;
+        padding-top: 9.5vw;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        color: #FF6363;
+        border: 2px solid #FF6363;
+    }
+    .tutorialNum4 {
+        top: 79vw;
+        line-height: 8vw;
+        color: #FF6363;
+        border: 2px solid #FF6363;
+    }
+    .tooltip-step5 {
+        top: -87vw !important;
+        left: -33vw !important;
+        width: 61vw;
+    }
+    .tutorialNum5 {
+        top: -91vw;
+        left: -8vw;
+    }
+    .tooltip-step6 {
+        top: 34vw !important;
+        left: 7vw !important;
+        padding-top: 11vw;
+    }
+    .tutorialNum6 {
+        top: 29vw;
+        left: 33vw;
+    }
+    .tooltip-step7 {
+        top: 14vw !important;
+        left: 22vw !important;
+        width: 57vw;
+        padding-top: 11vw;
+    }
+    .tutorialNum7 {
+        top: 9vw;
+        left: 46vw;
+    }
+    .highlight-step7 {
+        width: 13vw !important;
+        left: 2.5vw !important;
+        top: 2.7vw !important;
+        height: 13vw !important;
+    }
+}
+
+/* Iphone 6 */
+@media only screen and (min-device-width : 375px) and (max-device-width : 375px) and (orientation : portrait) { 
+    .tutorialNum2 {
+        top: -2vw;
+        left: 56vw;
+    }
+    .tutorialNum3 {
+        top: -98vw;
+        left: -7vw;
+    }
+    .tutorialNum4 {
+        top: 75.7vw;
+        left: 46vw;
+        color: #FF6363;
+        border: 2px solid #FF6363;
+    }
+    .highlight-step7 {
+        width: 12vw !important;
+        left: 1.5vw !important;
+        top: 3vw !important;
+        height: 12.5vw !important;
+    }
+}
+
+/* Iphone 6 plus */
+@media only screen and (min-device-width : 414px) and (max-device-width : 414px) and (orientation : portrait) { 
+    .tutorialNum2 {
+        top: -2.5vw;
+        left: 56vw;
+    }
+    .tutorialNum3 {
+        top: -98vw;
+        left: -7vw;
+    }
+    .tutorialNum4 {
+        top: 75.4vw;
+        left: 46vw;
+        color: #FF6363;
+        border: 2px solid #FF6363;
+    }
+    .tooltip-step6 {
+        top: 34vw !important;
+        left: 7vw !important;
+    }
+    .tutorialNum6 {
+        left: 33vw;
+    }
+    .tooltip-step7 {
+        top: 14vw !important;
+        left: 22vw !important;
+        width: 57vw;
+    }
+    .tutorialNum7 {
+        top: 9vw;
+        left: 46vw;
+    }
+    .highlight-step7 {
+        width: 11vw !important;
+        left: 1.5vw !important;
+        top: 3.7vw !important;
+        height: 11vw !important;
+    }
+}
+
+/* Ipad */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    /* header */
+    .toolbar {
+        min-height: 13.67vw !important;
+    }
+    .toolbar-title {
+        font-size: 2.8rem;
+    }
+    .toolbar-title img {
+        width: 25px;
+        height: 25px;
+    }
+    .bar-button-menutoggle ion-icon {
+        font-size: 3.8rem;
+    }
+    /* blue area */
+    .upper {
+        height: 53.5%;
+    }
+    .time-button-line {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .time-button {
+        height: 8vw;
+    }
+    .time-button ion-label {
+        font-size: 2.7vw;
+        text-align: center;
+    }
+    .graph {
+        height: 30vw;
+        top: 17vw;
+    }
+    .lower {
+        padding-left: 20%;
+        padding-right: 20%;
+        margin-top: 4vw;
+    }
+    .money-button {
+        border: 2px solid #fff;
+        box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
+        border-radius: 10px;
+        color: #4487db;
+        font-size: 3.5vw;
+        padding: 0px !important;
+        height: 8vw;
+        width: 12vw;
+    }
+    .go-button {
+        width: 24vw;
+        height: 24vw;
+        font-size: 4vw;
+        font-family: "MuseoSansW01-Rounded900";
+        border-radius: 50%;
+        background: #4487db;
+    }
+    .rise-button-item {
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
+        color: #4487db ;
+        font-size: 2.7vw;
+        font-family: "MuseoSansW01-Rounded700";
+        padding: 0px !important;
+        height: 10vw;
+    }
+    .fall-button-item {
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
+        color: #4487db ;
+        font-size: 2.7vw;
+        font-family: "MuseoSansW01-Rounded700";
+        padding: 0px !important;
+        height: 10vw;
+    }
+    .rise-button-item img {
+        width: 20px;
+        height: 20px;
+    }
+    .fall-button-item img {
+        width: 20px;
+        height: 20px;
+    }
+    .footer {
+        margin-top: 6%;
+    }
+    .footer-left ion-list {
+        width: 22.6vw;
+    }
+
+    /* Closed Market Alert */
+    .row-img {
+        position: absolute;
+        margin-top: -207px;
+        text-align: center;
+      }
+    .row-img img{
+        height: 204px;
+        width: 300px;
+    }
+    .alert-title {
+        font-size: 2.5em;
+        text-align: center;
+    }
+    .alert-sub-title {
+        font-size: 2.2em;
+        text-align: center;
+    }
+    .message-footer-text1 ion-label {
+        color: #fff;
+        font-size: 2.2em;
+        text-align: center;
+    }
+    .message-footer-text2 ion-label {
+        color: #fff;
+        font-size: 4.2em;
+        text-align: center;
+    }
+
+    /* iPad TUT */
+    .introjs-tooltip {
+        position: absolute;
+        visibility: visible;
+        padding: 10px;
+        background-color: white;
+        width: 38vw;
+        height: 27vw;
+        border-radius: 7px;
+        left: 26vw !important;
+        top: 13vw;
+        border: 2px solid #4487db;
+        padding-right: 7vw;
+        padding-left: 7vw;
+        padding-top: 7vw;
+        color: #4487db;
+    }
+    .introjs-tooltiptext {
+        font-size: 3.7vw;
+        text-align: center;
+        font-family: MuseoSansW01-Rounded700;
+    }
+    .introjs-helperNumberLayer {
+        position: absolute;
+        visibility: visible;
+        top: 9.2vw;
+        left: 41vw;
+        z-index: 9999999999 !important;
+        padding: 2px;
+        font-family: MuseoSansW01-Rounded700;
+        font-size: 4vw;
+        color: #4487db;
+        text-align: center;
+        background: #fff;
+        width: 8vw;
+        height: 8vw;
+        line-height: 7vw;
+        border: 2px solid #4487db;
+        border-radius: 50%;
+        font-weight: normal;
+        text-shadow: none;
+    }
+    .tooltip-step2 {
+        top: 1vw;
+        padding-right: 3vw;
+        padding-left: 3vw;
+    }
+    .tutorialNum2 {
+        top: -2.5vw;
+        left: 41vw;
+    }
+    .tooltip-step3 {
+        padding: 3vw;
+        width: 64vw;
+        height: 40vw;
+        left: -35vw !important;
+        top: -77vw;
+        padding-top: 15vw;
+    }
+    .tutorialNum3 {
+        top: -80.5vw;
+        left: -6vw;
+    }
+    .tooltip-step4 {
+        top: 64vw;
+        left: 26vw !important;
+        width: 47vw;
+        height: 27vw;
+        padding-top: 6.5vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        color: #FF6363;
+        border: 2px solid #FF6363;
+    }
+    .tutorialNum4 {
+        top: 60.2vw;
+        left: 46vw;
+        color: #FF6363;
+        border: 2px solid #FF6363;
+    }
+    .tooltip-step5 {
+        top: -70vw !important;
+        left: -32vw !important;
+        width: 57vw;
+        padding-top: 8vw;
+        color: #00cf98;
+        border: 2px solid #00cf98;
+    }
+    .tutorialNum5 {
+        top: -74vw;
+        left: -8vw;
+        color: #00cf98;
+        border: 2px solid #00cf98;
+    }
+    .tooltip-step6 {
+        top: 25vw !important;
+        left: 15vw !important;
+        width: 56vw;
+        height: 31vw;
+        padding-top: 11vw;
+    }
+    .tutorialNum6 {
+        top: 21vw;
+        left: 39vw;
+    }
+    .highlight-step6 {
+        width: 25vw !important;
+        left: 38vw !important;
+        height: 10vw !important;
+        top: 2vw !important;
+    }
+    .tooltip-step7 {
+        top: 9vw !important;
+        left: 24vw !important;
+        width: 51vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        padding-top: 9vw;
+    }
+    .tutorialNum7 {
+        top: 5vw;
+        left: 45vw;
+    }
+    .highlight-step7 {
+        width: 7.5vw !important;
+        left: 0.3vw !important;
+        top: 2.5vw !important;
+        height: 8.5vw !important;
     }
 }

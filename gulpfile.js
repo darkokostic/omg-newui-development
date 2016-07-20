@@ -47,11 +47,8 @@ gulp.task('watch', ['clean'], function(done){
 });
 
 gulp.task('copy', function() {
-  gulp.src('app/extras-css/*').pipe(gulp.dest('www/build/css'));
-  gulp.src('app/extras-js/*').pipe(gulp.dest('www/build/js'));
   return gulp.src('app/fonts/*').pipe(gulp.dest('www/build/fonts'))
 });
-
 
 gulp.task('build', ['clean'], function(done){
   runSequence(
@@ -72,7 +69,14 @@ gulp.task('build', ['clean'], function(done){
 
 gulp.task('sass', buildSass);
 gulp.task('html', copyHTML);
-gulp.task('fonts', copyFonts);
+gulp.task('fonts', function() {
+  return copyFonts({
+    src: [
+      'node_modules/ionic-angular/fonts/**/*.+(ttf|woff|woff2)',
+      'resources/fonts/**/*.+(eot|ttf|woff|woff2|svg)'
+    ]
+  })
+});
 gulp.task('scripts', copyScripts);
 gulp.task('clean', function(){
   return del('www/build');
