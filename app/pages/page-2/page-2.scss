@@ -7,18 +7,16 @@ scroll-content {
 }
 ::-webkit-scrollbar,
 *::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 /* Disabled radio button */
 .item-radio-disabled {
     color: #d9d9d9 !important;
     box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
 }
-
 .item-radio-checked.item-radio-disabled {
     border-color: #d9d9d9 !important;
 }
-
 .item-radio-disabled .item-inner .input-wrapper ion-label {
     color: #d9d9d9 !important;
 }
@@ -36,26 +34,25 @@ scroll-content {
 		margin: 0 !important;
 	}
 
-  p {
-    margin: 20px 0;
-    line-height: 22px;
-    font-size: 16px;
-  }
+    p {
+        margin: 20px 0;
+        line-height: 22px;
+        font-size: 16px;
+    }
 
   	button.go-button[disabled] {
 	  	background-color: #d9d9d9;
-      box-shadow: 0px 0px 4px 0px rgba(117,117,117,0.56);
+        box-shadow: 0px 0px 4px 0px rgba(117,117,117,0.56);
 	}
-
 }
 
 .item {
-  min-height: 0px !important;
+    min-height: 0px !important;
 }
 
 /* HEADER */
 .toolbar {
-  min-height: 18.67vw !important;
+    min-height: 18.67vw !important;
 }
 .information-button {
 	float: left;
@@ -63,7 +60,7 @@ scroll-content {
 .toolbar-title {
 	color: #4A535D !important;
 	font-family: "MuseoSansW01-Rounded700";
-  font-size: 2.2rem;
+    font-size: 2.2rem;
 }
 .toolbar-title img {
 	margin-top: 2px;
@@ -81,7 +78,7 @@ scroll-content {
     top: 26vw;
 }
 .infoBtnBlue {
-  color: #4487db !important;
+    color: #4487db !important;
 }
 .graphDot {
     position: absolute;
@@ -92,7 +89,6 @@ scroll-content {
     height: 15px;
     border-radius: 50%;
 }
-
 .graphDot2 {
     opacity: 0;
     position: absolute;
@@ -138,12 +134,11 @@ scroll-content {
 	background-color: #417fce;
 	font-family: "MuseoSansW01-Rounded300";
 	padding-left: 5%;
-  padding-right: 5%;
+    padding-right: 5%;
 }
-
 .time-button-line .item-radio-checked {
-  background-color: rgba(0, 0, 0, 0.2);
-  font-family: "MuseoSansW01-Rounded700";
+    background-color: rgba(0, 0, 0, 0.2);
+    font-family: "MuseoSansW01-Rounded700";
 }
 .time-button-line .item-radio-checked ion-label {
 	color: #fff;
@@ -153,8 +148,8 @@ scroll-content {
 	padding: 0px !important;
 }
 .time-button {
-	  background-color: transparent;
-	  color: #fff;
+	background-color: transparent;
+	color: #fff;
     text-align: center;
     padding: 0px !important;
     height: 9.34vw;
@@ -167,8 +162,8 @@ scroll-content {
 /* WHITE AREA */
 .lower {
 	padding-left: 11%;
-  padding-right: 8%;
-  margin-top: 5%;
+    padding-right: 8%;
+    margin-top: 5%;
 }
 
 /* MONEY BUTTONS */
@@ -186,11 +181,11 @@ scroll-content {
 	font-size: 4.8vw;
 	padding: 0px !important;
 	height: 9.34vw;
-  width: 15.2vw;
+    width: 15.2vw;
 }
 .money-button-line .item-radio-checked {
-  border: 2px solid #4487db;
-  box-shadow: 0px 0px 4px 0px rgba(68,134,219,0.40);
+    border: 2px solid #4487db;
+    box-shadow: 0px 0px 4px 0px rgba(68,134,219,0.40);
 }
 
 /* FOOTER: RISE/FALL/GO BUTTONS */
@@ -202,17 +197,17 @@ scroll-content {
 }
 .footer-left {
 	padding: 0px !important;
-  margin-top: 1%;
+    margin-top: 1%;
 }
 .footer-right {
 	padding: 0px !important;
 	text-align: right;
 }
 .footer-left ion-list {
-  width: 30.6vw;
+    width: 30.6vw;
 }
 .go-button {
-	  width: 33.33vw;
+	width: 33.33vw;
     height: 33.33vw;
     font-size: 5vw;
     font-family: "MuseoSansW01-Rounded900";
@@ -240,8 +235,8 @@ scroll-content {
 	font-weight: 500;
 }
 .rise-button .item-radio-checked {
-  box-shadow: 0px 0px 4px 0px rgba(68,135,219,0.40);
-  border: 2px solid #4487db;
+    box-shadow: 0px 0px 4px 0px rgba(68,135,219,0.40);
+    border: 2px solid #4487db;
 }
 
 /* FALL BUTTON */
@@ -262,8 +257,8 @@ scroll-content {
 	font-weight: 500;
 }
 .fall-button .item-radio-checked {
-  box-shadow: 0px 0px 4px 0px rgba(68,135,219,0.40);
-  border: 2px solid #4487db;
+    box-shadow: 0px 0px 4px 0px rgba(68,135,219,0.40);
+    border: 2px solid #4487db;
 }
 
 /* If user is winning */
@@ -271,7 +266,7 @@ scroll-content {
 	background-color: #00cf98 !important;
 }
 .winning-light-color {
-  color: #00cf98 !important;
+    color: #00cf98 !important;
 }
 .winning-dark {
 	background-color: #01be8c;
@@ -285,7 +280,7 @@ scroll-content {
 	background-color: #ff6363 !important;
 }
 .losing-light-color {
-  color: #ff6363 !important;
+    color: #ff6363 !important;
 }
 .losing-dark {
 	background-color: #ec5959;
@@ -327,26 +322,26 @@ ion-backdrop[disable-activated] {
     padding: 0 !important;
 }
 .alert-head {
-  height: 65%;
+    height: 65%;
 }
 .alert-wrapper {
-  max-width: none;
+    max-width: none;
 }
 .alert-button-group {
-  display: none;
+    display: none;
 }
 .message-footer-text1 ion-label {
-  color: #fff;
-  font-size: 1.2em;
-  text-align: center;
-  margin-top: 6%;
-  font-family: MuseoSansW01-Rounded700;
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 6%;
+    font-family: MuseoSansW01-Rounded700;
 }
 .message-footer-text2 ion-label {
-  color: #fff;
-  font-size: 2.2em;
-  text-align: center;
-  margin-top: -2%;
+    color: #fff;
+    font-size: 2.2em;
+    text-align: center;
+    margin-top: -2%;
 }
 .row-img {
     position: absolute;
@@ -357,7 +352,6 @@ ion-backdrop[disable-activated] {
     height: 102px;
     width: 150px;
 }
-
 
 /* TUTORIALS */
 .introjs-tooltip {
@@ -559,8 +553,8 @@ ion-backdrop[disable-activated] {
         padding-top: 10vw;
     }
     .tutorialNum2 {
-      top: -2.5vw;
-      left: 56.0vw;
+        top: -2.5vw;
+        left: 56.0vw;
     }
     .tooltip-step3 {
         padding: 3vw;
@@ -894,30 +888,30 @@ ion-backdrop[disable-activated] {
 
     /* If user is winning */
     .winning-light {
-      background-color: #00cf98;
+        background-color: #00cf98;
     }
     .winning-light-color {
-      color: #00cf98 !important;
+        color: #00cf98 !important;
     }
     .winning-dark {
-      background-color: #01be8c;
+        background-color: #01be8c;
     }
     .winning-selected {
-      background-color: #04a67b;
+        background-color: #04a67b;
     }
 
     /* If user is losing */
     .losing-light {
-      background-color: #ff6363;
+        background-color: #ff6363;
     }
     .losing-light-color {
-      color: #ff6363 !important;
+        color: #ff6363 !important;
     }
     .losing-dark {
-      background-color: #ec5959;
+        background-color: #ec5959;
     }
     .losing-selected {
-      background-color: #dc5454;
+        background-color: #dc5454;
     }
     .item-radio-disabled {
         color: #d9d9d9 !important;
@@ -1176,18 +1170,18 @@ ion-backdrop[disable-activated] {
         min-height: 13.67vw !important;
     }
     .toolbar-title {
-      font-size: 2.8rem;
+        font-size: 2.8rem;
     }
     .toolbar-title img {
-      width: 25px;
-      height: 25px;
+        width: 25px;
+        height: 25px;
     }
     .bar-button-menutoggle ion-icon {
         font-size: 3.8rem;
     }
     /* blue area */
     .upper {
-      height: 53.5%;
+        height: 53.5%;
     }
     .time-button-line {
         padding-left: 15%;
@@ -1205,55 +1199,55 @@ ion-backdrop[disable-activated] {
         top: 17vw;
     }
     .lower {
-       padding-left: 20%;
-       padding-right: 20%;
-       margin-top: 4vw;
+        padding-left: 20%;
+        padding-right: 20%;
+        margin-top: 4vw;
     }
     .money-button {
-       border: 2px solid #fff;
-       box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
-       border-radius: 10px;
-       color: #4487db;
-       font-size: 3.5vw;
-       padding: 0px !important;
-       height: 8vw;
-       width: 12vw;
+        border: 2px solid #fff;
+        box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
+        border-radius: 10px;
+        color: #4487db;
+        font-size: 3.5vw;
+        padding: 0px !important;
+        height: 8vw;
+        width: 12vw;
     }
     .go-button {
-       width: 24vw;
-       height: 24vw;
-       font-size: 4vw;
-       font-family: "MuseoSansW01-Rounded900";
-       border-radius: 50%;
-       background: #4487db;
+        width: 24vw;
+        height: 24vw;
+        font-size: 4vw;
+        font-family: "MuseoSansW01-Rounded900";
+        border-radius: 50%;
+        background: #4487db;
     }
     .rise-button-item {
-       border: none;
-       border-radius: 10px;
-       box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
-       color: #4487db ;
-       font-size: 2.7vw;
-       font-family: "MuseoSansW01-Rounded700";
-       padding: 0px !important;
-       height: 10vw;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
+        color: #4487db ;
+        font-size: 2.7vw;
+        font-family: "MuseoSansW01-Rounded700";
+        padding: 0px !important;
+        height: 10vw;
     }
     .fall-button-item {
-       border: none;
-       border-radius: 10px;
-       box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
-       color: #4487db ;
-       font-size: 2.7vw;
-       font-family: "MuseoSansW01-Rounded700";
-       padding: 0px !important;
-       height: 10vw;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
+        color: #4487db ;
+        font-size: 2.7vw;
+        font-family: "MuseoSansW01-Rounded700";
+        padding: 0px !important;
+        height: 10vw;
     }
     .rise-button-item img {
-      width: 20px;
-      height: 20px;
+        width: 20px;
+        height: 20px;
     }
     .fall-button-item img {
-      width: 20px;
-      height: 20px;
+        width: 20px;
+        height: 20px;
     }
     .footer {
         margin-top: 6%;
