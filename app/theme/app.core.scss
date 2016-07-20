@@ -13,3 +13,43 @@
 @import "../pages/you-won/you-won";
 @import "../pages/you-lost/you-lost";
 @import "../pages/lost-cash/lost-cash";
+
+@font-face {
+  font-family: "MuseoSansW01-Rounded700";
+  src: url("../fonts/museosans-rounded700.eot");
+  src: url("../fonts/.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/museosans-rounded700.woff2") format("woff2"),
+  url("../fonts/museosans-rounded700.woff") format("woff"),
+  url("../fonts/museosans-rounded700.ttf") format("truetype"),
+  url("../fonts/museosans-rounded700.svg#MuseoSansW01-Rounded700") format("svg");
+}
+
+
+@font-face {
+  font-family: "MuseoSansW01-Rounded900";
+  src: url("../fonts/museosans-rounded900.eot");
+  src: url("../fonts/museosans-rounded900.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/museosans-rounded900.woff2") format("woff2"),
+  url("../fonts/museosans-rounded900.woff") format("woff"),
+  url("../fonts/museosans-rounded900.ttf") format("truetype"),
+  url("../fonts/museosans-rounded900.svg#MuseoSansW01-Rounded900") format("svg");
+}
+
+@font-face {
+  font-family: "MuseoSansW01-Rounded300";
+  src: url("../fonts/museosans-rounded300.eot");
+  src: url("../fonts/museosans-rounded300.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/museosans-rounded300.woff2") format("woff2"),
+  url("../fonts/museosans-rounded300.woff") format("woff"),
+  url("../fonts/museosans-rounded300.ttf") format("truetype"),
+  url("../fonts/museosans-rounded300.svg#MuseoSansW01-Rounded300") format("svg");
+}
+
+@font-face {
+  font-family: "MuseoSans500";
+  src: url("../fonts/museosans-500.eot");
+  src: url("../fonts/museosans-500.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/museosans-500.woff") format("woff"),
+  url("../fonts/museosans-500.ttf") format("truetype"),
+  url("../fonts/museosans-500.svg#MuseoSans500") format("svg");
+}

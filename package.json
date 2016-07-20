@@ -36,12 +36,6 @@
     "ionic-plugin-keyboard"
   ],
   "cordovaPlatforms": [
-    "ios",
-    {
-      "platform": "ios",
-      "version": "",
-      "locator": "ios"
-    }
   ],
   "name": "omg-newui",
   "description": "omg-newui: An Ionic project"
