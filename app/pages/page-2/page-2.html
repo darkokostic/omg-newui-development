@@ -1,10 +1,10 @@
 <ion-toolbar>
   <ion-buttons left class="step6">
-    <button onclick="intro.exit(); intro.start();" (click)="isTutorial = true;" menuToggle>
+    <button onclick="intro.setOptions({exitOnOverlayClick: false}); intro.exit(); intro.start();" (click)="isTutorial = true;" menuToggle>
         <ion-icon name='ios-information-circle-outline' [ngClass]="infoBtnClass"></ion-icon>
     </button>
   </ion-buttons>
-   <ion-title text-center class="step5" onclick=" intro.setOptions({exitOnOverlayClick: true}); intro.nextStep();" (click)="isTutorial = false;"><img src="img/Wallet_10x.png" height="15" width="15"/> $240.19</ion-title>
+   <ion-title text-center class="step5" onclick="intro.setOptions({exitOnOverlayClick: true}); intro.nextStep();" (click)="isTutorial = false;"><img src="img/Wallet_10x.png" height="15" width="15"/> $240.19</ion-title>
   <ion-buttons right>
   <button menuToggle>
         

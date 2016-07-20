@@ -114,32 +114,37 @@ export class Page2 {
 	}
 
 	fakeLosing() {
-		console.log(this.upperClass);
-		if(this.upperClass != '' && this.upperClass != undefined) {
-			this.upperClass = '';
-			this.infoBtnClass = 'infoBtnBlue';
-			this.timeLineClass = '';
-			this.goBtnClass = '';
-		} else {
-			this.upperClass = 'losing-light';
-			this.infoBtnClass = 'losing-light-color';
-			this.timeLineClass = 'losing-dark';
-			this.goBtnClass = 'losing-light';
+		if(this.isTutorial == true) {
+			if(this.upperClass != '' && this.upperClass != undefined) {
+				this.upperClass = '';
+				this.infoBtnClass = 'infoBtnBlue';
+				this.timeLineClass = '';
+				this.goBtnClass = '';
+			} else {
+				this.upperClass = 'losing-light';
+				this.infoBtnClass = 'losing-light-color';
+				this.timeLineClass = 'losing-dark';
+				this.goBtnClass = 'losing-light';
+			}
 		}
 	}
 
 	fakeWinning() {
-		this.upperClass = 'winning-light';
-		this.infoBtnClass = 'winning-light-color';
-		this.timeLineClass = 'winning-dark';
-		this.goBtnClass = 'winning-light';
+		if(this.isTutorial == true) {
+			this.upperClass = 'winning-light';
+			this.infoBtnClass = 'winning-light-color';
+			this.timeLineClass = 'winning-dark';
+			this.goBtnClass = 'winning-light';		
+		}
 	}
 
 	naturalStatus() {
-		this.upperClass = '';
-		this.infoBtnClass = '';
-		this.timeLineClass = '';
-		this.goBtnClass = '';
+		if(this.isTutorial == true) {
+			this.upperClass = '';
+			this.infoBtnClass = '';
+			this.timeLineClass = '';
+			this.goBtnClass = '';
+		}
 	}
 
 	changedMoney(value, type) {
