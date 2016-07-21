@@ -328,6 +328,9 @@ ion-backdrop[disable-activated] {
 }
 
 /* TUTORIALS */
+.introjs-overlay {
+    opacity: 0.5 !important;
+}
 .introjs-tooltip {
     position: absolute;
     visibility: visible;
@@ -343,6 +346,7 @@ ion-backdrop[disable-activated] {
     padding-left: 7vw;
     padding-top: 10.5vw;
     color: #4487db;
+    box-shadow: none !important;
 }
 .introjs-tooltiptext {
     font-size: 4.5vw;
@@ -386,9 +390,11 @@ ion-backdrop[disable-activated] {
     border-radius: 50%;
     font-weight: normal;
     text-shadow: none;
+    box-shadow: none !important;
 }
 .introjs-helperLayer {
     border-radius: 10px !important;
+    box-shadow: none !important;
 }
 .tooltip-step2 {
     width: 51vw;
