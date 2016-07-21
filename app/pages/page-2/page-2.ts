@@ -147,6 +147,15 @@ export class Page2 {
 		}
 	}
 
+	uncheckAll(radioBtn1, radioBtn2, radioBtn3, radioBtn4, radioBtn5, radioBtn6) {
+		radioBtn1.checked = false;
+		radioBtn2.checked = false;
+		radioBtn3.checked = false;
+		radioBtn4.checked = false;
+		radioBtn5.checked = false;
+		radioBtn6.checked = false;
+	}
+
 	changedMoney(value, type) {
 		if(value != undefined && type != undefined)
 		{
