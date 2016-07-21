@@ -13,6 +13,7 @@
 </ion-toolbar>
 <ion-content scroll="false" scrollbar-y="false" overflow-scroll="false" class="getting-started">
 	<div class="upper" [ngClass]="upperClass">
+        <button danger style="position: absolute;" (click)="doAlert()">Market Closed</button>
         <div class="graph step4" onclick="if(isTutorial == true) {intro.nextStep();}" (click)="fakeWinning();" ></div>
         <div #graphDot class="graphDot" id="graphDot"></div>
         <div #graphDot2 class="graphDot2"></div> 
