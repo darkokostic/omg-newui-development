@@ -331,9 +331,6 @@ ion-backdrop[disable-activated] {
 }
 
 /* TUTORIALS */
-.introjs-overlay {
-    opacity: 0.5 !important;
-}
 .introjs-tooltip {
     position: absolute;
     visibility: visible;
@@ -356,24 +353,6 @@ ion-backdrop[disable-activated] {
     text-align: center;
     font-family: MuseoSansW01-Rounded700;
 }
-.introjs-arrow.left {
-    display: none !important;
-}
-.introjs-arrow.right {
-    display: none !important;
-}
-.introjs-arrow.top {
-    display: none !important;
-}
-.introjs-arrow.bottom {
-    display: none !important;
-}
-.introjs-button {
-    display: none;
-}
-.introjs-bullets {
-    display: none;
-}
 .introjs-helperNumberLayer {
     position: absolute;
     visibility: visible;
@@ -393,10 +372,6 @@ ion-backdrop[disable-activated] {
     border-radius: 50%;
     font-weight: normal;
     text-shadow: none;
-    box-shadow: none !important;
-}
-.introjs-helperLayer {
-    border-radius: 10px !important;
     box-shadow: none !important;
 }
 .tooltip-step2 {
