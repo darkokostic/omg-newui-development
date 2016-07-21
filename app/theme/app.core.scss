@@ -84,10 +84,43 @@
 }
 /*=========================================================*/
 
+/* You Won/Lost Pages */
+.you-won {
+  background-color: #00cf98 !important;
+}
+.you-lost {
+  background-color: #FF6363 !important;
+}
+.won-button button {
+  background-color: #01bd8b;
+}
+.lost-button button {
+  background-color: #dc5454;
+}
+/*=========================================================*/
+.item {
+    min-height: 0px !important;
+}
+
+/* Game Page */
+/* HEADER */
+.toolbar {
+    min-height: 18.67vw !important;
+}
+.information-button {
+    float: left;
+}
+.toolbar-title {
+    color: #4A535D !important;
+    font-family: "MuseoSansW01-Rounded700";
+    font-size: 2.2rem;
+}
+
+/*=========================================================*/
+
 @import "../pages/page-2/page-2";
 @import  "../pages/login-page/login-page";
 @import "../pages/you-won/you-won";
-@import "../pages/you-lost/you-lost";
 
 @font-face {
   font-family: "MuseoSansW01-Rounded700";
