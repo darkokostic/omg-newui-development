@@ -439,8 +439,6 @@ ion-backdrop[disable-activated] {
     top: 34vw !important;
     left: 7vw !important;
     width: 61vw;
-    padding-left: 2vw;
-    padding-right: 2vw;
     padding-top: 13vw;
 }
 .tutorialNum6 {
@@ -459,8 +457,6 @@ ion-backdrop[disable-activated] {
     top: 14vw !important;
     left: 19vw !important;
     width: 61vw;
-    padding-left: 2vw;
-    padding-right: 2vw;
     padding-top: 13vw;
 }
 .tutorialNum7 {
@@ -477,6 +473,34 @@ ion-backdrop[disable-activated] {
     border: none !important;
 }
 
+/* ButtonsOk */
+.btn-ok {
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    font-size: 1.1em;
+    font-family: "MuseoSansW01-Rounded900";
+}
+.ok-step3 {
+    background-color: #4487db;
+    margin-top: 27px;
+}
+.ok-step4 {
+    background-color: #ff6363;
+    margin-top: 26px;
+}
+.ok-step5 {
+    background-color: #00cf98;
+    margin-top: 12px;
+}
+.ok-step6 {
+    background-color: #4487db;
+    margin-top: 12px;
+}
+.ok-step7 {
+    background-color: #4487db;
+    margin-top: 13px;
+}
 /* OTHER DEVICES */
 
 /* Nexus 5 */
@@ -553,9 +577,7 @@ ion-backdrop[disable-activated] {
         top: 34vw !important;
         left: 7vw !important;
         width: 61vw;
-        padding-left: 2vw;
-        padding-right: 2vw;
-        padding-top: 13vw;
+        padding-top: 9vw;
     }
     .tutorialNum6 {
         top: 29vw;
@@ -565,7 +587,7 @@ ion-backdrop[disable-activated] {
         top: 14vw !important;
         left: 22vw !important;
         width: 57vw;
-        padding-top: 11vw;
+        padding-top: 8.5vw;
     }
     .tutorialNum7 {
         top: 9vw;
@@ -577,32 +599,20 @@ ion-backdrop[disable-activated] {
         top: 3vw !important;
         height: 12.5vw !important;
     }
-    .btn-ok-step3 {
-        background-color: #4487db;
-        width: 100%;
-        height: 40px;
-        color: #fff;
+    .ok-step3 {
         margin-top: 24px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
     }
-    .btn-ok-step4 {
-        background-color: #ff6363;
-        width: 100%;
-        height: 40px;
-        color: #fff;
+    .ok-step4 {
         margin-top: 29px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
     }
-    .btn-ok-step5 {
-        background-color: #00cf98;
-        width: 100%;
-        height: 40px;
-        color: #fff;
+    .ok-step5 {
         margin-top: 33px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
+    }
+    .ok-step6 {
+        margin-top: 10px;
+    }
+    .ok-step7 {
+        margin-top: 12px;
     }
 }
 
@@ -676,7 +686,7 @@ ion-backdrop[disable-activated] {
         left: 7vw !important;
         width: 61vw;
         height: 34vw;
-        padding-top: 11vw;
+        padding-top: 10vw;
     }
     .tutorialNum6 {
         top: 29vw;
@@ -686,7 +696,7 @@ ion-backdrop[disable-activated] {
         top: 14vw !important;
         left: 22vw !important;
         width: 57vw;
-        padding-top: 11vw;
+        padding-top: 9vw;
     }
     .tutorialNum7 {
         top: 9vw;
@@ -698,32 +708,20 @@ ion-backdrop[disable-activated] {
         top: 3vw !important;
         height: 12.5vw !important;
     }
-    .btn-ok-step3 {
-        background-color: #4487db;
-        width: 100%;
-        height: 40px;
-        color: #fff;
+    .ok-step3 {
         margin-top: 33px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
     }
-    .btn-ok-step4 {
-        background-color: #ff6363;
-        width: 100%;
-        height: 40px;
-        color: #fff;
+    .ok-step4 {
         margin-top: 39px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
     }
-    .btn-ok-step5 {
-        background-color: #00cf98;
-        width: 100%;
-        height: 40px;
-        color: #fff;
+    .ok-step5 {
         margin-top: 46px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
+    }
+    .ok-step6 {
+        margin-top: 12px;
+    }
+    .ok-step7 {
+        margin-top: 13px;
     }
 }
 /*Nexus 6*/ 
@@ -784,9 +782,7 @@ ion-backdrop[disable-activated] {
         top: 34vw !important;
         left: 7vw !important;
         width: 61vw;
-        padding-left: 2vw;
-        padding-right: 2vw;
-        padding-top: 13vw;
+        padding-top: 12vw;
     }
     .tutorialNum6 {
         top: 29vw;
@@ -807,32 +803,20 @@ ion-backdrop[disable-activated] {
         top: 3vw !important;
         height: 12.5vw !important;
     }
-    .btn-ok-step3 {
-        background-color: #4487db;
-        width: 100%;
-        height: 40px;
-        color: #fff;
+    .ok-step3 {
         margin-top: 35px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
     }
-    .btn-ok-step4 {
-        background-color: #ff6363;
-        width: 100%;
-        height: 40px;
-        color: #fff;
+    .ok-step4 {
         margin-top: 40px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
     }
-    .btn-ok-step5 {
-        background-color: #00cf98;
-        width: 100%;
-        height: 40px;
-        color: #fff;
+    .ok-step5 {
         margin-top: 34px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
+    }
+    .ok-step6 {
+        margin-top: 18px;
+    }
+    .ok-step7 {
+        margin-top: 13px;
     }
 }
 
@@ -865,32 +849,20 @@ ion-backdrop[disable-activated] {
         top: 3.8vw !important;
         height: 11vw !important;
     }
-    .btn-ok-step3 {
-        background-color: #4487db;
-        width: 100%;
-        height: 40px;
-        color: #fff;
+    .ok-step3 {
         margin-top: 38px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
     }
-    .btn-ok-step4 {
-        background-color: #ff6363;
-        width: 100%;
-        height: 40px;
-        color: #fff;
+    .ok-step4 {
         margin-top: 40px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
     }
-    .btn-ok-step5 {
-        background-color: #00cf98;
-        width: 100%;
-        height: 40px;
-        color: #fff;
+    .ok-step5 {
         margin-top: 40px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
+    }
+    .ok-step6 {
+        margin-top: 21px;
+    }
+    .ok-step7 {
+        margin-top: 22px;
     }
 }
 
@@ -953,7 +925,8 @@ ion-backdrop[disable-activated] {
     .tooltip-step6 {
         top: 34vw !important;
         left: 7vw !important;
-        padding-top: 11vw;
+        padding-top: 9vw;
+        height: 38vw;
     }
     .tutorialNum6 {
         top: 29vw;
@@ -963,7 +936,8 @@ ion-backdrop[disable-activated] {
         top: 14vw !important;
         left: 22vw !important;
         width: 57vw;
-        padding-top: 11vw;
+        padding-top: 9vw;
+        height: 38vw;
     }
     .tutorialNum7 {
         top: 9vw;
@@ -975,90 +949,22 @@ ion-backdrop[disable-activated] {
         top: 2.7vw !important;
         height: 13vw !important;
     }
-    .btn-ok-step3 {
-        background-color: #4487db;
-        width: 100%;
-        height: 40px;
-        color: #fff;
+    .ok-step3 {
         margin-top: 17px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
     }
-    .btn-ok-step4 {
-        background-color: #ff6363;
-        width: 100%;
-        height: 40px;
-        color: #fff;
+    .ok-step4 {
         margin-top: 34px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
     }
-    .btn-ok-step5 {
-        background-color: #00cf98;
-        width: 100%;
-        height: 40px;
-        color: #fff;
+    .ok-step5 {
         margin-top: 37px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
     }
-}
+    .ok-step6 {
+        margin-top: 16px;
+    }
+    .ok-step7 {
+        margin-top: 16px;
+    }
 
-/* Iphone 6 */
-@media only screen and (min-device-width : 375px) and (max-device-width : 375px) and (orientation : portrait) { 
-    .tutorialNum2 {
-        top: -2vw;
-        left: 56vw;
-    }
-    .tutorialNum3 {
-        top: -98vw;
-        left: -7vw;
-    }
-    .tutorialNum4 {
-        top: 75.7vw;
-        left: 46vw;
-        color: #FF6363;
-        border: 2px solid #FF6363;
-    }
-    .highlight-step7 {
-        width: 12vw !important;
-        left: 1.5vw !important;
-        top: 3vw !important;
-        height: 12.5vw !important;
-    }
-    .tooltip-step5 {
-        height: 44vw;
-    }
-    .tooltip-step4 {
-        height: 42vw;
-    }
-    .btn-ok-step3 {
-        background-color: #4487db;
-        width: 100%;
-        height: 40px;
-        color: #fff;
-        margin-top: 27px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
-    }
-    .btn-ok-step4 {
-        background-color: #ff6363;
-        width: 100%;
-        height: 40px;
-        color: #fff;
-        margin-top: 37px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
-    }
-    .btn-ok-step5 {
-        background-color: #00cf98;
-        width: 100%;
-        height: 40px;
-        color: #fff;
-        margin-top: 34px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
-    }
 }
 
 /* Iphone 6 plus */
@@ -1105,32 +1011,20 @@ ion-backdrop[disable-activated] {
         top: 3.7vw !important;
         height: 11vw !important;
     }
-    .btn-ok-step3 {
-        background-color: #4487db;
-        width: 100%;
-        height: 40px;
-        color: #fff;
+    .ok-step3 {
         margin-top: 35px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
     }
-    .btn-ok-step4 {
-        background-color: #ff6363;
-        width: 100%;
-        height: 40px;
-        color: #fff;
+    .ok-step4 {
         margin-top: 36px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
     }
-    .btn-ok-step5 {
-        background-color: #00cf98;
-        width: 100%;
-        height: 40px;
-        color: #fff;
+    .ok-step5 {
         margin-top: 42px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
+    }
+    .ok-step6 {
+        margin-top: 17px;
+    }
+    .ok-step7 {
+        margin-top: 17px;
     }
 }
 
@@ -1368,9 +1262,7 @@ ion-backdrop[disable-activated] {
         top: 9vw !important;
         left: 24vw !important;
         width: 51vw;
-        padding-left: 2vw;
-        padding-right: 2vw;
-        padding-top: 9vw;
+        padding-top: 7vw;
     }
     .tutorialNum7 {
         top: 5vw;
@@ -1382,32 +1274,25 @@ ion-backdrop[disable-activated] {
         top: 2.5vw !important;
         height: 8.5vw !important;
     }
-    .btn-ok-step3 {
-        background-color: #4487db;
-        width: 100%;
+    .ok-step3 {
         height: 70px;
-        color: #fff;
         margin-top: 55px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
     }
-    .btn-ok-step4 {
-        background-color: #ff6363;
-        width: 100%;
+    .ok-step4 {
         height: 70px;
-        color: #fff;
         margin-top: 58px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
     }
-    .btn-ok-step5 {
-        background-color: #00cf98;
-        width: 100%;
+    .ok-step5 {
         height: 70px;
-        color: #fff;
         margin-top: 69px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
+    }
+    .ok-step6 {
+        height: 70px;
+        margin-top: 17px;
+    }
+    .ok-step7 {
+        height: 70px;
+        margin-top: 17px;
     }
 }
 
@@ -1597,31 +1482,24 @@ ion-backdrop[disable-activated] {
         top: 3.5vw !important;
         height: 8.5vw !important;
     }
-    .btn-ok-step3 {
-        background-color: #4487db;
-        width: 100%;
+    .ok-step3 {
         height: 70px;
-        color: #fff;
         margin-top: 62px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
     }
-    .btn-ok-step4 {
-        background-color: #ff6363;
-        width: 100%;
+    .ok-step4 {
         height: 70px;
-        color: #fff;
         margin-top: 80px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
     }
-    .btn-ok-step5 {
-        background-color: #00cf98;
-        width: 100%;
+    .ok-step5 {
         height: 70px;
-        color: #fff;
         margin-top: 93px;
-        font-size: 1.1em;
-        font-family: "MuseoSansW01-Rounded900";
+    }
+    .ok-step6 {
+        height: 70px;
+        margin-top: 21px;
+    }
+    .ok-step7 {
+        height: 70px;
+        margin-top: 20px;
     }
 }
