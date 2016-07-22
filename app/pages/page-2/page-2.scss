@@ -342,8 +342,6 @@ ion-backdrop[disable-activated] {
     left: 34vw !important;
     top: 18vw;
     border: 2px solid #4487db;
-    padding-right: 7vw;
-    padding-left: 7vw;
     padding-top: 10.5vw;
     color: #4487db;
     box-shadow: none !important;
@@ -390,7 +388,7 @@ ion-backdrop[disable-activated] {
     left: 56vw;
 }
 .tooltip-step3 {
-    padding: 3vw;
+    padding: 0vw;
     width: 64vw;
     height: 44vw;
     border-radius: 7px;
@@ -518,7 +516,7 @@ ion-backdrop[disable-activated] {
         left: 56.0vw;
     }
     .tooltip-step3 {
-        padding: 3vw;
+        padding: 0vw;
         width: 64vw;
         height: 44vw;
         left: -35vw !important;
@@ -583,6 +581,14 @@ ion-backdrop[disable-activated] {
         top: 3vw !important;
         height: 12.5vw !important;
     }
+    .btn-ok {
+        background-color: #4487db;
+        width: 100%;
+        height: 40px;
+        color: #fff;
+        margin-top: 24px;
+        font-size: 1.1em;
+    }
 }
 
 /*Nexus 5X*/ 
@@ -614,7 +620,7 @@ ion-backdrop[disable-activated] {
         height: 34.5vw;
     }
     .tooltip-step3 {
-        padding: 3vw;
+        padding: 0vw;
         width: 64vw;
         height: 44vw;
         left: -35vw !important;
@@ -678,6 +684,14 @@ ion-backdrop[disable-activated] {
         top: 3vw !important;
         height: 12.5vw !important;
     }
+    .btn-ok {
+        background-color: #4487db;
+        width: 100%;
+        height: 40px;
+        color: #fff;
+        margin-top: 33px;
+        font-size: 1.1em;
+    }
 }
 /*Nexus 6*/ 
 @media only screen and (min-device-width : 412px) and (max-device-width : 412px) and (orientation : portrait) {
@@ -697,7 +711,7 @@ ion-backdrop[disable-activated] {
         left: 56vw;
     }
     .tooltip-step3 {
-        padding: 3vw;
+        padding: 0vw;
         width: 64vw;
         height: 44vw;
         left: -35vw !important;
@@ -761,6 +775,14 @@ ion-backdrop[disable-activated] {
         top: 3vw !important;
         height: 12.5vw !important;
     }
+    .btn-ok {
+        background-color: #4487db;
+        width: 100%;
+        height: 40px;
+        color: #fff;
+        margin-top: 35px;
+        font-size: 1.1em;
+    }
 }
 
 /* Nexus 6P */
@@ -786,6 +808,14 @@ ion-backdrop[disable-activated] {
         top: 3.8vw !important;
         height: 11vw !important;
     }
+    .btn-ok {
+        background-color: #4487db;
+        width: 100%;
+        height: 40px;
+        color: #fff;
+        margin-top: 38px;
+        font-size: 1.1em;
+    }
 }
 
 
@@ -808,7 +838,7 @@ ion-backdrop[disable-activated] {
         left: 56vw;
     }
     .tooltip-step3 {
-        padding: 3vw;
+        padding: 0vw;
         width: 64vw;
         height: 44vw;
         left: -35vw !important;
@@ -870,6 +900,14 @@ ion-backdrop[disable-activated] {
         top: 2.7vw !important;
         height: 13vw !important;
     }
+    .btn-ok {
+        background-color: #4487db;
+        width: 100%;
+        height: 40px;
+        color: #fff;
+        margin-top: 17px;
+        font-size: 1.1em;
+    }
 }
 
 /* Iphone 6 */
@@ -893,6 +931,14 @@ ion-backdrop[disable-activated] {
         left: 1.5vw !important;
         top: 3vw !important;
         height: 12.5vw !important;
+    }
+    .btn-ok {
+        background-color: #4487db;
+        width: 100%;
+        height: 40px;
+        color: #fff;
+        margin-top: 27px;
+        font-size: 1.1em;
     }
 }
 
@@ -933,6 +979,14 @@ ion-backdrop[disable-activated] {
         left: 1.5vw !important;
         top: 3.7vw !important;
         height: 11vw !important;
+    }
+    .btn-ok {
+        background-color: #4487db;
+        width: 100%;
+        height: 40px;
+        color: #fff;
+        margin-top: 35px;
+        font-size: 1.1em;
     }
 }
 
@@ -1070,8 +1124,6 @@ ion-backdrop[disable-activated] {
         left: 26vw !important;
         top: 13vw;
         border: 2px solid #4487db;
-        padding-right: 7vw;
-        padding-left: 7vw;
         padding-top: 7vw;
         color: #4487db;
     }
@@ -1110,7 +1162,7 @@ ion-backdrop[disable-activated] {
         left: 41vw;
     }
     .tooltip-step3 {
-        padding: 3vw;
+        padding: 0vw;
         width: 64vw;
         height: 40vw;
         left: -35vw !important;
@@ -1186,6 +1238,14 @@ ion-backdrop[disable-activated] {
         left: 0.3vw !important;
         top: 2.5vw !important;
         height: 8.5vw !important;
+    }
+    .btn-ok {
+        background-color: #4487db;
+        width: 100%;
+        height: 70px;
+        color: #fff;
+        margin-top: 55px;
+        font-size: 1.1em;
     }
 }
 
@@ -1306,7 +1366,7 @@ ion-backdrop[disable-activated] {
         left: 44vw;
     }
     .tooltip-step3 {
-        padding: 3vw;
+        padding: 0vw;
         width: 64vw;
         height: 40vw;
         left: -35vw !important;
@@ -1374,5 +1434,13 @@ ion-backdrop[disable-activated] {
         left: 0.3vw !important;
         top: 3.5vw !important;
         height: 8.5vw !important;
+    }
+    .btn-ok {
+        background-color: #4487db;
+        width: 100%;
+        height: 70px;
+        color: #fff;
+        margin-top: 62px;
+        font-size: 1.1em;
     }
 }
