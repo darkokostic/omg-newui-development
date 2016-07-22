@@ -335,7 +335,7 @@ ion-backdrop[disable-activated] {
 .introjs-tooltip {
     position: absolute;
     visibility: visible;
-    padding: 10px;
+    padding: 0px;
     background-color: white;
     width: 51vw;
     height: 38vw;
@@ -408,8 +408,6 @@ ion-backdrop[disable-activated] {
     width: 61vw;
     height: 39vw;
     padding-top: 10.5vw;
-    padding-left: 4vw;
-    padding-right: 4vw;
     color: #FF6363;
     border: 2px solid #FF6363;
 }
@@ -427,8 +425,6 @@ ion-backdrop[disable-activated] {
     top: -87vw !important;
     left: -33vw !important;
     width: 61vw;
-    padding-left: 4vw;
-    padding-right: 4vw;
     padding-top: 13vw;
     color: #00cf98;
     border: 2px solid #00cf98;
@@ -532,10 +528,8 @@ ion-backdrop[disable-activated] {
         top: 74vw;
         left: 20vw !important;
         width: 61vw;
-        height: 34vw;
+        height: 40vw;
         padding-top: 9.5vw;
-        padding-left: 4vw;
-        padding-right: 4vw;
         color: #FF6363;
         border: 2px solid #FF6363;
     }
@@ -549,6 +543,7 @@ ion-backdrop[disable-activated] {
         top: -75vw !important;
         left: -33vw !important;
         width: 61vw;
+        height: 40vw;
     }
     .tutorialNum5 {
         top: -80vw;
@@ -582,13 +577,32 @@ ion-backdrop[disable-activated] {
         top: 3vw !important;
         height: 12.5vw !important;
     }
-    .btn-ok {
+    .btn-ok-step3 {
         background-color: #4487db;
         width: 100%;
         height: 40px;
         color: #fff;
         margin-top: 24px;
         font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
+    }
+    .btn-ok-step4 {
+        background-color: #ff6363;
+        width: 100%;
+        height: 40px;
+        color: #fff;
+        margin-top: 29px;
+        font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
+    }
+    .btn-ok-step5 {
+        background-color: #00cf98;
+        width: 100%;
+        height: 40px;
+        color: #fff;
+        margin-top: 33px;
+        font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
     }
 }
 
@@ -636,10 +650,8 @@ ion-backdrop[disable-activated] {
         top: 77vw;
         left: 20vw !important;
         width: 61vw;
-        height: 34vw;
+        height: 40vw;
         padding-top: 9.5vw;
-        padding-left: 4vw;
-        padding-right: 4vw;
         color: #FF6363;
         border: 2px solid #FF6363;
     }    
@@ -653,6 +665,7 @@ ion-backdrop[disable-activated] {
         top: -87vw !important;
         left: -33vw !important;
         width: 61vw;
+        height: 40vw;
     }
     .tutorialNum5 {
         top: -91vw;
@@ -685,13 +698,32 @@ ion-backdrop[disable-activated] {
         top: 3vw !important;
         height: 12.5vw !important;
     }
-    .btn-ok {
+    .btn-ok-step3 {
         background-color: #4487db;
         width: 100%;
         height: 40px;
         color: #fff;
         margin-top: 33px;
         font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
+    }
+    .btn-ok-step4 {
+        background-color: #ff6363;
+        width: 100%;
+        height: 40px;
+        color: #fff;
+        margin-top: 39px;
+        font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
+    }
+    .btn-ok-step5 {
+        background-color: #00cf98;
+        width: 100%;
+        height: 40px;
+        color: #fff;
+        margin-top: 46px;
+        font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
     }
 }
 /*Nexus 6*/ 
@@ -727,10 +759,8 @@ ion-backdrop[disable-activated] {
         top: 82vw;
         left: 20vw !important;
         width: 61vw;
-        height: 34vw;
+        height: 40vw;
         padding-top: 9.5vw;
-        padding-left: 4vw;
-        padding-right: 4vw;
         color: #FF6363;
         border: 2px solid #FF6363;
     }
@@ -744,6 +774,7 @@ ion-backdrop[disable-activated] {
         top: -87vw !important;
         left: -33vw !important;
         width: 61vw;
+        height: 42vw;
     }
     .tutorialNum5 {
         top: -92vw;
@@ -776,13 +807,32 @@ ion-backdrop[disable-activated] {
         top: 3vw !important;
         height: 12.5vw !important;
     }
-    .btn-ok {
+    .btn-ok-step3 {
         background-color: #4487db;
         width: 100%;
         height: 40px;
         color: #fff;
         margin-top: 35px;
         font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
+    }
+    .btn-ok-step4 {
+        background-color: #ff6363;
+        width: 100%;
+        height: 40px;
+        color: #fff;
+        margin-top: 40px;
+        font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
+    }
+    .btn-ok-step5 {
+        background-color: #00cf98;
+        width: 100%;
+        height: 40px;
+        color: #fff;
+        margin-top: 34px;
+        font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
     }
 }
 
@@ -793,6 +843,12 @@ ion-backdrop[disable-activated] {
     }
     .tutorialNum6 {
         left: 33vw;
+    }
+    .tooltip-step5 {
+        height: 42vw;
+    }
+    .tooltip-step4 {
+        height: 40vw;
     }
     .tooltip-step7 {
         top: 14vw !important;
@@ -809,13 +865,32 @@ ion-backdrop[disable-activated] {
         top: 3.8vw !important;
         height: 11vw !important;
     }
-    .btn-ok {
+    .btn-ok-step3 {
         background-color: #4487db;
         width: 100%;
         height: 40px;
         color: #fff;
         margin-top: 38px;
         font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
+    }
+    .btn-ok-step4 {
+        background-color: #ff6363;
+        width: 100%;
+        height: 40px;
+        color: #fff;
+        margin-top: 40px;
+        font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
+    }
+    .btn-ok-step5 {
+        background-color: #00cf98;
+        width: 100%;
+        height: 40px;
+        color: #fff;
+        margin-top: 40px;
+        font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
     }
 }
 
@@ -854,10 +929,8 @@ ion-backdrop[disable-activated] {
         top: 83vw;
         left: 20vw !important;
         width: 61vw;
-        height: 34vw;
+        height: 44vw;
         padding-top: 9.5vw;
-        padding-left: 4vw;
-        padding-right: 4vw;
         color: #FF6363;
         border: 2px solid #FF6363;
     }
@@ -871,6 +944,7 @@ ion-backdrop[disable-activated] {
         top: -87vw !important;
         left: -33vw !important;
         width: 61vw;
+        height: 44vw;
     }
     .tutorialNum5 {
         top: -91vw;
@@ -901,13 +975,32 @@ ion-backdrop[disable-activated] {
         top: 2.7vw !important;
         height: 13vw !important;
     }
-    .btn-ok {
+    .btn-ok-step3 {
         background-color: #4487db;
         width: 100%;
         height: 40px;
         color: #fff;
         margin-top: 17px;
         font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
+    }
+    .btn-ok-step4 {
+        background-color: #ff6363;
+        width: 100%;
+        height: 40px;
+        color: #fff;
+        margin-top: 34px;
+        font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
+    }
+    .btn-ok-step5 {
+        background-color: #00cf98;
+        width: 100%;
+        height: 40px;
+        color: #fff;
+        margin-top: 37px;
+        font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
     }
 }
 
@@ -933,13 +1026,38 @@ ion-backdrop[disable-activated] {
         top: 3vw !important;
         height: 12.5vw !important;
     }
-    .btn-ok {
+    .tooltip-step5 {
+        height: 44vw;
+    }
+    .tooltip-step4 {
+        height: 42vw;
+    }
+    .btn-ok-step3 {
         background-color: #4487db;
         width: 100%;
         height: 40px;
         color: #fff;
         margin-top: 27px;
         font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
+    }
+    .btn-ok-step4 {
+        background-color: #ff6363;
+        width: 100%;
+        height: 40px;
+        color: #fff;
+        margin-top: 37px;
+        font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
+    }
+    .btn-ok-step5 {
+        background-color: #00cf98;
+        width: 100%;
+        height: 40px;
+        color: #fff;
+        margin-top: 34px;
+        font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
     }
 }
 
@@ -958,6 +1076,12 @@ ion-backdrop[disable-activated] {
         left: 46vw;
         color: #FF6363;
         border: 2px solid #FF6363;
+    }
+    .tooltip-step4 {
+        height: 40vw;
+    }
+    .tooltip-step5 {
+        height: 44vw;
     }
     .tooltip-step6 {
         top: 34vw !important;
@@ -981,13 +1105,32 @@ ion-backdrop[disable-activated] {
         top: 3.7vw !important;
         height: 11vw !important;
     }
-    .btn-ok {
+    .btn-ok-step3 {
         background-color: #4487db;
         width: 100%;
         height: 40px;
         color: #fff;
         margin-top: 35px;
         font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
+    }
+    .btn-ok-step4 {
+        background-color: #ff6363;
+        width: 100%;
+        height: 40px;
+        color: #fff;
+        margin-top: 36px;
+        font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
+    }
+    .btn-ok-step5 {
+        background-color: #00cf98;
+        width: 100%;
+        height: 40px;
+        color: #fff;
+        margin-top: 42px;
+        font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
     }
 }
 
@@ -1117,7 +1260,7 @@ ion-backdrop[disable-activated] {
     .introjs-tooltip {
         position: absolute;
         visibility: visible;
-        padding: 10px;
+        padding: 0px;
         background-color: white;
         width: 38vw;
         height: 27vw;
@@ -1178,10 +1321,8 @@ ion-backdrop[disable-activated] {
         top: 64vw;
         left: 26vw !important;
         width: 47vw;
-        height: 27vw;
+        height: 32vw;
         padding-top: 6.5vw;
-        padding-left: 2vw;
-        padding-right: 2vw;
         color: #FF6363;
         border: 2px solid #FF6363;
     }
@@ -1198,6 +1339,7 @@ ion-backdrop[disable-activated] {
         padding-top: 8vw;
         color: #00cf98;
         border: 2px solid #00cf98;
+        height: 35vw;
     }
     .tutorialNum5 {
         top: -74vw;
@@ -1240,13 +1382,32 @@ ion-backdrop[disable-activated] {
         top: 2.5vw !important;
         height: 8.5vw !important;
     }
-    .btn-ok {
+    .btn-ok-step3 {
         background-color: #4487db;
         width: 100%;
         height: 70px;
         color: #fff;
         margin-top: 55px;
         font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
+    }
+    .btn-ok-step4 {
+        background-color: #ff6363;
+        width: 100%;
+        height: 70px;
+        color: #fff;
+        margin-top: 58px;
+        font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
+    }
+    .btn-ok-step5 {
+        background-color: #00cf98;
+        width: 100%;
+        height: 70px;
+        color: #fff;
+        margin-top: 69px;
+        font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
     }
 }
 
@@ -1383,10 +1544,8 @@ ion-backdrop[disable-activated] {
         top: 77vw;
         left: 22vw !important;
         width: 54vw;
-        height: 32vw;
+        height: 37vw;
         padding-top: 9.5vw;
-        padding-left: 6vw;
-        padding-right: 6vw;
         color: #FF6363;
         border: 2px solid #FF6363;
     }
@@ -1401,6 +1560,7 @@ ion-backdrop[disable-activated] {
         left: -32vw !important;
         width: 57vw;
         padding-top: 8vw;
+        height: 37vw;
     }
     .tutorialNum5 {
         top: -84vw;
@@ -1437,12 +1597,31 @@ ion-backdrop[disable-activated] {
         top: 3.5vw !important;
         height: 8.5vw !important;
     }
-    .btn-ok {
+    .btn-ok-step3 {
         background-color: #4487db;
         width: 100%;
         height: 70px;
         color: #fff;
         margin-top: 62px;
         font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
+    }
+    .btn-ok-step4 {
+        background-color: #ff6363;
+        width: 100%;
+        height: 70px;
+        color: #fff;
+        margin-top: 80px;
+        font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
+    }
+    .btn-ok-step5 {
+        background-color: #00cf98;
+        width: 100%;
+        height: 70px;
+        color: #fff;
+        margin-top: 93px;
+        font-size: 1.1em;
+        font-family: "MuseoSansW01-Rounded900";
     }
 }
