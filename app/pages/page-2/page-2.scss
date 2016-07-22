@@ -5,6 +5,7 @@
 }
 .item-radio-checked.item-radio-disabled {
     border-color: #d9d9d9 !important;
+    box-shadow: none !important;
 }
 .item-radio-disabled .item-inner .input-wrapper ion-label {
     color: #d9d9d9 !important;
@@ -199,7 +200,7 @@
 	box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
 	color: #4487db;
 	font-size: 3.7vw;
-	font-family: "MuseoSansW01-Rounded700";
+	font-family: "MuseoSans500";
 	padding: 0px !important;
 	height: 13.8vw;
 }
@@ -212,7 +213,7 @@
 .rise-button .item-radio-checked {
     box-shadow: 0px 0px 4px 0px rgba(68,135,219,0.40);
     border: 2px solid #4487db;
-    font-family: "MuseoSansW01-Rounded900";
+    font-family: "MuseoSansW01-Rounded700";
 }
 
 /* FALL BUTTON */
@@ -222,7 +223,7 @@
 	box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
 	color: #4487db;
 	font-size: 3.7vw;
-	font-family: "MuseoSansW01-Rounded700";
+	font-family: "MuseoSans500";
 	padding: 0px !important;
 	height: 13.8vw;
 }
@@ -235,7 +236,7 @@
 .fall-button .item-radio-checked {
     box-shadow: 0px 0px 4px 0px rgba(68,135,219,0.40);
     border: 2px solid #4487db;
-    font-family: "MuseoSansW01-Rounded900";
+    font-family: "MuseoSansW01-Rounded700";
 }
 
 /* If user is winning */
@@ -1341,6 +1342,7 @@ ion-backdrop[disable-activated] {
     }
     .item-radio-checked.item-radio-disabled {
         border-color: #d9d9d9 !important;
+        box-shadow: none !important;
     }
     .item-radio-disabled .item-inner .input-wrapper ion-label {
         color: #d9d9d9 !important;
