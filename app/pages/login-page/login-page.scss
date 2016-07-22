@@ -15,7 +15,7 @@
 	}
 	.george-and-button button {
 		font-size: 1.6em; 
-		margin-top: -25px;
+		margin-top: -24.3px;
 	}
 	.george-img img {
 		width: 220px;
@@ -36,7 +36,7 @@
 /* Nexus 5X */
 @media only screen and (min-device-width : 411px) and (max-device-width : 411px) and (orientation : portrait) {
 	.george-and-button button { 
-		margin-top: -16.5px;
+		margin-top: -17.4px;
 	}
 }
 /* Nexus 5 */
@@ -49,5 +49,23 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 320px) and (orientation : portrait) {
 	.george-and-button button { 
 		margin-top: -17px;
+	}
+}
+/* Nexus 6 */
+@media only screen and (min-device-width : 412px) and (max-device-width : 412px) and (orientation : portrait) {
+	.george-and-button button { 
+		margin-top: -16px;
+	}
+}
+/* iPhone 6 plus */
+@media only screen and (min-device-width : 414px) and (max-device-width : 414px) and (orientation : portrait) {
+	.george-and-button button { 
+		margin-top: -16.1px;
+	}
+}
+/* iPhone 6 */
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {
+	.george-and-button button { 
+		margin-top: -16.1px;
 	}
 }
