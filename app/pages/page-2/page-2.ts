@@ -11,6 +11,8 @@ export class Page2 {
 	isActive: boolean;
 	upperClass: string;
 	infoBtnClass: string;
+	fallBtnClass: string;
+	riseBtnClass: string;
 	timeLineClass: string;
 	goBtnClass: string;
 	randomStatus: boolean;
@@ -46,6 +48,8 @@ export class Page2 {
 
 		} else {
 			if(this.isActive == true) {
+				this.riseBtnClass = '';
+  				this.fallBtnClass = '';
 				this.isActive = false;
 				clearInterval(this.timer);
 				this.upperClass = '';
@@ -56,6 +60,8 @@ export class Page2 {
 				this.goButtonStatus = false;
 				this.goBtn = true;
 			} else {
+				this.riseBtnClass = 'rise-btn-image';
+  				this.fallBtnClass = 'fall-btn-image';
 				this.isActive = true;
 				this.randomStatus = Math.random() >= 0.5;
 				if(money != undefined && type != undefined)
