@@ -57,15 +57,3 @@
 		margin-top: -16px;
 	}
 }
-/* iPhone 6 plus */
-@media only screen and (min-device-width : 414px) and (max-device-width : 414px) and (orientation : portrait) {
-	.george-and-button button { 
-		margin-top: -16.1px;
-	}
-}
-/* iPhone 6 */
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {
-	.george-and-button button { 
-		margin-top: -16.1px;
-	}
-}
