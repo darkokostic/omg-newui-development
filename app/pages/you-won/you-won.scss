@@ -81,6 +81,7 @@
 	color: #fff;
     margin-top: -76px;
     font-size: 1.55em;
+    font-family: "MuseoSansW01-Rounded700";
 }
 .text-you-bottom {
     position: relative;
@@ -132,6 +133,9 @@
 	.buttons {
         margin-top: 10%;
     }
+}
+.button-share-facebook ion-icon {
+	padding-right: .5em;
 }
 
 @media only screen and (min-device-width : 800px) and (max-device-width : 1280px) and (orientation : portrait) {
