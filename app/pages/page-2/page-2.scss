@@ -5,6 +5,7 @@
 }
 .item-radio-checked.item-radio-disabled {
     border-color: #d9d9d9 !important;
+    box-shadow: none !important;
 }
 .item-radio-disabled .item-inner .input-wrapper ion-label {
     color: #d9d9d9 !important;
@@ -199,7 +200,7 @@
 	box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
 	color: #4487db;
 	font-size: 3.7vw;
-	font-family: "MuseoSansW01-Rounded700";
+	font-family: "MuseoSans500";
 	padding: 0px !important;
 	height: 13.8vw;
 }
@@ -212,7 +213,7 @@
 .rise-button .item-radio-checked {
     box-shadow: 0px 0px 4px 0px rgba(68,135,219,0.40);
     border: 2px solid #4487db;
-    font-family: "MuseoSansW01-Rounded900";
+    font-family: "MuseoSansW01-Rounded700";
 }
 
 /* FALL BUTTON */
@@ -222,7 +223,7 @@
 	box-shadow: 0px 0px 4px 0px rgba(217,217,217,0.80);
 	color: #4487db;
 	font-size: 3.7vw;
-	font-family: "MuseoSansW01-Rounded700";
+	font-family: "MuseoSans500";
 	padding: 0px !important;
 	height: 13.8vw;
 }
@@ -235,7 +236,7 @@
 .fall-button .item-radio-checked {
     box-shadow: 0px 0px 4px 0px rgba(68,135,219,0.40);
     border: 2px solid #4487db;
-    font-family: "MuseoSansW01-Rounded900";
+    font-family: "MuseoSansW01-Rounded700";
 }
 
 /* If user is winning */
@@ -277,7 +278,7 @@ ion-backdrop[disable-activated] {
     box-shadow: 3px 9px 39px 0px rgba(0,0,0,0.75);
     background-color: #efefef;
     border-radius: 10px;
-    height: 51%;
+    height: 48%;
     width: 75%;
 }
 .alert-title {
@@ -331,22 +332,17 @@ ion-backdrop[disable-activated] {
 }
 
 /* TUTORIALS */
-.introjs-overlay {
-    opacity: 0.5 !important;
-}
 .introjs-tooltip {
     position: absolute;
     visibility: visible;
-    padding: 10px;
     background-color: white;
+    padding: 0px;
     width: 51vw;
     height: 38vw;
     border-radius: 7px;
     left: 34vw !important;
     top: 18vw;
     border: 2px solid #4487db;
-    padding-right: 7vw;
-    padding-left: 7vw;
     padding-top: 10.5vw;
     color: #4487db;
     box-shadow: none !important;
@@ -356,28 +352,10 @@ ion-backdrop[disable-activated] {
     text-align: center;
     font-family: MuseoSansW01-Rounded700;
 }
-.introjs-arrow.left {
-    display: none !important;
-}
-.introjs-arrow.right {
-    display: none !important;
-}
-.introjs-arrow.top {
-    display: none !important;
-}
-.introjs-arrow.bottom {
-    display: none !important;
-}
-.introjs-button {
-    display: none;
-}
-.introjs-bullets {
-    display: none;
-}
 .introjs-helperNumberLayer {
     position: absolute;
     visibility: visible;
-    top: 13vw;
+    top: 14vw;
     left: 54vw;
     z-index: 9999999999!important;
     padding: 2px;
@@ -393,10 +371,6 @@ ion-backdrop[disable-activated] {
     border-radius: 50%;
     font-weight: normal;
     text-shadow: none;
-    box-shadow: none !important;
-}
-.introjs-helperLayer {
-    border-radius: 10px !important;
     box-shadow: none !important;
 }
 .tooltip-step2 {
@@ -415,14 +389,13 @@ ion-backdrop[disable-activated] {
     left: 56vw;
 }
 .tooltip-step3 {
-    padding: 3vw;
     width: 64vw;
     height: 44vw;
     border-radius: 7px;
     left: -35vw !important;
     top: -94vw;
     border: 2px solid #4487db;
-    padding-top: 15vw;
+    padding-top: 14vw !important;
 }
 .tutorialNum3 {
     top: -98.5vw;
@@ -433,9 +406,7 @@ ion-backdrop[disable-activated] {
     left: 20vw !important;
     width: 61vw;
     height: 39vw;
-    padding-top: 10.5vw;
-    padding-left: 4vw;
-    padding-right: 4vw;
+    padding-top: 8.5vw;
     color: #FF6363;
     border: 2px solid #FF6363;
 }
@@ -453,9 +424,8 @@ ion-backdrop[disable-activated] {
     top: -87vw !important;
     left: -33vw !important;
     width: 61vw;
-    padding-left: 4vw;
-    padding-right: 4vw;
-    padding-top: 13vw;
+    height: 41vw;
+    padding-top: 10vw;
     color: #00cf98;
     border: 2px solid #00cf98;
 }
@@ -469,9 +439,8 @@ ion-backdrop[disable-activated] {
     top: 34vw !important;
     left: 7vw !important;
     width: 61vw;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    padding-top: 13vw;
+    padding-top: 11vw;
+    height: 39vw;
 }
 .tutorialNum6 {
     top: 29vw;
@@ -489,9 +458,8 @@ ion-backdrop[disable-activated] {
     top: 14vw !important;
     left: 19vw !important;
     width: 61vw;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    padding-top: 13vw;
+    padding-top: 11vw;
+    height: 39vw;
 }
 .tutorialNum7 {
     top: 9vw;
@@ -503,7 +471,61 @@ ion-backdrop[disable-activated] {
     top: 3vw !important;
     height: 12.5vw !important;
 }
+.introjs-helperLayer {
+    border: none !important;
+}
 
+/* TooltipText */
+.tooltiptext-step1 {
+    padding-left: 7vw;
+    padding-right: 7vw;
+    padding-top: 1vw;
+}
+.tooltiptext-step3 {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.tooltiptext-step4 {
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+.tooltiptext-step5 {
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+.tooltiptext-step7 {
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+/* ButtonsOk */
+.btn-ok {
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    font-size: 1.1em;
+    font-family: "MuseoSansW01-Rounded900";
+}
+.ok-step3 {
+    background-color: #4487db;
+    margin-top: 31px;
+}
+.ok-step4 {
+    background-color: #ff6363;
+    margin-top: 14px;
+}
+.ok-step5 {
+    background-color: #00cf98;
+    margin-top: 16px;
+}
+.ok-step6 {
+    background-color: #4487db;
+    margin-top: 23px;
+}
+.ok-step7 {
+    background-color: #4487db;
+    margin-top: 23px;
+}
 /* OTHER DEVICES */
 
 /* Nexus 5 */
@@ -540,12 +562,10 @@ ion-backdrop[disable-activated] {
         left: 56.0vw;
     }
     .tooltip-step3 {
-        padding: 3vw;
         width: 64vw;
         height: 44vw;
         left: -35vw !important;
         top: -87vw;
-        padding-top: 15vw;
     }
     .tutorialNum3 {
         top: -91.5vw;
@@ -555,23 +575,19 @@ ion-backdrop[disable-activated] {
         top: 74vw;
         left: 20vw !important;
         width: 61vw;
-        height: 34vw;
-        padding-top: 9.5vw;
-        padding-left: 4vw;
-        padding-right: 4vw;
-        color: #FF6363;
-        border: 2px solid #FF6363;
+        height: 40vw;
+        padding-top: 8.5vw;
     }
     .tutorialNum4 {
         top: 69.5vw;
         left: 45.5vw;
-        color: #FF6363;
-        border: 2px solid #FF6363;
     }
     .tooltip-step5 {
         top: -75vw !important;
         left: -33vw !important;
         width: 61vw;
+        height: 41vw;
+        padding-top: 10vw;
     }
     .tutorialNum5 {
         top: -80vw;
@@ -581,9 +597,8 @@ ion-backdrop[disable-activated] {
         top: 34vw !important;
         left: 7vw !important;
         width: 61vw;
-        padding-left: 2vw;
-        padding-right: 2vw;
-        padding-top: 13vw;
+        padding-top: 9vw;
+        height: 38vw;
     }
     .tutorialNum6 {
         top: 29vw;
@@ -592,8 +607,9 @@ ion-backdrop[disable-activated] {
     .tooltip-step7 {
         top: 14vw !important;
         left: 22vw !important;
-        width: 57vw;
-        padding-top: 11vw;
+        width: 60vw;
+        padding-top: 9vw;
+        height: 38vw;
     }
     .tutorialNum7 {
         top: 9vw;
@@ -604,6 +620,21 @@ ion-backdrop[disable-activated] {
         left: 1.8vw !important;
         top: 3vw !important;
         height: 12.5vw !important;
+    }
+    .ok-step3 {
+        margin-top: 29px;
+    }
+    .ok-step4 {
+        margin-top: 15px;
+    }
+    .ok-step5 {
+        margin-top: 14px;
+    }
+    .ok-step6 {
+        margin-top: 24px;
+    }
+    .ok-step7 {
+        margin-top: 12px;
     }
 }
 
@@ -636,12 +667,10 @@ ion-backdrop[disable-activated] {
         height: 34.5vw;
     }
     .tooltip-step3 {
-        padding: 3vw;
         width: 64vw;
         height: 44vw;
         left: -35vw !important;
         top: -92vw;
-        padding-top: 15vw;
     }
     .tutorialNum3 {
         top: -96.7vw;
@@ -651,23 +680,19 @@ ion-backdrop[disable-activated] {
         top: 77vw;
         left: 20vw !important;
         width: 61vw;
-        height: 34vw;
+        height: 40vw;
         padding-top: 9.5vw;
-        padding-left: 4vw;
-        padding-right: 4vw;
-        color: #FF6363;
-        border: 2px solid #FF6363;
     }    
     .tutorialNum4 {
         top: 72.5vw;
         left: 46vw;
-        color: #FF6363;
-        border: 2px solid #FF6363;
     }
     .tooltip-step5 {
         top: -87vw !important;
         left: -33vw !important;
         width: 61vw;
+        height: 43vw;
+        padding-top: 10vw;
     }
     .tutorialNum5 {
         top: -91vw;
@@ -677,8 +702,8 @@ ion-backdrop[disable-activated] {
         top: 34vw !important;
         left: 7vw !important;
         width: 61vw;
-        height: 34vw;
-        padding-top: 11vw;
+        height: 38vw;
+        padding-top: 10vw;
     }
     .tutorialNum6 {
         top: 29vw;
@@ -688,7 +713,8 @@ ion-backdrop[disable-activated] {
         top: 14vw !important;
         left: 22vw !important;
         width: 57vw;
-        padding-top: 11vw;
+        height: 38vw;
+        padding-top: 10vw;
     }
     .tutorialNum7 {
         top: 9vw;
@@ -699,6 +725,21 @@ ion-backdrop[disable-activated] {
         left: 1vw !important;
         top: 3vw !important;
         height: 12.5vw !important;
+    }
+    .ok-step3 {
+        margin-top: 38px;
+    }
+    .ok-step4 {
+        margin-top: 18px;
+    }
+    .ok-step5 {
+        margin-top: 28px;
+    }
+    .ok-step6 {
+        margin-top: 29px;
+    }
+    .ok-step7 {
+        margin-top: 13px;
     }
 }
 /*Nexus 6*/ 
@@ -719,12 +760,10 @@ ion-backdrop[disable-activated] {
         left: 56vw;
     }
     .tooltip-step3 {
-        padding: 3vw;
         width: 64vw;
         height: 44vw;
         left: -35vw !important;
         top: -92vw;
-        padding-top: 15vw;
     }
     .tutorialNum3 {
         top: -96vw;
@@ -734,23 +773,18 @@ ion-backdrop[disable-activated] {
         top: 82vw;
         left: 20vw !important;
         width: 61vw;
-        height: 34vw;
+        height: 40vw;
         padding-top: 9.5vw;
-        padding-left: 4vw;
-        padding-right: 4vw;
-        color: #FF6363;
-        border: 2px solid #FF6363;
     }
     .tutorialNum4 {
         top: 78vw;
         line-height: 8.3vw;
-        color: #FF6363;
-        border: 2px solid #FF6363;
     }
     .tooltip-step5 {
         top: -87vw !important;
         left: -33vw !important;
         width: 61vw;
+        height: 42vw;
     }
     .tutorialNum5 {
         top: -92vw;
@@ -760,9 +794,8 @@ ion-backdrop[disable-activated] {
         top: 34vw !important;
         left: 7vw !important;
         width: 61vw;
-        padding-left: 2vw;
-        padding-right: 2vw;
-        padding-top: 13vw;
+        padding-top: 11vw;
+        height: 38vw;
     }
     .tutorialNum6 {
         top: 29vw;
@@ -771,7 +804,9 @@ ion-backdrop[disable-activated] {
     .tooltip-step7 {
         top: 14vw !important;
         left: 22vw !important;
-        width: 57vw;
+        width: 60vw;
+        padding-top: 11vw;
+        height: 38vw;
     }
     .tutorialNum7 {
         top: 9vw;
@@ -783,6 +818,21 @@ ion-backdrop[disable-activated] {
         top: 3vw !important;
         height: 12.5vw !important;
     }
+    .ok-step3 {
+        margin-top: 38px;
+    }
+    .ok-step4 {
+        margin-top: 19px;
+    }
+    .ok-step5 {
+        margin-top: 25px;
+    }
+    .ok-step6 {
+        margin-top: 26px;
+    }
+    .ok-step7 {
+        margin-top: 13px;
+    }
 }
 
 /* Nexus 6P */
@@ -792,6 +842,12 @@ ion-backdrop[disable-activated] {
     }
     .tutorialNum6 {
         left: 33vw;
+    }
+    .tooltip-step5 {
+        height: 42vw;
+    }
+    .tooltip-step4 {
+        height: 40vw;
     }
     .tooltip-step7 {
         top: 14vw !important;
@@ -807,6 +863,21 @@ ion-backdrop[disable-activated] {
         left: 1.1vw !important;
         top: 3.8vw !important;
         height: 11vw !important;
+    }
+    .ok-step3 {
+        margin-top: 43px;
+    }
+    .ok-step4 {
+        margin-top: 27px;
+    }
+    .ok-step5 {
+        margin-top: 29px;
+    }
+    .ok-step6 {
+        margin-top: 34px;
+    }
+    .ok-step7 {
+        margin-top: 22px;
     }
 }
 
@@ -830,12 +901,10 @@ ion-backdrop[disable-activated] {
         left: 56vw;
     }
     .tooltip-step3 {
-        padding: 3vw;
         width: 64vw;
         height: 44vw;
         left: -35vw !important;
         top: -92vw;
-        padding-top: 15vw;
     }
     .tutorialNum3 {
         top: -96vw;
@@ -845,23 +914,19 @@ ion-backdrop[disable-activated] {
         top: 83vw;
         left: 20vw !important;
         width: 61vw;
-        height: 34vw;
-        padding-top: 9.5vw;
-        padding-left: 4vw;
-        padding-right: 4vw;
-        color: #FF6363;
-        border: 2px solid #FF6363;
+        height: 35vw;
+        padding-top: 7vw;
     }
     .tutorialNum4 {
         top: 79vw;
         line-height: 8vw;
-        color: #FF6363;
-        border: 2px solid #FF6363;
     }
     .tooltip-step5 {
         top: -87vw !important;
         left: -33vw !important;
         width: 61vw;
+        height: 44vw;
+        padding-top: 10vw;
     }
     .tutorialNum5 {
         top: -91vw;
@@ -870,7 +935,8 @@ ion-backdrop[disable-activated] {
     .tooltip-step6 {
         top: 34vw !important;
         left: 7vw !important;
-        padding-top: 11vw;
+        padding-top: 10vw;
+        height: 38vw;
     }
     .tutorialNum6 {
         top: 29vw;
@@ -879,8 +945,9 @@ ion-backdrop[disable-activated] {
     .tooltip-step7 {
         top: 14vw !important;
         left: 22vw !important;
-        width: 57vw;
-        padding-top: 11vw;
+        width: 60vw;
+        padding-top: 10vw;
+        height: 38vw;
     }
     .tutorialNum7 {
         top: 9vw;
@@ -892,30 +959,24 @@ ion-backdrop[disable-activated] {
         top: 2.7vw !important;
         height: 13vw !important;
     }
-}
+    .ok-step3 {
+        margin-top: 21px;
+    }
+    .ok-step4 {
+        margin-top: 8px;
+        height: 30px;
+    }
+    .ok-step5 {
+        margin-top: 16px;
+    }
+    .ok-step6 {
+        margin-top: 23px;
+        height: 30px;
+    }
+    .ok-step7 {
+        margin-top: 16px;
+    }
 
-/* Iphone 6 */
-@media only screen and (min-device-width : 375px) and (max-device-width : 375px) and (orientation : portrait) { 
-    .tutorialNum2 {
-        top: -2vw;
-        left: 56vw;
-    }
-    .tutorialNum3 {
-        top: -98vw;
-        left: -7vw;
-    }
-    .tutorialNum4 {
-        top: 75.7vw;
-        left: 46vw;
-        color: #FF6363;
-        border: 2px solid #FF6363;
-    }
-    .highlight-step7 {
-        width: 12vw !important;
-        left: 1.5vw !important;
-        top: 3vw !important;
-        height: 12.5vw !important;
-    }
 }
 
 /* Iphone 6 plus */
@@ -934,6 +995,12 @@ ion-backdrop[disable-activated] {
         color: #FF6363;
         border: 2px solid #FF6363;
     }
+    .tooltip-step4 {
+        height: 40vw;
+    }
+    .tooltip-step5 {
+        height: 44vw;
+    }
     .tooltip-step6 {
         top: 34vw !important;
         left: 7vw !important;
@@ -943,8 +1010,7 @@ ion-backdrop[disable-activated] {
     }
     .tooltip-step7 {
         top: 14vw !important;
-        left: 22vw !important;
-        width: 57vw;
+        left: 20vw !important;
     }
     .tutorialNum7 {
         top: 9vw;
@@ -955,6 +1021,21 @@ ion-backdrop[disable-activated] {
         left: 1.5vw !important;
         top: 3.7vw !important;
         height: 11vw !important;
+    }
+    .ok-step3 {
+        margin-top: 39px;
+    }
+    .ok-step4 {
+        margin-top: 24px;
+    }
+    .ok-step5 {
+        margin-top: 34px;
+    }
+    .ok-step6 {
+        margin-top: 30px;
+    }
+    .ok-step7 {
+        margin-top: 30px;
     }
 }
 
@@ -1084,18 +1165,14 @@ ion-backdrop[disable-activated] {
     .introjs-tooltip {
         position: absolute;
         visibility: visible;
-        padding: 10px;
+        padding: 0px;
         background-color: white;
         width: 38vw;
         height: 27vw;
         border-radius: 7px;
         left: 26vw !important;
         top: 13vw;
-        border: 2px solid #4487db;
-        padding-right: 7vw;
-        padding-left: 7vw;
         padding-top: 7vw;
-        color: #4487db;
     }
     .introjs-tooltiptext {
         font-size: 3.7vw;
@@ -1111,13 +1188,11 @@ ion-backdrop[disable-activated] {
         padding: 2px;
         font-family: MuseoSansW01-Rounded700;
         font-size: 4vw;
-        color: #4487db;
         text-align: center;
         background: #fff;
         width: 8vw;
         height: 8vw;
         line-height: 7vw;
-        border: 2px solid #4487db;
         border-radius: 50%;
         font-weight: normal;
         text-shadow: none;
@@ -1132,12 +1207,11 @@ ion-backdrop[disable-activated] {
         left: 41vw;
     }
     .tooltip-step3 {
-        padding: 3vw;
         width: 64vw;
         height: 40vw;
         left: -35vw !important;
         top: -77vw;
-        padding-top: 15vw;
+        padding-top: 14vw;
     }
     .tutorialNum3 {
         top: -80.5vw;
@@ -1147,39 +1221,34 @@ ion-backdrop[disable-activated] {
         top: 64vw;
         left: 26vw !important;
         width: 47vw;
-        height: 27vw;
+        height: 32vw;
         padding-top: 6.5vw;
-        padding-left: 2vw;
-        padding-right: 2vw;
-        color: #FF6363;
-        border: 2px solid #FF6363;
     }
     .tutorialNum4 {
         top: 60.2vw;
         left: 46vw;
-        color: #FF6363;
-        border: 2px solid #FF6363;
     }
     .tooltip-step5 {
         top: -70vw !important;
         left: -32vw !important;
         width: 57vw;
         padding-top: 8vw;
-        color: #00cf98;
-        border: 2px solid #00cf98;
+        height: 35vw;
     }
     .tutorialNum5 {
         top: -74vw;
         left: -8vw;
-        color: #00cf98;
-        border: 2px solid #00cf98;
+    }
+    .tooltiptext-step5 {
+        padding-left: 7vw;
+        padding-right: 7vw;
     }
     .tooltip-step6 {
         top: 25vw !important;
         left: 15vw !important;
         width: 56vw;
         height: 31vw;
-        padding-top: 11vw;
+        padding-top: 9vw;
     }
     .tutorialNum6 {
         top: 21vw;
@@ -1195,8 +1264,7 @@ ion-backdrop[disable-activated] {
         top: 9vw !important;
         left: 24vw !important;
         width: 51vw;
-        padding-left: 2vw;
-        padding-right: 2vw;
+        height: 31vw;
         padding-top: 9vw;
     }
     .tutorialNum7 {
@@ -1208,6 +1276,26 @@ ion-backdrop[disable-activated] {
         left: 0.3vw !important;
         top: 2.5vw !important;
         height: 8.5vw !important;
+    }
+    .ok-step3 {
+        height: 70px;
+        margin-top: 63px;
+    }
+    .ok-step4 {
+        height: 70px;
+        margin-top: 27px;
+    }
+    .ok-step5 {
+        height: 70px;
+        margin-top: 37px;
+    }
+    .ok-step6 {
+        height: 70px;
+        margin-top: 32px;
+    }
+    .ok-step7 {
+        height: 70px;
+        margin-top: 17px;
     }
 }
 
@@ -1303,6 +1391,7 @@ ion-backdrop[disable-activated] {
     }
     .item-radio-checked.item-radio-disabled {
         border-color: #d9d9d9 !important;
+        box-shadow: none !important;
     }
     .item-radio-disabled .item-inner .input-wrapper ion-label {
         color: #d9d9d9 !important;
@@ -1328,12 +1417,10 @@ ion-backdrop[disable-activated] {
         left: 44vw;
     }
     .tooltip-step3 {
-        padding: 3vw;
         width: 64vw;
         height: 40vw;
         left: -35vw !important;
         top: -84vw;
-        padding-top: 15vw;
     }
     .tutorialNum3 {
         top: -87.5vw;
@@ -1343,24 +1430,23 @@ ion-backdrop[disable-activated] {
         top: 77vw;
         left: 22vw !important;
         width: 54vw;
-        height: 32vw;
+        height: 37vw;
         padding-top: 9.5vw;
+    }
+    .tooltiptext-step4 {
         padding-left: 6vw;
         padding-right: 6vw;
-        color: #FF6363;
-        border: 2px solid #FF6363;
     }
     .tutorialNum4 {
         top: 73.2vw;
         left: 46vw;
-        color: #FF6363;
-        border: 2px solid #FF6363;
     }
     .tooltip-step5 {
         top: -80vw !important;
         left: -32vw !important;
         width: 57vw;
-        padding-top: 8vw;
+        padding-top: 9vw;
+        height: 37vw;
     }
     .tutorialNum5 {
         top: -84vw;
@@ -1371,8 +1457,8 @@ ion-backdrop[disable-activated] {
         top: 25vw !important;
         left: 15vw !important;
         width: 56vw;
-        height: 31vw;
-        padding-top: 11vw;
+        height: 32vw;
+        padding-top: 10vw;
     }
     .tutorialNum6 {
         top: 21vw !important;
@@ -1385,6 +1471,7 @@ ion-backdrop[disable-activated] {
         top: 10vw !important;
         left: 22vw !important;
         width: 57vw;
+        height: 32vw;
         padding-top: 10vw;
     }
     .tutorialNum7 {
@@ -1396,5 +1483,25 @@ ion-backdrop[disable-activated] {
         left: 0.3vw !important;
         top: 3.5vw !important;
         height: 8.5vw !important;
+    }
+    .ok-step3 {
+        height: 70px;
+        margin-top: 68px;
+    }
+    .ok-step4 {
+        height: 70px;
+        margin-top: 47px;
+    }
+    .ok-step5 {
+        height: 70px;
+        margin-top: 51px;
+    }
+    .ok-step6 {
+        height: 70px;
+        margin-top: 36px;
+    }
+    .ok-step7 {
+        height: 70px;
+        margin-top: 20px;
     }
 }
