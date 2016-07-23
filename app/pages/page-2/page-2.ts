@@ -6,6 +6,8 @@ import {NavController, NavParams, Alert} from 'ionic-angular';
 })
 export class Page2 {
 
+	goBtnText: string;
+	goBtnText2: string;
 	hidePage: any;
 	timer: any;
 	isActive: boolean;
@@ -45,9 +47,17 @@ export class Page2 {
 
 	startGame(money, type, graphDot, graphDot2, graphDot3, graphDot4, graphDot5, radioBtn1, radioBtn2, radioBtn3, radioBtn4, radioBtn5, radioBtn6) {
 		if(this.isTutorial === true) {
-
+			if(this.goBtnText != '+$50.12') {
+				this.goBtnText = '-$50.12';
+				this.goBtnText2 = '(-50.12%)';
+			} else {
+				this.goBtnText = 'GO';
+				this.goBtnText2 = '';
+			}
 		} else {
 			if(this.isActive == true) {
+				this.goBtnText = 'GO';
+				this.goBtnText2 = '';
 				this.riseBtnClass = '';
   				this.fallBtnClass = '';
 				this.isActive = false;
@@ -98,6 +108,8 @@ export class Page2 {
 			    		this.infoBtnClass = 'winning-light-color';
 			    		this.timeLineClass = 'winning-dark';
 			    		this.goBtnClass = 'winning-light';
+			    		this.goBtnText = '+$50.12';
+						this.goBtnText2 = '(+50.12%)';
 			    		this.dotPositionTop  = this.dotPositionTop - 1;
 			    		this.dotPositionTop2  = this.dotPositionTop2 - 1;
 			    		this.dotPositionTop3 = this.dotPositionTop3 - 1;
@@ -112,6 +124,8 @@ export class Page2 {
 			    		this.dotPositionTop5  = this.dotPositionTop5 + 1;
 			    		this.gameStatus = true;
 			    		/* If user is losing here */
+			    		this.goBtnText = '-$50.12';
+						this.goBtnText2 = '(-50.12%)';
 			    		this.upperClass = 'losing-light';
 			    		this.infoBtnClass = 'losing-light-color';
 			    		this.timeLineClass = 'losing-dark';
@@ -197,6 +211,7 @@ export class Page2 {
 	}
 
   	constructor(private navController: NavController, navParams: NavParams) {
+  		this.goBtnText = 'GO';
   		this.isActive = false;
   		this.isTutorial = false;
   		this.hidePage = document.querySelector('#hideLostCash');
