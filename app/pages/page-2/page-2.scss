@@ -516,22 +516,24 @@ ion-backdrop[disable-activated] {
     color: #fff;
     font-size: 1.1em;
     font-family: "MuseoSansW01-Rounded900";
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 .ok-step3 {
     background-color: #4487db;
-    margin-top: 31px;
+    margin-top: 8.3vw;
 }
 .ok-step4 {
     background-color: #ff6363;
-    margin-top: 14px;
+    margin-top: 3.4vw;
 }
 .ok-step5 {
     background-color: #00cf98;
-    margin-top: 16px;
+    margin-top: 4.1vw;
 }
 .ok-step6 {
     background-color: #4487db;
-    margin-top: 23px;
+    margin-top: 6.1vw;
 }
 .ok-step7 {
     background-color: #4487db;
@@ -633,19 +635,16 @@ ion-backdrop[disable-activated] {
         height: 12.5vw !important;
     }
     .ok-step3 {
-        margin-top: 29px;
+        margin-top: 7.6vw;
     }
     .ok-step4 {
-        margin-top: 15px;
+        margin-top: 4.1vw;
     }
     .ok-step5 {
-        margin-top: 32px;
+        margin-top: 3.8vw;
     }
     .ok-step6 {
-        margin-top: 24px;
-    }
-    .ok-step7 {
-        margin-top: 12px;
+        margin-top: 6.8vw;
     }
 }
 
@@ -738,19 +737,16 @@ ion-backdrop[disable-activated] {
         height: 12.5vw !important;
     }
     .ok-step3 {
-        margin-top: 38px;
+        margin-top: 9.1vw;
     }
     .ok-step4 {
-        margin-top: 18px;
+        margin-top: 4.4vw;
     }
     .ok-step5 {
-        margin-top: 29px;
+        margin-top: 6.9vw;
     }
     .ok-step6 {
-        margin-top: 29px;
-    }
-    .ok-step7 {
-        margin-top: 13px;
+        margin-top: 7vw;
     }
 }
 /*Nexus 6*/ 
@@ -830,19 +826,16 @@ ion-backdrop[disable-activated] {
         height: 12.5vw !important;
     }
     .ok-step3 {
-        margin-top: 38px;
+        margin-top: 9vw;
     }
     .ok-step4 {
-        margin-top: 19px;
+        margin-top: 4.6vw;
     }
     .ok-step5 {
-        margin-top: 25px;
+        margin-top: 6.1vw;
     }
     .ok-step6 {
-        margin-top: 26px;
-    }
-    .ok-step7 {
-        margin-top: 13px;
+        margin-top: 6.1vw;
     }
 }
 
@@ -876,19 +869,16 @@ ion-backdrop[disable-activated] {
         height: 11vw !important;
     }
     .ok-step3 {
-        margin-top: 43px;
+        margin-top: 9.8vw;
     }
     .ok-step4 {
-        margin-top: 27px;
+        margin-top: 6.1vw;
     }
     .ok-step5 {
-        margin-top: 29px;
+        margin-top: 6.6vw;
     }
     .ok-step6 {
-        margin-top: 34px;
-    }
-    .ok-step7 {
-        margin-top: 22px;
+        margin-top: 7.8vw;
     }
 }
 
@@ -971,21 +961,20 @@ ion-backdrop[disable-activated] {
         height: 13vw !important;
     }
     .ok-step3 {
-        margin-top: 21px;
+        margin-top: 9.3vw;
+        height: 30px;
     }
     .ok-step4 {
-        margin-top: 8px;
+        margin-top: 2.4vw;
         height: 30px;
     }
     .ok-step5 {
-        margin-top: 16px;
+        height: 30px;
+        margin-top: 8.1vw;
     }
     .ok-step6 {
-        margin-top: 23px;
+        margin-top: 7.2vw;
         height: 30px;
-    }
-    .ok-step7 {
-        margin-top: 16px;
     }
 
 }
@@ -1034,19 +1023,16 @@ ion-backdrop[disable-activated] {
         height: 11vw !important;
     }
     .ok-step3 {
-        margin-top: 39px;
+        margin-top: 9.2vw;
     }
     .ok-step4 {
-        margin-top: 24px;
+        margin-top: 5.6vw;
     }
     .ok-step5 {
-        margin-top: 34px;
+        margin-top: 8.1vw;
     }
     .ok-step6 {
-        margin-top: 30px;
-    }
-    .ok-step7 {
-        margin-top: 30px;
+        margin-top: 7.1vw;
     }
 }
 
@@ -1294,23 +1280,19 @@ ion-backdrop[disable-activated] {
     }
     .ok-step3 {
         height: 70px;
-        margin-top: 61px;
+        margin-top: 8vw;
     }
     .ok-step4 {
         height: 70px;
-        margin-top: 27px;
+        margin-top: 3.3vw;
     }
     .ok-step5 {
         height: 70px;
-        margin-top: 37px;
+        margin-top: 4.8vw;
     }
     .ok-step6 {
         height: 70px;
-        margin-top: 32px;
-    }
-    .ok-step7 {
-        height: 70px;
-        margin-top: 17px;
+        margin-top: 4.1vw;
     }
 }
 
@@ -1501,22 +1483,18 @@ ion-backdrop[disable-activated] {
     }
     .ok-step3 {
         height: 70px;
-        margin-top: 68px;
+        margin-top: 8.5vw;
     }
     .ok-step4 {
         height: 70px;
-        margin-top: 47px;
+        margin-top: 5.9vw;
     }
     .ok-step5 {
         height: 70px;
-        margin-top: 51px;
+        margin-top: 6.2vw;
     }
     .ok-step6 {
         height: 70px;
-        margin-top: 36px;
-    }
-    .ok-step7 {
-        height: 70px;
-        margin-top: 20px;
+        margin-top: 4.5vw;
     }
 }
