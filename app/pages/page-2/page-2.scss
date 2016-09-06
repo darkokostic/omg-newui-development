@@ -44,13 +44,14 @@
 /* TOP AREA */
 .upper {
 	background-color: #4487db;
-	height: 53.4%;
+	height: 47.8vh;
 }
 .graph {
-    height: 37vw;
+    height: 20.7vh;
     position: absolute;
     width: 100%;
-    top: 26vw;
+    top: 14.7vh;
+    border: 1px solid red;
 }
 .infoBtnBlue {
     color: #4487db !important;
@@ -127,7 +128,7 @@
 	color: #fff;
     text-align: center;
     padding: 0px !important;
-    height: 9.34vw;
+    height: 5.3vh;
 }
 .time-button ion-label {
 	font-size: 3.2vw;
@@ -155,7 +156,7 @@
 	font-family: "MuseoSans500";
 	font-size: 4.8vw;
 	padding: 0px !important;
-	height: 9.34vw;
+	height: 5.3vh;
     width: 15.2vw;
 }
 .money-button-line .item-radio-checked {
@@ -166,7 +167,7 @@
 
 /* FOOTER: RISE/FALL/GO BUTTONS */
 .footer {
-	margin-top: 6%;
+	margin-top: 2.8vh;
 }
 .footer ion-row {
 	padding: 0px !important;
@@ -183,8 +184,8 @@
     width: 30.6vw;
 }
 .go-button {
-	width: 33.33vw;
-    height: 33.33vw;
+	width: 18.8vh;
+    height: 18.8vh;
     font-size: 5vw;
     font-family: "MuseoSansW01-Rounded900";
     border-radius: 50%;
@@ -202,7 +203,7 @@
 	font-size: 3.7vw;
 	font-family: "MuseoSans500";
 	padding: 0px !important;
-	height: 13.8vw;
+	height: 7.8vh;
 }
 .rise-button-item .item-inner {
 	border: none !important;
@@ -232,7 +233,7 @@
 	font-size: 3.7vw;
 	font-family: "MuseoSans500";
 	padding: 0px !important;
-	height: 13.8vw;
+	height: 7.8vh;
 }
 .fall-button-item .item-inner {
 	border: none !important;
@@ -547,12 +548,14 @@ ion-backdrop[disable-activated] {
         margin-top: 2%;
     }
     .upper {
-        height: 71vw;
+        height: 45vh;
     }
     .graph {
-        top: 20vw;
+        top: 12.7vh;
     }
-
+    .graphDot3 {
+        margin-top: 63%;
+    }
     .introjs-tooltip {
         top: 14vw;
         width: 47vw;
@@ -649,9 +652,15 @@ ion-backdrop[disable-activated] {
 }
 
 /*Nexus 5X*/ 
-@media only screen and (min-device-width : 411px) and (max-device-width : 411px) and (orientation : portrait) {
+@media only screen and (min-device-width : 412px) and (max-device-width : 412px) and (orientation : portrait) {
     .graph {
-        top: 21vw;
+        top: 13vh;
+    }
+    .upper {
+        height: 46vh;
+    }
+    .graphDot3 {
+        margin-top: 63%;
     }
     .introjs-tooltip {
         top: 16vw;
@@ -886,7 +895,7 @@ ion-backdrop[disable-activated] {
 /*iPhone 5*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 320px) and (orientation : portrait) {
     .upper {
-        height: 81vw;
+        height: 45.7vh;
     }
     .introjs-helperNumberLayer {
         top: 10vw;
@@ -1054,27 +1063,27 @@ ion-backdrop[disable-activated] {
     }
     /* blue area */
     .upper {
-        height: 53.5%;
+        height: 48vh;
     }
     .time-button-line {
         padding-left: 15%;
         padding-right: 15%;
     }
     .time-button {
-        height: 8vw;
+        height: 6vh;
     }
     .time-button ion-label {
         font-size: 2.7vw;
         text-align: center;
     }
     .graph {
-        height: 30vw;
-        top: 17vw;
+        height: 22.5vh;
+        top: 12.7vh;
     }
     .lower {
         padding-left: 20%;
         padding-right: 20%;
-        margin-top: 4vw;
+        margin-top: 3vh;
     }
     .money-button {
         border: 2px solid #fff;
@@ -1083,12 +1092,12 @@ ion-backdrop[disable-activated] {
         color: #4487db;
         font-size: 3.5vw;
         padding: 0px !important;
-        height: 8vw;
+        height: 6vh;
         width: 12vw;
     }
     .go-button {
-        width: 24vw;
-        height: 24vw;
+        width: 18vh;
+        height: 18vh;
         font-size: 4vw;
         font-family: "MuseoSansW01-Rounded900";
         border-radius: 50%;
@@ -1102,7 +1111,7 @@ ion-backdrop[disable-activated] {
         font-size: 2.7vw;
         font-family: "MuseoSansW01-Rounded700";
         padding: 0px !important;
-        height: 10vw;
+        height: 7.5vh;
     }
     .fall-button-item {
         border: none;
@@ -1112,7 +1121,7 @@ ion-backdrop[disable-activated] {
         font-size: 2.7vw;
         font-family: "MuseoSansW01-Rounded700";
         padding: 0px !important;
-        height: 10vw;
+        height: 7.5vh;
     }
     .rise-button-item img {
         width: 20px;
@@ -1312,7 +1321,7 @@ ion-backdrop[disable-activated] {
         height: 30px;
     }
     .upper {
-        height: 53%;
+        height: 47.8vh;
     }
     .graph {
         height: 33vw;
